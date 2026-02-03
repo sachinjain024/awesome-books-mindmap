@@ -3,208 +3,145 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bhagavad Gita Mind Map - Swami Prabhupada Edition</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Booksmap - Mind Maps for Books</title>
+    <link rel="stylesheet" href="shared/styles.css">
     <style>
-        /* Page-specific styles */
         h1 {
             text-align: center;
+        }
+        .book-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 30px;
+            margin-top: 30px;
+        }
+        .book-card {
+            background: white;
+            border: 2px solid #e2e8f0;
+            border-radius: 16px;
+            padding: 30px;
+            transition: all 0.3s ease;
+            text-decoration: none;
+            display: block;
+        }
+        .book-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 15px 35px rgba(0,0,0,0.15);
+            border-color: #667eea;
+        }
+        .book-cover {
+            width: 100%;
+            height: 200px;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 20px;
+            font-size: 3em;
+        }
+        .book-cover.gita {
+            background: linear-gradient(135deg, #ff6b35 0%, #f7931e 100%);
+        }
+        .book-cover.parenting {
+            background: linear-gradient(135deg, #0891b2 0%, #06b6d4 100%);
+        }
+        .book-title {
+            color: #2d3748;
+            font-size: 1.3em;
+            font-weight: bold;
+            margin-bottom: 8px;
+        }
+        .book-author {
+            color: #718096;
+            font-size: 0.95em;
+            margin-bottom: 15px;
+        }
+        .book-description {
+            color: #4a5568;
+            line-height: 1.6;
+            font-size: 0.95em;
+        }
+        .book-stats {
+            margin-top: 15px;
+            color: #805ad5;
+            font-weight: 600;
+            font-size: 0.9em;
+        }
+        .coming-soon {
+            opacity: 0.5;
+            cursor: default;
+        }
+        .coming-soon:hover {
+            transform: none;
+            box-shadow: none;
+            border-color: #e2e8f0;
+        }
+        .coming-soon .book-cover {
+            background: #e2e8f0;
+            color: #a0aec0;
+        }
+        .tagline {
+            text-align: center;
+            color: #4a5568;
+            font-size: 1.2em;
+            margin-bottom: 30px;
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>Bhagavad Gita As It Is</h1>
-        <div class="subtitle">A Complete Mind Map by His Divine Grace A.C. Bhaktivedanta Swami Prabhupada</div>
+        <h1>Booksmap</h1>
+        <div class="tagline">Interactive mind maps for transformative books</div>
 
         <div class="intro">
-            <h2>Understanding the Gita</h2>
-            <p><strong>Total: 18 Chapters | 700 Verses</strong></p>
-            <p>The Bhagavad Gita is a sacred conversation between Lord Krishna and His friend Arjuna on the battlefield of Kurukshetra. It contains timeless wisdom on dharma, karma, yoga, and devotion, addressing five fundamental truths: Krishna (God), the individual soul, the material world, action, and time.</p>
+            <h2>What is Booksmap?</h2>
+            <p>Booksmap transforms complex books into accessible, interactive mind maps. Each book is broken down into its key chapters and concepts, presented in a visual format that makes the wisdom easy to understand, navigate, and apply.</p>
+            <p><strong>Features:</strong> Interactive chapter navigation, text highlighting (saved locally), mobile-friendly design, and no account required.</p>
         </div>
 
-        <div class="central-node">
-            BHAGAVAD GITA AS IT IS<br>
-            <span style="font-size: 0.7em;">The Song of God - Path to Self-Realization</span>
-        </div>
-
-        <div class="mindmap">
-            <!-- Section 1: Foundation (Chapters 1-6) -->
-            <div class="section">
-                <div class="section-title">SECTION I: Foundation - Understanding the Self & Yoga Paths</div>
-                <div class="chapters-grid">
-                    <a href="chapters/chapter-01.html" class="chapter-card">
-                        <div class="chapter-number">Chapter 1</div>
-                        <div class="chapter-name">Observing the Armies</div>
-                        <div class="chapter-sanskrit">Vishada Yoga</div>
-                        <div class="chapter-description">Arjuna's dejection and confusion on the battlefield. He sees his relatives and becomes overwhelmed with grief, unwilling to fight.</div>
-                        <div class="verse-count">46 verses</div>
-                    </a>
-
-                    <a href="chapters/chapter-02.html" class="chapter-card">
-                        <div class="chapter-number">Chapter 2</div>
-                        <div class="chapter-name">Contents of the Gita Summarized</div>
-                        <div class="chapter-sanskrit">Sankhya Yoga</div>
-                        <div class="chapter-description">The soul is eternal and indestructible. Krishna introduces karma-yoga and the nature of the self-realized person. This is the essence of the entire Gita.</div>
-                        <div class="verse-count">72 verses</div>
-                    </a>
-
-                    <a href="chapters/chapter-03.html" class="chapter-card">
-                        <div class="chapter-number">Chapter 3</div>
-                        <div class="chapter-name">Karma Yoga</div>
-                        <div class="chapter-sanskrit">Karma Yoga</div>
-                        <div class="chapter-description">Everyone must perform their prescribed duties without attachment to results. Action for the Supreme's pleasure liberates one from karma.</div>
-                        <div class="verse-count">43 verses</div>
-                    </a>
-
-                    <a href="chapters/chapter-04.html" class="chapter-card">
-                        <div class="chapter-number">Chapter 4</div>
-                        <div class="chapter-name">Transcendental Knowledge</div>
-                        <div class="chapter-sanskrit">Jnana Yoga</div>
-                        <div class="chapter-description">The divine succession of spiritual knowledge. Understanding the relationship between the soul and God through devotional action purifies consciousness.</div>
-                        <div class="verse-count">42 verses</div>
-                    </a>
-
-                    <a href="chapters/chapter-05.html" class="chapter-card">
-                        <div class="chapter-number">Chapter 5</div>
-                        <div class="chapter-name">Karma Yoga - Action in Krishna Consciousness</div>
-                        <div class="chapter-sanskrit">Karma Vairagya Yoga</div>
-                        <div class="chapter-description">Comparison between renunciation and karma-yoga. One who works in devotion achieves peace and liberation.</div>
-                        <div class="verse-count">29 verses</div>
-                    </a>
-
-                    <a href="chapters/chapter-06.html" class="chapter-card">
-                        <div class="chapter-number">Chapter 6</div>
-                        <div class="chapter-name">Dhyana Yoga</div>
-                        <div class="chapter-sanskrit">Abhyasa Yoga / Dhyana Yoga</div>
-                        <div class="chapter-description">The practice of meditation and yoga. Controlling the mind and senses to focus on the Supersoul (Paramatma) in the heart.</div>
-                        <div class="verse-count">47 verses</div>
-                    </a>
+        <div class="book-grid">
+            <a href="bhagavad-gita/index.html" class="book-card">
+                <div class="book-cover gita">
+                    ॐ
                 </div>
-            </div>
+                <div class="book-title">Bhagavad Gita As It Is</div>
+                <div class="book-author">by Swami Prabhupada</div>
+                <div class="book-description">The timeless dialogue between Lord Krishna and Arjuna on the battlefield of Kurukshetra. Explore the eternal wisdom of dharma, karma, yoga, and devotion through 18 chapters of profound spiritual teaching.</div>
+                <div class="book-stats">18 Chapters | 700 Verses</div>
+            </a>
 
-            <!-- Section 2: Knowledge (Chapters 7-12) -->
-            <div class="section">
-                <div class="section-title">SECTION II: Knowledge - Understanding God & Devotion</div>
-                <div class="chapters-grid">
-                    <a href="chapters/chapter-07.html" class="chapter-card">
-                        <div class="chapter-number">Chapter 7</div>
-                        <div class="chapter-name">Knowledge of the Absolute</div>
-                        <div class="chapter-sanskrit">Jnana Vijnana Yoga</div>
-                        <div class="chapter-description">Krishna is the supreme cause of everything, both material and spiritual. Knowing Him as everything, advanced souls surrender in pure devotion.</div>
-                        <div class="verse-count">30 verses</div>
-                    </a>
-
-                    <a href="chapters/chapter-08.html" class="chapter-card">
-                        <div class="chapter-number">Chapter 8</div>
-                        <div class="chapter-name">Attaining the Supreme</div>
-                        <div class="chapter-sanskrit">Akshara Brahma Yoga</div>
-                        <div class="chapter-description">One's consciousness at death determines the next destination. By remembering Krishna throughout life and at death, one attains His supreme abode.</div>
-                        <div class="verse-count">28 verses</div>
-                    </a>
-
-                    <a href="chapters/chapter-09.html" class="chapter-card">
-                        <div class="chapter-number">Chapter 9</div>
-                        <div class="chapter-name">The Most Confidential Knowledge</div>
-                        <div class="chapter-sanskrit">Raja Vidya Raja Guhya Yoga</div>
-                        <div class="chapter-description">The supreme secret: devotional service (bhakti) to Krishna. The entire cosmic creation rests in Him, and the soul is eternally related to Him.</div>
-                        <div class="verse-count">34 verses</div>
-                    </a>
-
-                    <a href="chapters/chapter-10.html" class="chapter-card">
-                        <div class="chapter-number">Chapter 10</div>
-                        <div class="chapter-name">The Opulence of the Absolute</div>
-                        <div class="chapter-sanskrit">Vibhuti Vistara Yoga</div>
-                        <div class="chapter-description">Krishna's divine manifestations and opulences throughout creation. All that is beautiful, powerful, and glorious emanates from Him.</div>
-                        <div class="verse-count">42 verses</div>
-                    </a>
-
-                    <a href="chapters/chapter-11.html" class="chapter-card">
-                        <div class="chapter-number">Chapter 11</div>
-                        <div class="chapter-name">The Universal Form</div>
-                        <div class="chapter-sanskrit">Vishwarupa Darshana Yoga</div>
-                        <div class="chapter-description">Krishna reveals His cosmic form to Arjuna. The terrifying and awesome vision shows Krishna contains all universes within Himself.</div>
-                        <div class="verse-count">55 verses</div>
-                    </a>
-
-                    <a href="chapters/chapter-12.html" class="chapter-card">
-                        <div class="chapter-number">Chapter 12</div>
-                        <div class="chapter-name">Devotional Service</div>
-                        <div class="chapter-sanskrit">Bhakti Yoga</div>
-                        <div class="chapter-description">The path of loving devotion to the personal form of God is superior to impersonal meditation. Qualities of a pure devotee are described.</div>
-                        <div class="verse-count">20 verses</div>
-                    </a>
+            <a href="how-to-talk-so-kids-will-listen/index.html" class="book-card">
+                <div class="book-cover parenting">
+                    ♥
                 </div>
-            </div>
+                <div class="book-title">How to Talk So Kids Will Listen & Listen So Kids Will Talk</div>
+                <div class="book-author">by Adele Faber & Elaine Mazlish</div>
+                <div class="book-description">Revolutionary communication skills for parents. Learn practical techniques to connect with children, engage cooperation, handle emotions, encourage autonomy, and build lasting relationships based on mutual respect.</div>
+                <div class="book-stats">7 Chapters | 30+ Skills</div>
+            </a>
 
-            <!-- Section 3: Liberation (Chapters 13-18) -->
-            <div class="section">
-                <div class="section-title">SECTION III: Liberation - The Path to Perfection</div>
-                <div class="chapters-grid">
-                    <a href="chapters/chapter-13.html" class="chapter-card">
-                        <div class="chapter-number">Chapter 13</div>
-                        <div class="chapter-name">Nature, the Enjoyer, and Consciousness</div>
-                        <div class="chapter-sanskrit">Kshetra Kshetrajna Vibhaga Yoga</div>
-                        <div class="chapter-description">Understanding the body (kshetra), the soul (kshetrajna), and the Supersoul. Distinguishing between matter and spirit leads to liberation.</div>
-                        <div class="verse-count">35 verses</div>
-                    </a>
-
-                    <a href="chapters/chapter-14.html" class="chapter-card">
-                        <div class="chapter-number">Chapter 14</div>
-                        <div class="chapter-name">The Three Modes of Material Nature</div>
-                        <div class="chapter-sanskrit">Gunatraya Vibhaga Yoga</div>
-                        <div class="chapter-description">The three gunas (goodness, passion, ignorance) bind the soul to material existence. Transcending them through devotion leads to liberation.</div>
-                        <div class="verse-count">27 verses</div>
-                    </a>
-
-                    <a href="chapters/chapter-15.html" class="chapter-card">
-                        <div class="chapter-number">Chapter 15</div>
-                        <div class="chapter-name">The Yoga of the Supreme Person</div>
-                        <div class="chapter-sanskrit">Purushottama Yoga</div>
-                        <div class="chapter-description">The material world is like an inverted tree. Krishna is Purushottama, the Supreme Person beyond both fallible and infallible beings.</div>
-                        <div class="verse-count">20 verses</div>
-                    </a>
-
-                    <a href="chapters/chapter-16.html" class="chapter-card">
-                        <div class="chapter-number">Chapter 16</div>
-                        <div class="chapter-name">The Divine and Demoniac Natures</div>
-                        <div class="chapter-sanskrit">Daivasura Sampad Vibhaga Yoga</div>
-                        <div class="chapter-description">Distinction between divine qualities (leading to liberation) and demoniac qualities (leading to bondage). Following scriptures guides one properly.</div>
-                        <div class="verse-count">24 verses</div>
-                    </a>
-
-                    <a href="chapters/chapter-17.html" class="chapter-card">
-                        <div class="chapter-number">Chapter 17</div>
-                        <div class="chapter-name">The Divisions of Faith</div>
-                        <div class="chapter-sanskrit">Shraddhatraya Vibhaga Yoga</div>
-                        <div class="chapter-description">Faith, worship, food, and austerity are of three types according to the three modes. Actions in goodness lead to spiritual progress.</div>
-                        <div class="verse-count">28 verses</div>
-                    </a>
-
-                    <a href="chapters/chapter-18.html" class="chapter-card">
-                        <div class="chapter-number">Chapter 18</div>
-                        <div class="chapter-name">Conclusion - The Perfection of Renunciation</div>
-                        <div class="chapter-sanskrit">Moksha Sannyasa Yoga</div>
-                        <div class="chapter-description">The final teaching: abandon all varieties of religion and surrender to Krishna alone. This is the most confidential knowledge and path to liberation.</div>
-                        <div class="verse-count">78 verses (longest chapter)</div>
-                    </a>
+            <div class="book-card coming-soon">
+                <div class="book-cover">
+                    ?
                 </div>
+                <div class="book-title">More Books Coming Soon</div>
+                <div class="book-author">Your suggestion here</div>
+                <div class="book-description">Have a book that transformed your life? We're always looking for new books to map. The best books are those with structured wisdom that can be broken down into actionable insights.</div>
+                <div class="book-stats">Coming Soon</div>
             </div>
         </div>
 
-        <div class="key-teachings">
-            <h3>Key Teachings of Bhagavad Gita (As It Is)</h3>
+        <div class="key-teachings" style="margin-top: 40px;">
+            <h3>Why Mind Maps for Books?</h3>
             <ul>
-                <li><strong>Five Basic Truths:</strong> Krishna (God), Individual Soul (jiva), Material Nature (prakriti), Action/Karma, and Time</li>
-                <li><strong>The Soul is Eternal:</strong> The body is temporary, but the soul never dies and transmigrates</li>
-                <li><strong>Karma Yoga:</strong> Perform your duty without attachment to results, offering all to Krishna</li>
-                <li><strong>Bhakti Yoga:</strong> Pure devotional service is the highest path and ultimate goal of human life</li>
-                <li><strong>Three Modes (Gunas):</strong> Goodness (sattva), Passion (rajas), and Ignorance (tamas) influence all actions</li>
-                <li><strong>Supreme Surrender:</strong> The ultimate instruction is to abandon all dharmas and surrender to Krishna alone</li>
-                <li><strong>Consciousness at Death:</strong> Your state of mind at death determines your next destination</li>
-                <li><strong>Vedic Knowledge:</strong> Follow the parampara (disciplic succession) to understand spiritual truths</li>
+                <li><strong>Structured Learning:</strong> See the big picture while exploring the details</li>
+                <li><strong>Quick Reference:</strong> Find key concepts without re-reading entire chapters</li>
+                <li><strong>Interactive Highlighting:</strong> Mark important passages and they persist between visits</li>
+                <li><strong>Free & Open:</strong> No accounts, no subscriptions, no tracking</li>
+                <li><strong>Works Offline:</strong> Download and use anywhere</li>
             </ul>
         </div>
     </div>
+    <script src="shared/highlight.js" defer></script>
 </body>
 </html>

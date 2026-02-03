@@ -1,0 +1,83 @@
+/* How to Talk So Kids Will Listen - Book-Specific Styles */
+
+:root {
+    /* Teal/cyan theme for parenting book */
+    --accent-color: #0891b2;
+    --accent-color-dark: #0e7490;
+    --accent-gradient: linear-gradient(135deg, #0891b2 0%, #06b6d4 100%);
+    --section-title-bg: #155e75;
+    --key-box-color: #0d9488;
+    --key-box-bg: #f0fdfa;
+    --verse-bg: #ecfeff;
+    --intro-bg: #ecfeff;
+}
+
+/* Page-specific style for index */
+.index-page h1 {
+    text-align: center;
+}
+
+/* Authors styling */
+.authors {
+    text-align: center;
+    color: #64748b;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+/* Quick wins styling */
+.quick-wins {
+    background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);
+    border: 2px solid #f59e0b;
+    border-radius: 12px;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.quick-wins h3 {
+    color: #d97706;
+    margin-bottom: 15px;
+}
+
+.quick-wins ul {
+    list-style: none;
+    padding: 0;
+}
+
+.quick-wins li {
+    padding: 8px 0;
+    padding-left: 28px;
+    position: relative;
+}
+
+.quick-wins li::before {
+    content: "\2713";
+    position: absolute;
+    left: 0;
+    color: #d97706;
+    font-weight: bold;
+}
+
+/* Philosophy box */
+.philosophy {
+    background: #f8fafc;
+    border: 2px dashed #94a3b8;
+    border-radius: 12px;
+    padding: 20px;
+    margin: 30px 0;
+    text-align: center;
+}
+
+.philosophy blockquote {
+    font-style: italic;
+    font-size: 1.1em;
+    color: #475569;
+    margin: 0;
+}
+
+.philosophy cite {
+    display: block;
+    margin-top: 10px;
+    color: #64748b;
+    font-size: 0.9em;
+}

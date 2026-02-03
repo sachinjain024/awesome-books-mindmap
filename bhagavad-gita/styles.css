@@ -282,6 +282,67 @@ h1.chapter-title {
     pointer-events: none;
 }
 
+/* User Highlights */
+.user-highlight {
+    background: #fef3c7;
+    padding: 1px 0;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.user-highlight:hover {
+    background: #fde68a;
+}
+
+/* Highlight Action Button */
+#highlight-btn {
+    position: absolute;
+    display: none;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 6px;
+    background: #ff6b35;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+    z-index: 1000;
+    transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+#highlight-btn:hover {
+    transform: scale(1.05);
+    background: #e55a25;
+}
+
+/* Remove Highlight Tooltip */
+#highlight-tooltip {
+    position: absolute;
+    display: none;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+    padding: 8px;
+    z-index: 1001;
+}
+
+.remove-highlight-btn {
+    background: #ef4444;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.remove-highlight-btn:hover {
+    background: #dc2626;
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
     .container {
@@ -307,5 +368,10 @@ h1.chapter-title {
 
     .chapter-nav a {
         text-align: center;
+    }
+
+    #highlight-btn {
+        padding: 10px 18px;
+        font-size: 16px;
     }
 }

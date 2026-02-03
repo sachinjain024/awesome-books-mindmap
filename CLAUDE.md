@@ -1,91 +1,175 @@
-# Bhagavad Gita Mind Map Project
+# Booksmap - Multi-Book Mind Map Collection
 
 ## Project Overview
 
-This is a static HTML website presenting the Bhagavad Gita in an accessible, mind-map style format. The project is based on Swami Prabhupada's "Bhagavad Gita As It Is" translation and commentary.
+Booksmap is a static HTML website collection presenting various books in an accessible, mind-map style format. Each book gets its own directory with a consistent structure and shared styling.
 
 ## Project Structure
 
 ```
-bhagwad-gita/
-├── index.html  # Main landing page with all 18 chapters
-├── styles.css                   # Shared CSS for all pages
-├── chapters/
-│   ├── chapter-01.html         # Chapter 1: Observing the Armies
-│   ├── chapter-02.html         # Chapter 2: Contents Summarized
-│   ├── chapter-03.html         # Chapter 3: Karma Yoga
-│   ├── chapter-04.html         # Chapter 4: Transcendental Knowledge
-│   ├── chapter-05.html         # Chapter 5: Karma Yoga - Action in Krishna Consciousness
-│   ├── chapter-06.html         # Chapter 6: Dhyana Yoga
-│   ├── chapter-07.html         # Chapter 7: Knowledge of the Absolute
-│   ├── chapter-08.html         # Chapter 8: Attaining the Supreme
-│   ├── chapter-09.html         # Chapter 9: The Most Confidential Knowledge
-│   ├── chapter-10.html         # Chapter 10: The Opulence of the Absolute
-│   ├── chapter-11.html         # Chapter 11: The Universal Form
-│   ├── chapter-12.html         # Chapter 12: Devotional Service
-│   ├── chapter-13.html         # Chapter 13: Nature, the Enjoyer, and Consciousness
-│   ├── chapter-14.html         # Chapter 14: The Three Modes of Material Nature
-│   ├── chapter-15.html         # Chapter 15: The Yoga of the Supreme Person
-│   ├── chapter-16.html         # Chapter 16: Divine and Demoniac Natures
-│   ├── chapter-17.html         # Chapter 17: The Divisions of Faith
-│   └── chapter-18.html         # Chapter 18: Conclusion of Divine Revelation
-└── CLAUDE.md                    # This file
+booksmap/
+├── CLAUDE.md                        # This file - shared guidelines
+├── shared/
+│   ├── styles.css                   # Common CSS for all books
+│   └── highlight.js                 # Text highlighting feature
+├── bhagavad-gita/
+│   ├── index.html                   # Main landing page
+│   ├── styles.css                   # Book-specific overrides (optional)
+│   └── chapters/
+│       └── chapter-XX.html          # Individual chapter pages
+├── how-to-talk-so-kids-will-listen/
+│   ├── index.html                   # Main landing page
+│   └── chapters/
+│       └── chapter-XX.html          # Individual chapter pages
+└── [future-books]/
 ```
 
-## Key Design Patterns
+## Shared Design System
 
-### HTML Structure
-Each chapter page follows a consistent structure:
-- `.container.container-narrow` - Main content wrapper
-- `.back-button` - Link back to mind map
-- `.chapter-title` - Chapter heading
-- `.chapter-meta` - Sanskrit name and verse count
-- `.section` - Major thematic sections with `<h2>` headings
-- `.verse` - Individual verse quotations with `.verse-number` and `.verse-text`
-- `.key-points` - Summary list of chapter insights
-- `.chapter-nav` - Previous/Next navigation links
+### Color Palette
+Each book can customize its accent color while maintaining the design system:
+- **Primary accent:** Book-specific (e.g., saffron #ff6b35 for Gita, teal #0891b2 for parenting)
+- **Background gradient:** Purple (667eea to 764ba2)
+- **Container background:** White
+- **Text colors:** Dark gray (#2d3748, #4a5568)
+- **Key points box:** Teal (#38b2ac)
 
-### CSS Organization
-All pages share `styles.css` for consistent styling:
-- Light, warm color scheme (cream background, saffron accents)
-- Responsive design with mobile-friendly typography
-- Card-based layout for chapter grid on main page
-- Distinct styling for verses, sections, and key points
+### Core CSS Classes
+All books share these fundamental classes:
+- `.container` / `.container-narrow` - Layout containers
+- `.back-button` - Navigation back link
+- `.intro` - Introduction box with left border
+- `.central-node` - Main title node (customizable gradient)
+- `.section` - Content sections
+- `.section-title` - Section header bars
+- `.chapters-grid` - Grid layout for chapter cards
+- `.chapter-card` - Clickable chapter cards
+- `.chapter-number`, `.chapter-name`, `.chapter-description` - Card contents
+- `.key-points` / `.key-teachings` - Summary boxes
+- `.chapter-nav` - Previous/Next navigation
+
+### Book-Specific Classes
+Each book may add unique classes:
+- Bhagavad Gita: `.verse`, `.verse-number`, `.verse-text`, `.chapter-sanskrit`
+- Parenting book: `.technique`, `.example-dialogue`, `.skill-box`, `.common-mistake`
+
+## HTML Structure Patterns
+
+### Main Index Page
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>[Book Title] Mind Map</title>
+    <link rel="stylesheet" href="../shared/styles.css">
+    <link rel="stylesheet" href="styles.css"> <!-- Optional book-specific -->
+</head>
+<body>
+    <div class="container">
+        <h1>[Book Title]</h1>
+        <div class="subtitle">[Author/Subtitle]</div>
+        <div class="intro">...</div>
+        <div class="central-node">...</div>
+        <div class="mindmap">
+            <div class="section">
+                <div class="section-title">SECTION TITLE</div>
+                <div class="chapters-grid">
+                    <a href="chapters/chapter-01.html" class="chapter-card">...</a>
+                </div>
+            </div>
+        </div>
+        <div class="key-teachings">...</div>
+    </div>
+    <script src="../shared/highlight.js" defer></script>
+</body>
+</html>
+```
+
+### Chapter Page
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter X: [Title] - [Book Name]</title>
+    <link rel="stylesheet" href="../../shared/styles.css">
+    <link rel="stylesheet" href="../styles.css"> <!-- Optional book-specific -->
+</head>
+<body>
+    <div class="container container-narrow">
+        <a href="../index.html" class="back-button">Back to Mind Map</a>
+        <h1 class="chapter-title">Chapter X: [Title]</h1>
+        <div class="chapter-meta">[Subtitle or metadata]</div>
+        <!-- Content sections -->
+        <div class="chapter-nav">
+            <a href="../index.html">Back to Overview</a>
+            <a href="chapter-XX.html">Next: Chapter X</a>
+        </div>
+    </div>
+    <script src="../../shared/highlight.js" defer></script>
+</body>
+</html>
+```
 
 ## Content Guidelines
 
 ### Writing Style
 - Accessible to first-time readers while maintaining depth
-- Explanatory prose sections between verse quotations
+- Explanatory prose sections between key content
 - Practical applications and reflections
 - Key insights as concise bullet points
+- No unnecessary jargon
 
-### Verse Selection
-- Select significant verses that capture chapter themes
-- Include both philosophical and practical teachings
-- Maintain balance between devotional and analytical content
+### Content Organization
+- Break complex ideas into digestible sections
+- Use consistent heading hierarchy (h1 for title, h2 for sections, h3 for subsections)
+- Include practical examples where relevant
+- End chapters with key takeaways
 
 ## Modification Guidelines
 
-### Adding New Content
-1. Follow existing HTML structure in chapter files
-2. Use shared CSS classes from `styles.css`
-3. Maintain consistent navigation links
-4. Keep verse formatting consistent
+### Adding a New Book
+1. Create new directory: `booksmap/[book-name]/`
+2. Create `index.html` following the template structure
+3. Create `chapters/` directory for chapter files
+4. Optionally create `styles.css` for book-specific customizations
+5. Use relative paths to shared resources (`../shared/`)
 
-### Updating Styles
-- Modify `styles.css` for site-wide changes
-- Use page-specific `<style>` blocks only for unique page needs
-- Maintain responsive design principles
+### Updating Shared Styles
+- Modify `shared/styles.css` for site-wide changes
+- Test changes across all existing books
+- Use CSS custom properties (variables) for theming
 
-### Chapter Navigation
-- Each chapter links to previous and next chapters
-- First chapter links to mind map for "Previous"
-- Last chapter links to mind map for "Next"
+### Book-Specific Customizations
+- Create `[book]/styles.css` for overrides
+- Define custom accent colors via CSS variables
+- Add book-specific classes as needed
+- Keep customizations minimal to maintain consistency
 
 ## Technical Notes
 
-- Pure HTML/CSS, no JavaScript dependencies
+- Pure HTML/CSS with vanilla JavaScript for highlighting
+- No build tools or frameworks required
 - Works offline once downloaded
 - Print-friendly styling
 - Accessible color contrast ratios
+- localStorage used for highlight persistence (per-book storage keys)
+
+## Highlight Feature
+
+The shared `highlight.js` provides:
+- Text selection and highlighting
+- localStorage persistence
+- Remove highlight functionality
+- Works across all pages
+- Storage key format: `[book]_highlights`
+
+## Navigation Patterns
+
+- Each chapter links to previous and next chapters
+- First chapter: "Previous" links to overview
+- Last chapter: "Next" links to overview
+- All pages have "Back to Mind Map" link
