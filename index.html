@@ -10,10 +10,72 @@
             text-align: center;
         }
 
+        /* Main Layout */
+        .main-content {
+            display: flex;
+            gap: 40px;
+            margin-top: 30px;
+        }
+
+        /* Sidebar Filters */
+        .sidebar {
+            width: 200px;
+            flex-shrink: 0;
+        }
+
+        .filter-section {
+            position: sticky;
+            top: 20px;
+        }
+
+        .filter-title {
+            font-size: 0.85em;
+            font-weight: 600;
+            color: #64748b;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 15px;
+        }
+
+        .filter-tags {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        .filter-tag {
+            background: #f7fafc;
+            color: #4a5568;
+            padding: 10px 16px;
+            border-radius: 8px;
+            font-size: 0.95em;
+            border: 2px solid #e2e8f0;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            text-align: left;
+        }
+
+        .filter-tag:hover {
+            border-color: #667eea;
+            color: #667eea;
+            background: #f8f7ff;
+        }
+
+        .filter-tag.active {
+            background: #667eea;
+            color: white;
+            border-color: #667eea;
+        }
+
+        /* Books Area */
+        .books-area {
+            flex: 1;
+            min-width: 0;
+        }
+
         /* Search Styles */
         .search-container {
-            max-width: 600px;
-            margin: 0 auto 30px;
+            margin-bottom: 25px;
         }
 
         .search-box {
@@ -22,10 +84,10 @@
 
         .search-input {
             width: 100%;
-            padding: 15px 20px 15px 50px;
-            font-size: 1.1em;
+            padding: 14px 20px 14px 48px;
+            font-size: 1em;
             border: 2px solid #e2e8f0;
-            border-radius: 12px;
+            border-radius: 10px;
             outline: none;
             transition: all 0.3s ease;
             font-family: inherit;
@@ -38,29 +100,29 @@
 
         .search-icon {
             position: absolute;
-            left: 18px;
+            left: 16px;
             top: 50%;
             transform: translateY(-50%);
             color: #718096;
-            font-size: 1.2em;
+            font-size: 1.1em;
         }
 
         .search-clear {
             position: absolute;
-            right: 15px;
+            right: 14px;
             top: 50%;
             transform: translateY(-50%);
             background: #e2e8f0;
             border: none;
             border-radius: 50%;
-            width: 24px;
-            height: 24px;
+            width: 22px;
+            height: 22px;
             cursor: pointer;
             display: none;
             align-items: center;
             justify-content: center;
             color: #4a5568;
-            font-size: 14px;
+            font-size: 12px;
         }
 
         .search-clear:hover {
@@ -72,15 +134,14 @@
         }
 
         .search-results-info {
-            text-align: center;
             color: #718096;
-            margin-top: 15px;
-            font-size: 0.95em;
+            margin-top: 12px;
+            font-size: 0.9em;
         }
 
         .no-results {
             text-align: center;
-            padding: 40px 20px;
+            padding: 60px 20px;
             color: #718096;
         }
 
@@ -89,73 +150,10 @@
             margin-bottom: 10px;
         }
 
-        /* Category Styles */
-        .category {
-            margin-bottom: 40px;
-        }
-
-        .category-header {
-            display: flex;
-            align-items: center;
-            gap: 15px;
-            margin-bottom: 20px;
-        }
-
-        .category-icon {
-            width: 50px;
-            height: 50px;
-            border-radius: 12px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 1.5em;
-            flex-shrink: 0;
-        }
-
-        .category-icon.philosophy {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-        }
-
-        .category-icon.eastern {
-            background: linear-gradient(135deg, #ff6b35 0%, #f7931e 100%);
-        }
-
-        .category-icon.parenting {
-            background: linear-gradient(135deg, #0891b2 0%, #06b6d4 100%);
-        }
-
-        .category-icon.selfhelp {
-            background: linear-gradient(135deg, #38a169 0%, #48bb78 100%);
-        }
-
-        .category-icon.technology {
-            background: linear-gradient(135deg, #3b82f6 0%, #06b6d4 100%);
-        }
-
-        .book-cover.nexus {
-            background: linear-gradient(135deg, #3b82f6 0%, #06b6d4 100%);
-        }
-
-        .category-title {
-            color: #2d3748;
-            font-size: 1.4em;
-            font-weight: bold;
-        }
-
-        .category-description {
-            color: #718096;
-            font-size: 0.95em;
-            margin-top: 2px;
-        }
-
-        .category.hidden {
-            display: none;
-        }
-
         /* Book Grid */
         .book-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
             gap: 25px;
         }
 
@@ -164,15 +162,15 @@
             background: white;
             border: 2px solid #e2e8f0;
             border-radius: 16px;
-            padding: 25px;
+            padding: 24px;
             transition: all 0.3s ease;
             text-decoration: none;
             display: block;
         }
 
         .book-card:hover {
-            transform: translateY(-6px);
-            box-shadow: 0 12px 30px rgba(0,0,0,0.12);
+            transform: translateY(-5px);
+            box-shadow: 0 12px 30px rgba(0,0,0,0.1);
             border-color: #667eea;
         }
 
@@ -182,13 +180,13 @@
 
         .book-cover {
             width: 100%;
-            height: 160px;
+            height: 140px;
             border-radius: 10px;
             display: flex;
             align-items: center;
             justify-content: center;
-            margin-bottom: 18px;
-            font-size: 2.8em;
+            margin-bottom: 16px;
+            font-size: 2.5em;
         }
 
         .book-cover.gita {
@@ -203,13 +201,21 @@
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
         }
 
+        .book-cover.nexus {
+            background: linear-gradient(135deg, #3b82f6 0%, #06b6d4 100%);
+        }
+
         .book-cover.money {
             background: linear-gradient(135deg, #059669 0%, #10b981 100%);
         }
 
+        .book-cover.creator {
+            background: linear-gradient(135deg, #f97316 0%, #fb923c 100%);
+        }
+
         .book-title {
             color: #2d3748;
-            font-size: 1.2em;
+            font-size: 1.15em;
             font-weight: bold;
             margin-bottom: 6px;
             line-height: 1.3;
@@ -217,36 +223,36 @@
 
         .book-author {
             color: #718096;
-            font-size: 0.9em;
-            margin-bottom: 12px;
+            font-size: 0.88em;
+            margin-bottom: 10px;
         }
 
         .book-description {
             color: #4a5568;
-            line-height: 1.6;
-            font-size: 0.92em;
+            line-height: 1.55;
+            font-size: 0.9em;
         }
 
         .book-stats {
             margin-top: 12px;
             color: #805ad5;
             font-weight: 600;
-            font-size: 0.88em;
+            font-size: 0.85em;
         }
 
         .book-tags {
             display: flex;
             flex-wrap: wrap;
-            gap: 8px;
+            gap: 6px;
             margin-top: 12px;
         }
 
         .book-tag {
             background: #f7fafc;
             color: #4a5568;
-            padding: 4px 10px;
+            padding: 3px 10px;
             border-radius: 20px;
-            font-size: 0.8em;
+            font-size: 0.78em;
             border: 1px solid #e2e8f0;
         }
 
@@ -258,52 +264,45 @@
             margin-bottom: 30px;
         }
 
-        /* Filter Tags */
-        .filter-tags {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            gap: 10px;
-            margin-bottom: 30px;
-        }
-
-        .filter-tag {
-            background: #f7fafc;
-            color: #4a5568;
-            padding: 8px 16px;
-            border-radius: 20px;
-            font-size: 0.9em;
-            border: 2px solid #e2e8f0;
-            cursor: pointer;
-            transition: all 0.2s ease;
-        }
-
-        .filter-tag:hover {
-            border-color: #667eea;
-            color: #667eea;
-        }
-
-        .filter-tag.active {
-            background: #667eea;
-            color: white;
-            border-color: #667eea;
+        /* Footer Section */
+        .footer-section {
+            margin-top: 50px;
+            padding-top: 30px;
+            border-top: 1px solid #e2e8f0;
         }
 
         /* Responsive */
-        @media (max-width: 768px) {
-            .book-grid {
-                grid-template-columns: 1fr;
+        @media (max-width: 900px) {
+            .main-content {
+                flex-direction: column;
+                gap: 25px;
             }
 
-            .category-header {
-                flex-direction: column;
-                text-align: center;
+            .sidebar {
+                width: 100%;
+            }
+
+            .filter-section {
+                position: static;
             }
 
             .filter-tags {
+                flex-direction: row;
+                flex-wrap: wrap;
                 gap: 8px;
             }
 
+            .filter-tag {
+                padding: 8px 14px;
+                font-size: 0.9em;
+            }
+
+            .book-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        @media (max-width: 480px) {
             .filter-tag {
                 padding: 6px 12px;
                 font-size: 0.85em;
@@ -322,39 +321,37 @@
             <p><strong>Features:</strong> Interactive chapter navigation, text highlighting (saved locally), mobile-friendly design, and no account required.</p>
         </div>
 
-
-        <!-- Search -->
-        <div class="search-container">
-            <div class="search-box">
-                <span class="search-icon">&#128269;</span>
-                <input type="text" class="search-input" id="searchInput" placeholder="Search books by title, author, or topic...">
-                <button class="search-clear" id="searchClear" aria-label="Clear search">&#10005;</button>
-            </div>
-            <div class="search-results-info" id="searchResults"></div>
-        </div>
-
-        <!-- Filter Tags -->
-        <div class="filter-tags">
-            <button class="filter-tag active" data-filter="all">All Books</button>
-            <button class="filter-tag" data-filter="philosophy">Philosophy</button>
-            <button class="filter-tag" data-filter="spirituality">Spirituality</button>
-            <button class="filter-tag" data-filter="technology">Technology</button>
-            <button class="filter-tag" data-filter="parenting">Parenting</button>
-            <button class="filter-tag" data-filter="self-improvement">Self-Improvement</button>
-        </div>
-
-        <!-- Categories -->
-        <div id="booksContainer">
-            <!-- Eastern Philosophy & Spirituality -->
-            <div class="category" data-category="spirituality philosophy">
-                <div class="category-header">
-                    <div class="category-icon eastern"></div>
-                    <div>
-                        <div class="category-title">Eastern Philosophy & Spirituality</div>
-                        <div class="category-description">Ancient wisdom traditions from the East</div>
+        <div class="main-content">
+            <!-- Sidebar with Filters -->
+            <aside class="sidebar">
+                <div class="filter-section">
+                    <div class="filter-title">Filter by Topic</div>
+                    <div class="filter-tags">
+                        <button class="filter-tag active" data-filter="all">All Books</button>
+                        <button class="filter-tag" data-filter="philosophy">Philosophy</button>
+                        <button class="filter-tag" data-filter="spirituality">Spirituality</button>
+                        <button class="filter-tag" data-filter="technology">Technology</button>
+                        <button class="filter-tag" data-filter="parenting">Parenting</button>
+                        <button class="filter-tag" data-filter="finance">Finance</button>
+                        <button class="filter-tag" data-filter="self-improvement">Self-Improvement</button>
+                        <button class="filter-tag" data-filter="startups">Startups</button>
                     </div>
                 </div>
-                <div class="book-grid">
+            </aside>
+
+            <!-- Books Grid -->
+            <main class="books-area">
+                <!-- Search -->
+                <div class="search-container">
+                    <div class="search-box">
+                        <span class="search-icon">&#128269;</span>
+                        <input type="text" class="search-input" id="searchInput" placeholder="Search books by title, author, or topic...">
+                        <button class="search-clear" id="searchClear" aria-label="Clear search">&#10005;</button>
+                    </div>
+                    <div class="search-results-info" id="searchResults"></div>
+                </div>
+
+                <div class="book-grid" id="bookGrid">
                     <a href="bhagavad-gita/index.html" class="book-card" data-title="Bhagavad Gita As It Is" data-author="Swami Prabhupada" data-tags="spirituality philosophy hinduism yoga meditation dharma karma eastern ancient wisdom religion">
                         <div class="book-cover gita">&#2384;</div>
                         <div class="book-title">Bhagavad Gita As It Is</div>
@@ -367,44 +364,20 @@
                             <span class="book-tag">Yoga</span>
                         </div>
                     </a>
-                </div>
-            </div>
 
-            <!-- Western Philosophy -->
-            <div class="category" data-category="philosophy self-improvement">
-                <div class="category-header">
-                    <div class="category-icon philosophy"></div>
-                    <div>
-                        <div class="category-title">Western Philosophy & Stoicism</div>
-                        <div class="category-description">Classical wisdom for modern life</div>
-                    </div>
-                </div>
-                <div class="book-grid">
                     <a href="the-stoic-mind/index.html" class="book-card" data-title="The Stoic Mind" data-author="Addy Osmani GoLimitlesss" data-tags="philosophy stoicism self-improvement western ancient wisdom marcus aurelius mental strength resilience">
                         <div class="book-cover stoic">&#9883;</div>
                         <div class="book-title">The Stoic Mind</div>
                         <div class="book-author">by Addy Osmani & GoLimitlesss</div>
                         <div class="book-description">A visual exploration of Stoic philosophy connecting ancient wisdom to modern life. Practical principles for navigating work, relationships, and personal growth with resilience and inner peace.</div>
-                        <div class="book-stats">19 Chapters | Visual Guide</div>
+                        <div class="book-stats">25 Chapters | Visual Guide</div>
                         <div class="book-tags">
                             <span class="book-tag">Philosophy</span>
                             <span class="book-tag">Stoicism</span>
                             <span class="book-tag">Self-Improvement</span>
                         </div>
                     </a>
-                </div>
-            </div>
 
-            <!-- Technology & Society -->
-            <div class="category" data-category="technology philosophy">
-                <div class="category-header">
-                    <div class="category-icon technology"></div>
-                    <div>
-                        <div class="category-title">Technology & Society</div>
-                        <div class="category-description">Understanding AI, information, and the future</div>
-                    </div>
-                </div>
-                <div class="book-grid">
                     <a href="nexus/index.html" class="book-card" data-title="Nexus A Brief History of Information Networks" data-author="Yuval Noah Harari" data-tags="technology philosophy ai artificial-intelligence information history society future politics democracy">
                         <div class="book-cover nexus">&#128430;</div>
                         <div class="book-title">Nexus: A Brief History of Information Networks</div>
@@ -417,19 +390,7 @@
                             <span class="book-tag">AI</span>
                         </div>
                     </a>
-                </div>
-            </div>
 
-            <!-- Parenting & Communication -->
-            <div class="category" data-category="parenting self-improvement">
-                <div class="category-header">
-                    <div class="category-icon parenting"></div>
-                    <div>
-                        <div class="category-title">Parenting & Communication</div>
-                        <div class="category-description">Building stronger family relationships</div>
-                    </div>
-                </div>
-                <div class="book-grid">
                     <a href="how-to-talk-so-kids-will-listen/index.html" class="book-card" data-title="How to Talk So Kids Will Listen Listen So Kids Will Talk" data-author="Adele Faber Elaine Mazlish" data-tags="parenting communication family children relationships self-improvement psychology">
                         <div class="book-cover parenting">&#9829;</div>
                         <div class="book-title">How to Talk So Kids Will Listen & Listen So Kids Will Talk</div>
@@ -442,6 +403,7 @@
                             <span class="book-tag">Family</span>
                         </div>
                     </a>
+
                     <a href="the-whole-brain-child/index.html" class="book-card" data-title="The Whole-Brain Child" data-author="Daniel J. Siegel Tina Payne Bryson" data-tags="parenting neuroscience brain child-development psychology self-improvement family children emotions">
                         <div class="book-cover parenting">&#129504;</div>
                         <div class="book-title">The Whole-Brain Child</div>
@@ -454,25 +416,53 @@
                             <span class="book-tag">Child Development</span>
                         </div>
                     </a>
+
+                    <a href="psychology-of-money/index.html" class="book-card" data-title="The Psychology of Money" data-author="Morgan Housel" data-tags="finance money investing psychology self-improvement behavior wealth personal-finance">
+                        <div class="book-cover money">&#36;</div>
+                        <div class="book-title">The Psychology of Money</div>
+                        <div class="book-author">by Morgan Housel</div>
+                        <div class="book-description">Timeless lessons on wealth, greed, and happiness. Explore 20 short stories about the strange ways people think about money—because financial success is not about what you know, it's about how you behave.</div>
+                        <div class="book-stats">20 Chapters | Behavioral Finance</div>
+                        <div class="book-tags">
+                            <span class="book-tag">Finance</span>
+                            <span class="book-tag">Psychology</span>
+                            <span class="book-tag">Self-Improvement</span>
+                        </div>
+                    </a>
+
+                    <a href="content-creator-handbook/index.html" class="book-card" data-title="The Content Creator Handbook" data-author="Varun Mayya Achina Sirohi Mayya" data-tags="startups youtube social-media self-improvement business entrepreneurship video-production marketing creator-economy">
+                        <div class="book-cover creator">&#127909;</div>
+                        <div class="book-title">The Content Creator Handbook</div>
+                        <div class="book-author">by Varun Mayya & Achina Sirohi Mayya</div>
+                        <div class="book-description">A no-nonsense guide to creating, growing, and monetizing your online presence. Learn the strategies and tactics from creators with 100M+ monthly views across YouTube and Instagram.</div>
+                        <div class="book-stats">23 Chapters | Complete Guide</div>
+                        <div class="book-tags">
+                            <span class="book-tag">Startups</span>
+                            <span class="book-tag">YouTube</span>
+                            <span class="book-tag">Business</span>
+                        </div>
+                    </a>
                 </div>
+
+                <!-- No Results Message -->
+                <div class="no-results" id="noResults" style="display: none;">
+                    <h3>No books found</h3>
+                    <p>Try a different search term or clear filters to see all books.</p>
+                </div>
+            </main>
+        </div>
+
+        <div class="footer-section">
+            <div class="key-teachings">
+                <h3>Why Mind Maps for Books?</h3>
+                <ul>
+                    <li><strong>Structured Learning:</strong> See the big picture while exploring the details</li>
+                    <li><strong>Quick Reference:</strong> Find key concepts without re-reading entire chapters</li>
+                    <li><strong>Interactive Highlighting:</strong> Mark important passages and they persist between visits</li>
+                    <li><strong>Free & Open:</strong> No accounts, no subscriptions, no tracking</li>
+                    <li><strong>Works Offline:</strong> Download and use anywhere</li>
+                </ul>
             </div>
-        </div>
-
-        <!-- No Results Message -->
-        <div class="no-results" id="noResults" style="display: none;">
-            <h3>No books found</h3>
-            <p>Try a different search term or clear filters to see all books.</p>
-        </div>
-
-        <div class="key-teachings" style="margin-top: 40px;">
-            <h3>Why Mind Maps for Books?</h3>
-            <ul>
-                <li><strong>Structured Learning:</strong> See the big picture while exploring the details</li>
-                <li><strong>Quick Reference:</strong> Find key concepts without re-reading entire chapters</li>
-                <li><strong>Interactive Highlighting:</strong> Mark important passages and they persist between visits</li>
-                <li><strong>Free & Open:</strong> No accounts, no subscriptions, no tracking</li>
-                <li><strong>Works Offline:</strong> Download and use anywhere</li>
-            </ul>
         </div>
     </div>
 
@@ -483,7 +473,6 @@
         const searchResults = document.getElementById('searchResults');
         const noResults = document.getElementById('noResults');
         const filterTags = document.querySelectorAll('.filter-tag');
-        const categories = document.querySelectorAll('.category');
         const bookCards = document.querySelectorAll('.book-card');
 
         let activeFilter = 'all';
@@ -514,7 +503,6 @@
 
         function filterBooks(query, filter) {
             let visibleBooks = 0;
-            let visibleCategories = new Set();
 
             bookCards.forEach(card => {
                 const title = card.dataset.title.toLowerCase();
@@ -528,22 +516,8 @@
                 if (matchesSearch && matchesFilter) {
                     card.classList.remove('hidden');
                     visibleBooks++;
-                    // Find parent category
-                    const category = card.closest('.category');
-                    if (category) {
-                        visibleCategories.add(category);
-                    }
                 } else {
                     card.classList.add('hidden');
-                }
-            });
-
-            // Show/hide categories based on visible books
-            categories.forEach(category => {
-                if (visibleCategories.has(category)) {
-                    category.classList.remove('hidden');
-                } else {
-                    category.classList.add('hidden');
                 }
             });
 
