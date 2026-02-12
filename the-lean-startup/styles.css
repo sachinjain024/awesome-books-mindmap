@@ -1,0 +1,269 @@
+/* The Lean Startup - Book-Specific Styles */
+
+:root {
+    --accent-color: #2563eb;
+    --accent-color-dark: #1d4ed8;
+    --accent-gradient: linear-gradient(135deg, #2563eb 0%, #0891b2 100%);
+    --section-title-bg: #2563eb;
+    --key-box-color: #2563eb;
+    --key-box-bg: #eff6ff;
+    --verse-bg: #f0f9ff;
+    --intro-bg: #f8fafc;
+}
+
+/* Central node with startup gradient */
+.central-node {
+    background: var(--accent-gradient);
+}
+
+/* Chapter cards hover effect */
+.chapter-card:hover {
+    border-color: var(--accent-color);
+    box-shadow: 0 10px 40px rgba(37, 99, 235, 0.15);
+}
+
+.chapter-card:hover .chapter-number {
+    color: var(--accent-color);
+}
+
+/* Framework boxes for key methodologies */
+.framework-box {
+    background: linear-gradient(135deg, #eff6ff 0%, #e0f2fe 100%);
+    border-left: 4px solid var(--accent-color);
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+    border-radius: 0 8px 8px 0;
+}
+
+.framework-box h4 {
+    color: var(--accent-color-dark);
+    margin-top: 0;
+    margin-bottom: 0.75rem;
+    font-size: 1.1rem;
+}
+
+/* Methodology box for Build-Measure-Learn loop etc */
+.methodology-box {
+    background: #f8fafc;
+    border: 2px solid var(--accent-color);
+    border-radius: 12px;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+    text-align: center;
+}
+
+.methodology-box h4 {
+    color: var(--accent-color-dark);
+    margin-top: 0;
+    font-size: 1.2rem;
+}
+
+/* Case study boxes */
+.case-study {
+    background: linear-gradient(135deg, #fef3c7 0%, #fef9c3 100%);
+    border-left: 4px solid #f59e0b;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+    border-radius: 0 8px 8px 0;
+}
+
+.case-study h4 {
+    color: #b45309;
+    margin-top: 0;
+    margin-bottom: 0.75rem;
+}
+
+.case-study .company {
+    font-weight: 600;
+    color: #92400e;
+}
+
+/* Metric boxes */
+.metric-box {
+    background: linear-gradient(135deg, #ecfdf5 0%, #d1fae5 100%);
+    border-left: 4px solid #059669;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+    border-radius: 0 8px 8px 0;
+}
+
+.metric-box h4 {
+    color: #047857;
+    margin-top: 0;
+    margin-bottom: 0.75rem;
+}
+
+/* Warning/anti-pattern boxes */
+.warning-box {
+    background: linear-gradient(135deg, #fef2f2 0%, #fee2e2 100%);
+    border-left: 4px solid #dc2626;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+    border-radius: 0 8px 8px 0;
+}
+
+.warning-box h4 {
+    color: #b91c1c;
+    margin-top: 0;
+    margin-bottom: 0.75rem;
+}
+
+/* Quote box styling */
+.quote-box {
+    background: var(--verse-bg);
+    border-left: 4px solid var(--accent-color);
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+    font-style: italic;
+    font-size: 1.1rem;
+    color: #334155;
+    border-radius: 0 8px 8px 0;
+}
+
+.quote-box .attribution {
+    font-style: normal;
+    font-size: 0.9rem;
+    color: #64748b;
+    margin-top: 0.75rem;
+}
+
+/* Insight box */
+.insight-box {
+    background: linear-gradient(135deg, #f5f3ff 0%, #ede9fe 100%);
+    border-left: 4px solid #7c3aed;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+    border-radius: 0 8px 8px 0;
+}
+
+.insight-box h4 {
+    color: #6d28d9;
+    margin-top: 0;
+    margin-bottom: 0.75rem;
+}
+
+/* Definition box */
+.definition-box {
+    background: #f1f5f9;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    padding: 1.25rem;
+    margin: 1.5rem 0;
+}
+
+.definition-box .term {
+    font-weight: 700;
+    color: var(--accent-color-dark);
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+}
+
+.definition-box .meaning {
+    color: #475569;
+    line-height: 1.6;
+}
+
+/* Process steps */
+.process-steps {
+    background: #f8fafc;
+    border-radius: 12px;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+}
+
+.process-steps h4 {
+    color: var(--accent-color-dark);
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.process-steps ol {
+    margin: 0;
+    padding-left: 1.5rem;
+}
+
+.process-steps li {
+    margin-bottom: 0.75rem;
+    color: #334155;
+}
+
+.process-steps li:last-child {
+    margin-bottom: 0;
+}
+
+/* Comparison table */
+.comparison-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1.5rem 0;
+    font-size: 0.95rem;
+}
+
+.comparison-table th {
+    background: var(--accent-color);
+    color: white;
+    padding: 0.75rem 1rem;
+    text-align: left;
+}
+
+.comparison-table td {
+    padding: 0.75rem 1rem;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.comparison-table tr:nth-child(even) {
+    background: #f8fafc;
+}
+
+/* Cycle diagram styling */
+.cycle-diagram {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin: 2rem 0;
+    flex-wrap: wrap;
+}
+
+.cycle-step {
+    background: var(--accent-gradient);
+    color: white;
+    padding: 1rem 1.5rem;
+    border-radius: 50px;
+    font-weight: 600;
+    text-align: center;
+    min-width: 100px;
+}
+
+.cycle-arrow {
+    color: var(--accent-color);
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* Key metrics grid */
+.metrics-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    margin: 1.5rem 0;
+}
+
+.metric-card {
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 1rem;
+    text-align: center;
+}
+
+.metric-card .metric-name {
+    font-weight: 600;
+    color: var(--accent-color-dark);
+    margin-bottom: 0.5rem;
+}
+
+.metric-card .metric-description {
+    font-size: 0.9rem;
+    color: #64748b;
+}

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter 9: Batch - The Lean Startup</title>
+    <link rel="stylesheet" href="../../shared/styles.css">
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+    <div class="container container-narrow">
+        <a href="../index.html" class="back-button">← Back to Mind Map</a>
+
+        <h1 class="chapter-title">Chapter 9: Batch</h1>
+        <div class="chapter-meta">Part Three: Accelerate</div>
+
+        <div class="intro">
+            <p>This chapter explores why small batches beat large batches in startup environments. Drawing from lean manufacturing principles, Ries shows how working in small batches accelerates learning, reduces waste, and helps startups move through the Build-Measure-Learn loop faster.</p>
+        </div>
+
+        <div class="section">
+            <h2>The Envelope Stuffing Experiment</h2>
+            <p>Ries opens with a simple thought experiment: imagine you need to stuff 100 envelopes with letters. Which approach is faster?</p>
+
+            <div class="methodology-box">
+                <h4>Two Approaches to Envelope Stuffing</h4>
+                <p><strong>Large batch:</strong> Fold all 100 letters, then stuff all 100 envelopes, then seal all 100, then stamp all 100.</p>
+                <p><strong>Small batch:</strong> Complete one envelope at a time—fold, stuff, seal, stamp—before moving to the next.</p>
+            </div>
+
+            <p>Intuition says large batches should be faster (less "switching costs"), but experiments show small batches consistently win. Why? Because large batches hide problems. If you discover the letters don't fit the envelopes, you've already folded all 100.</p>
+
+            <div class="insight-box">
+                <h4>Key Insight</h4>
+                <p>Small batches enable faster feedback. You discover problems immediately instead of after investing significant work in the wrong direction.</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Small Batches in Product Development</h2>
+            <p>The same principle applies to software and product development. Large batches—big releases with many features—seem efficient but create problems:</p>
+
+            <div class="warning-box">
+                <h4>Problems with Large Batches</h4>
+                <ul>
+                    <li><strong>Delayed feedback:</strong> You don't learn what works until everything ships</li>
+                    <li><strong>Hard to diagnose:</strong> When something fails, you don't know which feature caused it</li>
+                    <li><strong>Inventory buildup:</strong> Unshipped features are "inventory" that might never be used</li>
+                    <li><strong>Integration nightmares:</strong> Big merges create conflicts and bugs</li>
+                </ul>
+            </div>
+
+            <div class="case-study">
+                <h4>Case Study: Toyota's Andon Cord</h4>
+                <p>At <span class="company">Toyota</span>, any worker can pull the "andon cord" to stop the production line when they spot a problem. This seems inefficient—stopping the whole line?—but it prevents defects from piling up. Problems are fixed immediately, not at the end.</p>
+                <p>The startup equivalent: ship small changes, get immediate feedback, fix problems before they compound.</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Continuous Deployment</h2>
+            <p>The ultimate expression of small batch thinking is continuous deployment: shipping code to production as soon as it's ready, sometimes dozens of times per day.</p>
+
+            <div class="framework-box">
+                <h4>Continuous Deployment Benefits</h4>
+                <ul>
+                    <li>Immediate feedback on every change</li>
+                    <li>Easier to diagnose problems (you know exactly what changed)</li>
+                    <li>Lower risk per deployment (small changes are easier to roll back)</li>
+                    <li>Faster cycle through Build-Measure-Learn loop</li>
+                </ul>
+            </div>
+
+            <div class="quote-box">
+                "The ability to learn faster from customers is the essential competitive advantage that startups must possess."
+                <div class="attribution">— Eric Ries</div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>The IMVU Story: Continuous Deployment</h2>
+            <p>IMVU was one of the pioneers of continuous deployment, and Ries shares their journey.</p>
+
+            <div class="case-study">
+                <h4>Case Study: IMVU's Deployment Pipeline</h4>
+                <p><span class="company">IMVU</span> deployed code to production 50 times per day. Key practices:</p>
+                <ul>
+                    <li><strong>Automated testing:</strong> Every change passed through automated tests before deployment</li>
+                    <li><strong>Immune system:</strong> Automated monitoring that could detect and roll back bad deployments</li>
+                    <li><strong>Feature flags:</strong> New features could be enabled for small groups first</li>
+                    <li><strong>Real-time metrics:</strong> Immediate visibility into how changes affected key metrics</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Pull, Don't Push</h2>
+            <p>Another lean manufacturing concept: pull systems vs. push systems.</p>
+
+            <div class="methodology-box">
+                <h4>Push vs. Pull</h4>
+                <p><strong>Push:</strong> Work is pushed through the system according to a schedule, regardless of whether downstream processes are ready.</p>
+                <p><strong>Pull:</strong> Work is pulled by the next stage when it's ready, ensuring nothing piles up.</p>
+            </div>
+
+            <p>In startups, a pull approach means building features only when you have evidence customers want them, not because they're on a roadmap. Customer demand "pulls" development.</p>
+        </div>
+
+        <div class="section">
+            <h2>Reducing Batch Size</h2>
+            <p>If you're currently working in large batches, how do you transition to smaller ones?</p>
+
+            <div class="process-steps">
+                <h4>Steps to Reduce Batch Size</h4>
+                <ol>
+                    <li><strong>Map your current process:</strong> How long does it take to go from idea to customer hands?</li>
+                    <li><strong>Identify the biggest delays:</strong> Where does work pile up waiting?</li>
+                    <li><strong>Automate repetitive work:</strong> Testing, deployment, monitoring</li>
+                    <li><strong>Start smaller:</strong> Can you ship half as much, twice as often?</li>
+                    <li><strong>Measure cycle time:</strong> Track how long each batch takes from start to finish</li>
+                </ol>
+            </div>
+        </div>
+
+        <div class="key-points">
+            <h3>Key Takeaways</h3>
+            <ul>
+                <li>Small batches beat large batches because they enable faster feedback</li>
+                <li>Large batches hide problems until it's expensive to fix them</li>
+                <li>Continuous deployment is the ultimate form of small batch thinking</li>
+                <li>Pull systems (build what customers want) beat push systems (build according to plan)</li>
+                <li>The faster you can complete the Build-Measure-Learn loop, the faster you learn</li>
+            </ul>
+        </div>
+
+        <div class="chapter-nav">
+            <a href="chapter-08.html">← Previous: Pivot (or Persevere)</a>
+            <a href="chapter-10.html">Next: Grow →</a>
+        </div>
+    </div>
+    <script src="../../shared/highlight.js" defer></script>
+</body>
+</html>

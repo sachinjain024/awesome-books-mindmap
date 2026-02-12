@@ -1,0 +1,210 @@
+/* Deep Work by Cal Newport - Book-Specific Styles */
+
+:root {
+    --accent-color: #1e40af;
+    --accent-color-dark: #1e3a8a;
+    --accent-gradient: linear-gradient(135deg, #1e40af 0%, #3b82f6 100%);
+    --section-title-bg: #1e40af;
+    --key-box-color: #1e40af;
+    --key-box-bg: #eff6ff;
+    --verse-bg: #f0f9ff;
+    --intro-bg: #f8fafc;
+}
+
+/* Central Node Override */
+.central-node {
+    background: var(--accent-gradient);
+}
+
+/* Chapter Card Hover */
+.chapter-card:hover {
+    border-color: var(--accent-color);
+}
+
+/* Section Title */
+.section-title {
+    background: var(--section-title-bg);
+}
+
+/* Key Points Box */
+.key-points, .key-teachings {
+    border-left-color: var(--accent-color);
+    background: var(--key-box-bg);
+}
+
+/* Quote Box */
+.quote-box {
+    background: linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%);
+    border-left: 4px solid var(--accent-color);
+    padding: 20px 25px;
+    margin: 25px 0;
+    border-radius: 0 12px 12px 0;
+    font-style: italic;
+    color: #1e3a8a;
+}
+
+.quote-box .attribution {
+    font-style: normal;
+    font-weight: 600;
+    margin-top: 10px;
+    color: #1e40af;
+    font-size: 0.9em;
+}
+
+/* Insight Box - For key deep work principles */
+.insight-box {
+    background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);
+    border-left: 4px solid #d97706;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 0 10px 10px 0;
+}
+
+.insight-box h4 {
+    color: #92400e;
+    margin: 0 0 10px 0;
+    font-size: 1em;
+}
+
+.insight-box p {
+    margin: 0;
+    color: #78350f;
+}
+
+/* Strategy Box - For practical techniques */
+.strategy-box {
+    background: linear-gradient(135deg, #ecfdf5 0%, #d1fae5 100%);
+    border: 2px solid #10b981;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+}
+
+.strategy-box h4 {
+    color: #047857;
+    margin: 0 0 10px 0;
+    font-size: 1em;
+}
+
+.strategy-box p, .strategy-box ul, .strategy-box ol {
+    color: #065f46;
+    margin: 0;
+}
+
+.strategy-box li {
+    margin-bottom: 8px;
+}
+
+/* Warning Box - For shallow work dangers */
+.warning-box {
+    background: linear-gradient(135deg, #fef2f2 0%, #fecaca 100%);
+    border-left: 4px solid #dc2626;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 0 10px 10px 0;
+}
+
+.warning-box h4 {
+    color: #991b1b;
+    margin: 0 0 10px 0;
+    font-size: 1em;
+}
+
+.warning-box p {
+    margin: 0;
+    color: #7f1d1d;
+}
+
+/* Example Box - For case studies and examples */
+.example-box {
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+}
+
+.example-box h4 {
+    color: #475569;
+    margin: 0 0 10px 0;
+    font-size: 0.95em;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.example-box p {
+    color: #334155;
+    margin: 0;
+}
+
+/* Rule Box - For the four rules */
+.rule-box {
+    background: var(--accent-gradient);
+    color: white;
+    padding: 25px;
+    margin: 25px 0;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.rule-box h3 {
+    margin: 0 0 10px 0;
+    font-size: 1.3em;
+}
+
+.rule-box p {
+    margin: 0;
+    opacity: 0.95;
+}
+
+/* Formula Box - For equations/formulas */
+.formula-box {
+    background: #1e293b;
+    color: #f1f5f9;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    font-family: 'Courier New', monospace;
+    text-align: center;
+    font-size: 1.1em;
+}
+
+/* Practice Box */
+.practice-box {
+    background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);
+    border: 2px solid #0284c7;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+}
+
+.practice-box h4 {
+    color: #0369a1;
+    margin: 0 0 15px 0;
+}
+
+.practice-box ol, .practice-box ul {
+    color: #0c4a6e;
+    margin: 0;
+    padding-left: 20px;
+}
+
+.practice-box li {
+    margin-bottom: 10px;
+}
+
+/* Concept Count Badge */
+.concept-count {
+    color: var(--accent-color);
+}
+
+/* Chapter Number Accent */
+.chapter-number {
+    color: var(--accent-color);
+}
+
+/* Intro Box */
+.intro {
+    border-left-color: var(--accent-color);
+    background: var(--intro-bg);
+}
