@@ -1,0 +1,38 @@
+/* The Prophet - Book-Specific Styles */
+/* Deep blue / wisdom theme */
+
+:root {
+    --accent-color: #1e40af;
+    --accent-color-dark: #1e3a8a;
+    --accent-gradient: linear-gradient(135deg, #1e40af 0%, #3b82f6 100%);
+    --section-title-bg: #1e3a8a;
+    --key-box-color: #1d4ed8;
+    --key-box-bg: #eff6ff;
+    --verse-bg: #dbeafe;
+    --intro-bg: #eff6ff;
+}
+
+.quote-box {
+    background: #eff6ff;
+    border-left: 4px solid var(--accent-color);
+    padding: 20px 25px;
+    margin: 20px 0;
+    border-radius: 8px;
+    font-style: italic;
+    color: var(--text-dark);
+    line-height: 1.8;
+}
+
+.quote-box .attribution { margin-top: 10px; font-style: normal; font-weight: 600; color: var(--accent-color-dark); font-size: 0.9em; }
+
+.insight-box {
+    background: linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%);
+    border-left: 4px solid var(--accent-color);
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+}
+
+.insight-box h4 { color: var(--accent-color); margin-bottom: 10px; font-size: 1.1em; }
+
+.concept-count { color: var(--accent-color); font-size: 0.85em; margin-top: 10px; font-weight: 600; }

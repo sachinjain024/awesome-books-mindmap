@@ -1,0 +1,48 @@
+/* The Little Prince - Book-Specific Styles */
+/* Soft yellow / star theme */
+
+:root {
+    --accent-color: #ca8a04;
+    --accent-color-dark: #a16207;
+    --accent-gradient: linear-gradient(135deg, #eab308 0%, #facc15 100%);
+    --section-title-bg: #854d0e;
+    --key-box-color: #a16207;
+    --key-box-bg: #fefce8;
+    --verse-bg: #fef9c3;
+    --intro-bg: #fefce8;
+}
+
+.quote-box {
+    background: #fefce8;
+    border-left: 4px solid var(--accent-color);
+    padding: 20px 25px;
+    margin: 20px 0;
+    border-radius: 8px;
+    font-style: italic;
+    color: var(--text-dark);
+    line-height: 1.8;
+}
+
+.quote-box .attribution { margin-top: 10px; font-style: normal; font-weight: 600; color: var(--accent-color-dark); font-size: 0.9em; }
+
+.insight-box {
+    background: linear-gradient(135deg, #fefce8 0%, #fef9c3 100%);
+    border-left: 4px solid var(--accent-color);
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+}
+
+.insight-box h4 { color: var(--accent-color); margin-bottom: 10px; font-size: 1.1em; }
+
+.metaphor-box {
+    background: #fef9c3;
+    border: 2px solid #eab308;
+    border-radius: 12px;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.metaphor-box h4 { color: #a16207; margin-bottom: 10px; }
+
+.concept-count { color: var(--accent-color); font-size: 0.85em; margin-top: 10px; font-weight: 600; }
