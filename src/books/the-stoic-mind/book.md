@@ -1,0 +1,168 @@
+---
+title: The Stoic Mind
+subtitle: A Visual Exploration of Stoic Philosophy
+authors: Addy Osmani & GoLimitlesss
+slug: the-stoic-mind
+
+epigraph:
+  quote: "You have power over your mind — not outside events. Realize this, and you will find strength."
+  author: Marcus Aurelius
+
+centralNode:
+  title: THE STOIC MIND
+  subtitle: Ancient Wisdom for Modern Life
+
+sections:
+  - title: WORK, LIFE & ACTION
+    chapters:
+      - number: 1
+        title: Work is a Subset of Life, Not a Superset
+        description: Understanding the Stoic perspective on work-life balance and keeping your priorities aligned with what truly matters.
+
+      - number: 2
+        title: Change What You're Doing, to Change Where You're Going
+        description: The power of deliberate actions and choices in shaping your destiny and adapting to inevitable change.
+
+      - number: 3
+        title: First Do It, Then Do It Right, Then Do It Better
+        description: The importance of initiating action, refining processes, and striving for continuous improvement.
+
+  - title: CONFIDENCE & COMMUNICATION
+    chapters:
+      - number: 4
+        title: Confidence is Calm. Ego Makes a Lot of Noise
+        description: Exploring the dichotomy between true confidence and ego, guided by the Stoic principle of self-awareness.
+
+      - number: 5
+        title: Speak Confidently as if You Are Right, But Listen Carefully as if You Are Wrong
+        description: The art of effective communication, listening, and learning, grounded in Stoic humility.
+
+      - number: 8
+        title: Argue Less, Persuade More
+        subtitle: Persuasion is an Art That Requires a Paintbrush, Not a Sledgehammer
+        description: Mastering the gentle art of influence without confrontation or force.
+
+  - title: WISDOM & GROWTH
+    chapters:
+      - number: 6
+        title: Experience Creates Wisdom. Wisdom Creates Confidence. Confidence Creates Success
+        description: Understanding the virtuous cycle of experience, wisdom, and achievement.
+
+      - number: 9
+        title: Consistency Does Not Require Perfection
+        description: Embracing imperfect progress over paralyzed perfectionism.
+
+      - number: 11
+        title: The Lesson is More Important Than the Mistake
+        description: Transforming setbacks into stepping stones through a growth-oriented mindset.
+
+  - title: DISCIPLINE & FOCUS
+    chapters:
+      - number: 7
+        title: Don't Count on Motivation. Count on Discipline
+        subtitle: You Won't Be Motivated Every Day — And That's Okay
+        description: Why discipline outperforms motivation as a reliable driver of success.
+
+      - number: 10
+        title: Focus on What You Can Control
+        subtitle: You Don't Need More Time, You Need More Focus
+        description: The Stoic dichotomy of control and the power of directed attention.
+
+      - number: 12
+        title: Discipline is Not About Perfection. It's About Continuity
+        description: Building sustainable habits through steady, imperfect practice.
+
+      - number: 21
+        title: In the Age of Distraction, Focus is a Superpower
+        description: Cultivating deep attention in a world designed to fragment it.
+
+      - number: 23
+        title: Be Consistent
+        subtitle: Motivation May Ignite the Spark, But Consistency Fuels the Flame
+        description: The compound effect of showing up day after day.
+
+  - title: PERSEVERANCE & ACTION
+    chapters:
+      - number: 13
+        title: Perseverance is One of the Keys to Success
+        subtitle: Many Winners Are Just the Last Ones Standing
+        description: Why outlasting obstacles matters more than outrunning them.
+
+      - number: 16
+        title: Step Outside Your Comfort Zone
+        subtitle: It Feels Scary Because It's Unfamiliar, Not Because You're Incapable
+        description: Reframing nervousness as a signal of growth, not danger.
+
+      - number: 17
+        title: You Haven't Started Because You Are Afraid to Fail
+        subtitle: You Are Already Failing Because You Haven't Started
+        description: Breaking the paralysis of fear through the Stoic lens of action.
+
+      - number: 18
+        title: Find a Way to Play the Game That Ensures You Get a Lot of Shots
+        description: Maximizing opportunities by staying in the arena longer.
+
+  - title: REDEFINING SUCCESS
+    chapters:
+      - number: 14
+        title: Don't Measure Your Life with Someone Else's Ruler
+        description: Defining success on your own terms, free from external comparison.
+
+      - number: 19
+        title: Success and Failure Exist on a Continuum
+        subtitle: We Have a Very Narrow Understanding of These as Absolute States
+        description: Embracing nuance over binary thinking about outcomes.
+
+      - number: 20
+        title: Success is Not About Meeting Someone Else's Expectations
+        subtitle: It's About Living Up to Yours
+        description: Aligning achievement with your authentic values and standards.
+
+  - title: TIME, MINDSET & SUSTAINABILITY
+    chapters:
+      - number: 15
+        title: Own Your Calendar. Define Your Day. Or Others Will
+        description: Taking control of your time as an act of self-determination.
+
+      - number: 22
+        title: Change the Way You Speak About Yourself and You Can Change Your Life
+        description: The transformative power of self-talk and internal narrative.
+
+      - number: 24
+        title: A Bad Day, That's It. Not a Bad Life
+        subtitle: Zooming Out Gives a Lot of Perspective
+        description: Maintaining perspective when challenges feel overwhelming.
+
+      - number: 25
+        title: Create Hard, Recover Harder
+        subtitle: Taking Time to Rest Well Means You Can Keep Creating Sustainably
+        description: The Stoic wisdom of sustainable effort and intentional rest.
+
+keyTeachings:
+  - principle: "The Dichotomy of Control:"
+    description: Focus your energy only on what you can influence — your thoughts, actions, and responses
+
+  - principle: "Discipline Over Motivation:"
+    description: Build systems and habits that don't depend on fleeting feelings
+
+  - principle: "Progress Over Perfection:"
+    description: Consistent imperfect action beats paralyzed perfectionism
+
+  - principle: "Self-Defined Success:"
+    description: Measure your life by your own values, not external expectations
+
+  - principle: "Perspective Through Adversity:"
+    description: Every setback contains a lesson; every obstacle is an opportunity
+
+  - principle: "Sustainable Practice:"
+    description: Balance intense effort with intentional recovery for long-term success
+
+layout: book-index
+permalink: the-stoic-mind/index.html
+---
+
+## About This Book
+
+**The Stoic Mind** is a visual guide that connects ancient Stoic wisdom to modern life. Through 25 chapters, it offers practical principles for navigating work, relationships, and personal growth with resilience and inner peace. Each chapter presents a core Stoic insight paired with actionable advice for the challenges we face today.
+
+This mind map presents the book's teachings in an accessible format, helping you internalize and apply timeless philosophical wisdom to your daily life.

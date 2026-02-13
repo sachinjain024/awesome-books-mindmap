@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter {{ number }}: {{ title }} - The Stoic Mind</title>
+    <link rel="stylesheet" href="../../shared/styles.css">
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+    <div class="container container-narrow">
+        <a href="../index.html" class="back-button">← Back to Mind Map</a>
+
+        <h1 class="chapter-title">Chapter {{ number }}: {{ title }}</h1>
+        {% if meta %}
+        <div class="chapter-meta">{{ meta }}</div>
+        {% endif %}
+
+        <div class="chapter-content">
+            {{ content | safe }}
+        </div>
+
+        <div class="chapter-nav">
+            {% if number > 1 %}
+            <a href="chapter-{{ '%02d' | format(number - 1) }}.html">← Previous: Chapter {{ number - 1 }}</a>
+            {% else %}
+            <a href="../index.html">← Back to Overview</a>
+            {% endif %}
+
+            {% if number < 25 %}
+            <a href="chapter-{{ '%02d' | format(number + 1) }}.html">Next: Chapter {{ number + 1 }} →</a>
+            {% else %}
+            <a href="../index.html">Back to Overview →</a>
+            {% endif %}
+        </div>
+    </div>
+
+    <script src="../../shared/highlight.js" defer></script>
+</body>
+</html>

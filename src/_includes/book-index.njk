@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title }} - Mind Map</title>
+    <link rel="stylesheet" href="../shared/styles.css">
+    <link rel="stylesheet" href="../{{ slug }}/styles.css">
+</head>
+<body class="index-page">
+    <div class="container">
+        <h1>{{ title }}</h1>
+        <div class="subtitle">{{ subtitle }}</div>
+        <div class="authors">by {{ authors }}</div>
+
+        <div class="intro">
+            {{ content | safe }}
+        </div>
+
+        <blockquote class="philosophy">
+            {{ epigraph.quote }}
+            <cite>— {{ epigraph.author }}</cite>
+        </blockquote>
+
+        <div class="central-node">
+            {{ centralNode.title }}<br/>
+            <span style="font-size: 0.7em;">{{ centralNode.subtitle }}</span>
+        </div>
+
+        <div class="mindmap">
+            {% for section in sections %}
+            <div class="section">
+                <div class="section-title">{{ section.title }}</div>
+                <div class="chapters-grid">
+                    {% for chapter in section.chapters %}
+                    <a href="chapters/chapter-{{ '%02d' | format(chapter.number) }}.html" class="chapter-card">
+                        <div class="chapter-number">Chapter {{ chapter.number }}</div>
+                        <div class="chapter-name">{{ chapter.title }}</div>
+                        {% if chapter.subtitle %}
+                        <div class="chapter-subtitle">{{ chapter.subtitle }}</div>
+                        {% endif %}
+                        <div class="chapter-description">{{ chapter.description }}</div>
+                    </a>
+                    {% endfor %}
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+
+        <div class="key-teachings">
+            <h3>Core Stoic Principles</h3>
+            <ul>
+                {% for teaching in keyTeachings %}
+                <li><strong>{{ teaching.principle }}</strong> {{ teaching.description }}</li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+
+    <script src="../shared/highlight.js" defer></script>
+</body>
+</html>

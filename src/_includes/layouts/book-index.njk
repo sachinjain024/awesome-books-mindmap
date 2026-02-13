@@ -1,0 +1,56 @@
+---
+layout: layouts/base.njk
+bodyClass: index-page
+---
+{% set bookData = stoicMind %}
+<div class="container">
+    <h1>{{ bookData.title }}</h1>
+    <div class="subtitle">{{ bookData.subtitle }}</div>
+    <div class="authors">by {{ bookData.authors }}</div>
+
+    <div class="intro">
+        <h2>{{ bookData.intro.title }}</h2>
+        {% for paragraph in bookData.intro.paragraphs %}
+        <p>{{ paragraph | safe }}</p>
+        {% endfor %}
+    </div>
+
+    <blockquote class="philosophy">
+        {{ bookData.epigraph.quote }}
+        <cite>— {{ bookData.epigraph.author }}</cite>
+    </blockquote>
+
+    <div class="central-node">
+        {{ bookData.centralNode.title }}<br/>
+        <span style="font-size: 0.7em;">{{ bookData.centralNode.subtitle }}</span>
+    </div>
+
+    <div class="mindmap">
+        {% for section in bookData.sections %}
+        <div class="section">
+            <div class="section-title">{{ section.title }}</div>
+            <div class="chapters-grid">
+                {% for chapter in section.chapters %}
+                <a href="chapters/chapter-{{ '%02d' | format(chapter.number) }}.html" class="chapter-card">
+                    <div class="chapter-number">Chapter {{ chapter.number }}</div>
+                    <div class="chapter-name">{{ chapter.title }}</div>
+                    {% if chapter.subtitle %}
+                    <div class="chapter-subtitle">{{ chapter.subtitle }}</div>
+                    {% endif %}
+                    <div class="chapter-description">{{ chapter.description }}</div>
+                </a>
+                {% endfor %}
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+
+    <div class="key-teachings">
+        <h3>Core Stoic Principles</h3>
+        <ul>
+            {% for teaching in bookData.keyTeachings %}
+            <li><strong>{{ teaching.principle }}</strong> {{ teaching.description }}</li>
+            {% endfor %}
+        </ul>
+    </div>
+</div>
