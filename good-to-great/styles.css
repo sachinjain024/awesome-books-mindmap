@@ -1,0 +1,248 @@
+/* Good to Great - Book-Specific Styles */
+
+:root {
+    --accent-color: #1e40af;
+    --accent-color-dark: #1e3a8a;
+    --accent-gradient: linear-gradient(135deg, #1e40af 0%, #3b82f6 100%);
+    --section-title-bg: #1e40af;
+    --key-box-color: #1e40af;
+    --key-box-bg: #dbeafe;
+    --verse-bg: #eff6ff;
+    --intro-bg: #f0f9ff;
+}
+
+/* Central node with book theme */
+.central-node {
+    background: var(--accent-gradient);
+}
+
+/* Research callout box */
+.research-box {
+    background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);
+    border-left: 4px solid #f59e0b;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+    border-radius: 0 12px 12px 0;
+}
+
+.research-box h4 {
+    color: #b45309;
+    margin-bottom: 0.75rem;
+    font-size: 1.1rem;
+}
+
+/* Comparison box for Good vs Great companies */
+.comparison-box {
+    background: #f8fafc;
+    border: 2px solid #e2e8f0;
+    border-radius: 12px;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+}
+
+.comparison-box h4 {
+    color: #334155;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.comparison-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+.comparison-column {
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+.comparison-column.good {
+    background: #fee2e2;
+    border: 1px solid #fecaca;
+}
+
+.comparison-column.great {
+    background: #dcfce7;
+    border: 1px solid #bbf7d0;
+}
+
+.comparison-column h5 {
+    text-align: center;
+    margin-bottom: 0.75rem;
+    font-size: 1rem;
+}
+
+.comparison-column.good h5 {
+    color: #dc2626;
+}
+
+.comparison-column.great h5 {
+    color: #16a34a;
+}
+
+/* Concept box for key frameworks */
+.concept-box {
+    background: linear-gradient(135deg, #ede9fe 0%, #ddd6fe 100%);
+    border-left: 4px solid #7c3aed;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+    border-radius: 0 12px 12px 0;
+}
+
+.concept-box h4 {
+    color: #5b21b6;
+    margin-bottom: 0.75rem;
+    font-size: 1.1rem;
+}
+
+/* Principle box */
+.principle-box {
+    background: linear-gradient(135deg, #dbeafe 0%, #bfdbfe 100%);
+    border-left: 4px solid #1e40af;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+    border-radius: 0 12px 12px 0;
+}
+
+.principle-box h4 {
+    color: #1e40af;
+    margin-bottom: 0.75rem;
+    font-size: 1.1rem;
+}
+
+/* Case study box */
+.case-study {
+    background: #f0fdf4;
+    border: 2px solid #86efac;
+    border-radius: 12px;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+}
+
+.case-study h4 {
+    color: #166534;
+    margin-bottom: 0.75rem;
+}
+
+/* Warning/pitfall box */
+.warning-box {
+    background: linear-gradient(135deg, #fef2f2 0%, #fee2e2 100%);
+    border-left: 4px solid #dc2626;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+    border-radius: 0 12px 12px 0;
+}
+
+.warning-box h4 {
+    color: #dc2626;
+    margin-bottom: 0.75rem;
+    font-size: 1.1rem;
+}
+
+/* Flywheel visual */
+.flywheel-diagram {
+    text-align: center;
+    padding: 2rem;
+    background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);
+    border-radius: 12px;
+    margin: 1.5rem 0;
+}
+
+.flywheel-circle {
+    width: 200px;
+    height: 200px;
+    border: 8px solid #1e40af;
+    border-radius: 50%;
+    margin: 0 auto 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: #1e40af;
+    font-size: 1.2rem;
+    background: white;
+    position: relative;
+}
+
+.flywheel-circle::after {
+    content: "→";
+    position: absolute;
+    top: -20px;
+    right: 20px;
+    font-size: 2rem;
+    color: #1e40af;
+}
+
+/* Quote box styling */
+.quote-box {
+    background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
+    border-left: 4px solid #1e40af;
+    padding: 1.5rem 2rem;
+    margin: 1.5rem 0;
+    font-style: italic;
+    font-size: 1.1rem;
+    color: #334155;
+    border-radius: 0 12px 12px 0;
+}
+
+.quote-box .attribution {
+    font-style: normal;
+    font-size: 0.9rem;
+    color: #64748b;
+    margin-top: 0.75rem;
+    text-align: right;
+}
+
+/* Level 5 hierarchy visual */
+.hierarchy-box {
+    background: #f8fafc;
+    border-radius: 12px;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+}
+
+.hierarchy-level {
+    display: flex;
+    align-items: center;
+    padding: 0.75rem 1rem;
+    margin: 0.5rem 0;
+    border-radius: 8px;
+    font-weight: 500;
+}
+
+.hierarchy-level.level-5 {
+    background: linear-gradient(135deg, #1e40af 0%, #3b82f6 100%);
+    color: white;
+    font-size: 1.1rem;
+}
+
+.hierarchy-level.level-4 {
+    background: #dbeafe;
+    color: #1e40af;
+    margin-left: 1rem;
+}
+
+.hierarchy-level.level-3 {
+    background: #e0e7ff;
+    color: #4338ca;
+    margin-left: 2rem;
+}
+
+.hierarchy-level.level-2 {
+    background: #f1f5f9;
+    color: #475569;
+    margin-left: 3rem;
+}
+
+.hierarchy-level.level-1 {
+    background: #f8fafc;
+    color: #64748b;
+    margin-left: 4rem;
+}
+
+.level-number {
+    font-weight: bold;
+    margin-right: 1rem;
+    min-width: 2rem;
+}

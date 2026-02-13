@@ -1,0 +1,265 @@
+/* High Output Management - Book-Specific Styles */
+
+:root {
+    --accent-color: #0d9488;
+    --accent-color-dark: #0f766e;
+    --accent-gradient: linear-gradient(135deg, #0d9488 0%, #14b8a6 100%);
+    --section-title-bg: #0d9488;
+    --key-box-color: #0d9488;
+    --key-box-bg: #ccfbf1;
+    --verse-bg: #f0fdfa;
+    --intro-bg: #f0fdfa;
+}
+
+/* Central node with book theme */
+.central-node {
+    background: var(--accent-gradient);
+}
+
+/* Management principle box */
+.principle-box {
+    background: linear-gradient(135deg, #ccfbf1 0%, #99f6e4 100%);
+    border-left: 4px solid #0d9488;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+    border-radius: 0 12px 12px 0;
+}
+
+.principle-box h4 {
+    color: #0f766e;
+    margin-bottom: 0.75rem;
+    font-size: 1.1rem;
+}
+
+/* Equation/formula box for Andy Grove's equations */
+.equation-box {
+    background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);
+    border: 2px solid #f59e0b;
+    border-radius: 12px;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+    text-align: center;
+}
+
+.equation-box h4 {
+    color: #b45309;
+    margin-bottom: 1rem;
+}
+
+.equation {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #92400e;
+    font-family: monospace;
+    padding: 1rem;
+    background: white;
+    border-radius: 8px;
+    margin: 0.5rem 0;
+}
+
+/* Process/diagram box */
+.process-box {
+    background: #f8fafc;
+    border: 2px solid #e2e8f0;
+    border-radius: 12px;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+}
+
+.process-box h4 {
+    color: #334155;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.process-steps {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+.process-step {
+    background: var(--accent-gradient);
+    color: white;
+    padding: 0.75rem 1.25rem;
+    border-radius: 8px;
+    font-weight: 500;
+}
+
+.process-arrow {
+    color: #64748b;
+    font-size: 1.5rem;
+}
+
+/* Example box for Intel examples */
+.example-box {
+    background: linear-gradient(135deg, #ede9fe 0%, #ddd6fe 100%);
+    border-left: 4px solid #7c3aed;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+    border-radius: 0 12px 12px 0;
+}
+
+.example-box h4 {
+    color: #5b21b6;
+    margin-bottom: 0.75rem;
+    font-size: 1.1rem;
+}
+
+/* Concept box */
+.concept-box {
+    background: linear-gradient(135deg, #dbeafe 0%, #bfdbfe 100%);
+    border-left: 4px solid #2563eb;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+    border-radius: 0 12px 12px 0;
+}
+
+.concept-box h4 {
+    color: #1d4ed8;
+    margin-bottom: 0.75rem;
+    font-size: 1.1rem;
+}
+
+/* Meeting types grid */
+.meeting-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    margin: 1.5rem 0;
+}
+
+.meeting-type {
+    background: white;
+    border: 2px solid #e2e8f0;
+    border-radius: 12px;
+    padding: 1.25rem;
+    text-align: center;
+}
+
+.meeting-type h5 {
+    color: #0d9488;
+    margin-bottom: 0.5rem;
+}
+
+.meeting-type p {
+    font-size: 0.9rem;
+    color: #64748b;
+    margin: 0;
+}
+
+/* Indicator box for metrics */
+.indicator-box {
+    background: linear-gradient(135deg, #fef2f2 0%, #fee2e2 100%);
+    border-left: 4px solid #dc2626;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+    border-radius: 0 12px 12px 0;
+}
+
+.indicator-box h4 {
+    color: #dc2626;
+    margin-bottom: 0.75rem;
+    font-size: 1.1rem;
+}
+
+/* Leverage box */
+.leverage-box {
+    background: linear-gradient(135deg, #ecfdf5 0%, #d1fae5 100%);
+    border: 2px solid #10b981;
+    border-radius: 12px;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+}
+
+.leverage-box h4 {
+    color: #059669;
+    margin-bottom: 0.75rem;
+}
+
+/* Quote box styling */
+.quote-box {
+    background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
+    border-left: 4px solid #0d9488;
+    padding: 1.5rem 2rem;
+    margin: 1.5rem 0;
+    font-style: italic;
+    font-size: 1.1rem;
+    color: #334155;
+    border-radius: 0 12px 12px 0;
+}
+
+.quote-box .attribution {
+    font-style: normal;
+    font-size: 0.9rem;
+    color: #64748b;
+    margin-top: 0.75rem;
+    text-align: right;
+}
+
+/* Warning box */
+.warning-box {
+    background: linear-gradient(135deg, #fef2f2 0%, #fee2e2 100%);
+    border-left: 4px solid #dc2626;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+    border-radius: 0 12px 12px 0;
+}
+
+.warning-box h4 {
+    color: #dc2626;
+    margin-bottom: 0.75rem;
+    font-size: 1.1rem;
+}
+
+/* Comparison box */
+.comparison-box {
+    background: #f8fafc;
+    border: 2px solid #e2e8f0;
+    border-radius: 12px;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+}
+
+.comparison-box h4 {
+    color: #334155;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.comparison-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+.comparison-column {
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+.comparison-column.low {
+    background: #fee2e2;
+    border: 1px solid #fecaca;
+}
+
+.comparison-column.high {
+    background: #dcfce7;
+    border: 1px solid #bbf7d0;
+}
+
+.comparison-column h5 {
+    text-align: center;
+    margin-bottom: 0.75rem;
+    font-size: 1rem;
+}
+
+.comparison-column.low h5 {
+    color: #dc2626;
+}
+
+.comparison-column.high h5 {
+    color: #16a34a;
+}
