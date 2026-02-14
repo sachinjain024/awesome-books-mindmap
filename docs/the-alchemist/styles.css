@@ -1,0 +1,66 @@
+/* The Alchemist - Book-Specific Styles */
+/* Warm gold/amber theme for adventure and destiny */
+
+:root {
+    --accent-color: #d97706;
+    --accent-color-dark: #b45309;
+    --accent-gradient: linear-gradient(135deg, #d97706 0%, #f59e0b 100%);
+    --section-title-bg: #92400e;
+    --key-box-color: #b45309;
+    --key-box-bg: #fffbeb;
+    --verse-bg: #fef3c7;
+    --intro-bg: #fffbeb;
+}
+
+.quote-box {
+    background: #fffbeb;
+    border-left: 4px solid var(--accent-color);
+    padding: 20px 25px;
+    margin: 20px 0;
+    border-radius: 8px;
+    font-style: italic;
+    color: var(--text-dark);
+    line-height: 1.8;
+}
+
+.quote-box .attribution {
+    margin-top: 10px;
+    font-style: normal;
+    font-weight: 600;
+    color: var(--accent-color-dark);
+    font-size: 0.9em;
+}
+
+.insight-box {
+    background: linear-gradient(135deg, #fffbeb 0%, #fef3c7 100%);
+    border-left: 4px solid var(--accent-color);
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+}
+
+.insight-box h4 {
+    color: var(--accent-color);
+    margin-bottom: 10px;
+    font-size: 1.1em;
+}
+
+.metaphor-box {
+    background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);
+    border-radius: 12px;
+    padding: 20px;
+    margin: 20px 0;
+    border: 2px solid #f59e0b;
+}
+
+.metaphor-box h4 {
+    color: #b45309;
+    margin-bottom: 10px;
+}
+
+.concept-count {
+    color: var(--accent-color);
+    font-size: 0.85em;
+    margin-top: 10px;
+    font-weight: 600;
+}

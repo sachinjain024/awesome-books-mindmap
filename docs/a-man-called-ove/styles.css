@@ -1,0 +1,38 @@
+/* A Man Called Ove - Book-Specific Styles */
+/* Warm red/gray theme */
+
+:root {
+    --accent-color: #b91c1c;
+    --accent-color-dark: #991b1b;
+    --accent-gradient: linear-gradient(135deg, #b91c1c 0%, #dc2626 100%);
+    --section-title-bg: #7f1d1d;
+    --key-box-color: #991b1b;
+    --key-box-bg: #fef2f2;
+    --verse-bg: #fee2e2;
+    --intro-bg: #fef2f2;
+}
+
+.quote-box {
+    background: #fef2f2;
+    border-left: 4px solid var(--accent-color);
+    padding: 20px 25px;
+    margin: 20px 0;
+    border-radius: 8px;
+    font-style: italic;
+    color: var(--text-dark);
+    line-height: 1.8;
+}
+
+.quote-box .attribution { margin-top: 10px; font-style: normal; font-weight: 600; color: var(--accent-color-dark); font-size: 0.9em; }
+
+.insight-box {
+    background: linear-gradient(135deg, #fef2f2 0%, #fee2e2 100%);
+    border-left: 4px solid var(--accent-color);
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+}
+
+.insight-box h4 { color: var(--accent-color); margin-bottom: 10px; font-size: 1.1em; }
+
+.concept-count { color: var(--accent-color); font-size: 0.85em; margin-top: 10px; font-weight: 600; }

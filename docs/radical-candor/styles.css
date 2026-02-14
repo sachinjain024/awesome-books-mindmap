@@ -1,0 +1,235 @@
+/* Radical Candor - Book-Specific Styles */
+
+:root {
+    --accent-color: #db2777;
+    --accent-color-dark: #be185d;
+    --accent-gradient: linear-gradient(135deg, #db2777 0%, #ec4899 100%);
+    --section-title-bg: #db2777;
+    --key-box-color: #db2777;
+    --key-box-bg: #fce7f3;
+    --verse-bg: #fdf2f8;
+    --intro-bg: #fdf2f8;
+}
+
+/* Central node with book theme */
+.central-node {
+    background: var(--accent-gradient);
+}
+
+/* The 2x2 framework grid */
+.framework-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 1rem;
+    margin: 1.5rem 0;
+    min-height: 300px;
+}
+
+.framework-quadrant {
+    padding: 1.5rem;
+    border-radius: 12px;
+    border: 2px solid;
+    position: relative;
+}
+
+.framework-quadrant h4 {
+    margin-bottom: 0.75rem;
+    font-size: 1.1rem;
+}
+
+.framework-quadrant.radical-candor {
+    background: linear-gradient(135deg, #d1fae5 0%, #a7f3d0 100%);
+    border-color: #059669;
+}
+
+.framework-quadrant.radical-candor h4 {
+    color: #047857;
+}
+
+.framework-quadrant.obnoxious-aggression {
+    background: linear-gradient(135deg, #fee2e2 0%, #fecaca 100%);
+    border-color: #dc2626;
+}
+
+.framework-quadrant.obnoxious-aggression h4 {
+    color: #dc2626;
+}
+
+.framework-quadrant.ruinous-empathy {
+    background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);
+    border-color: #f59e0b;
+}
+
+.framework-quadrant.ruinous-empathy h4 {
+    color: #b45309;
+}
+
+.framework-quadrant.manipulative-insincerity {
+    background: linear-gradient(135deg, #e0e7ff 0%, #c7d2fe 100%);
+    border-color: #6366f1;
+}
+
+.framework-quadrant.manipulative-insincerity h4 {
+    color: #4338ca;
+}
+
+/* Principle box */
+.principle-box {
+    background: linear-gradient(135deg, #fce7f3 0%, #fbcfe8 100%);
+    border-left: 4px solid #db2777;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+    border-radius: 0 12px 12px 0;
+}
+
+.principle-box h4 {
+    color: #be185d;
+    margin-bottom: 0.75rem;
+    font-size: 1.1rem;
+}
+
+/* Concept box */
+.concept-box {
+    background: linear-gradient(135deg, #dbeafe 0%, #bfdbfe 100%);
+    border-left: 4px solid #2563eb;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+    border-radius: 0 12px 12px 0;
+}
+
+.concept-box h4 {
+    color: #1d4ed8;
+    margin-bottom: 0.75rem;
+    font-size: 1.1rem;
+}
+
+/* Story/example box */
+.story-box {
+    background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);
+    border-left: 4px solid #f59e0b;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+    border-radius: 0 12px 12px 0;
+}
+
+.story-box h4 {
+    color: #b45309;
+    margin-bottom: 0.75rem;
+    font-size: 1.1rem;
+}
+
+/* Care personally box */
+.care-box {
+    background: linear-gradient(135deg, #d1fae5 0%, #a7f3d0 100%);
+    border-left: 4px solid #059669;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+    border-radius: 0 12px 12px 0;
+}
+
+.care-box h4 {
+    color: #047857;
+    margin-bottom: 0.75rem;
+    font-size: 1.1rem;
+}
+
+/* Challenge directly box */
+.challenge-box {
+    background: linear-gradient(135deg, #ffedd5 0%, #fed7aa 100%);
+    border-left: 4px solid #ea580c;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+    border-radius: 0 12px 12px 0;
+}
+
+.challenge-box h4 {
+    color: #c2410c;
+    margin-bottom: 0.75rem;
+    font-size: 1.1rem;
+}
+
+/* Quote box styling */
+.quote-box {
+    background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
+    border-left: 4px solid #db2777;
+    padding: 1.5rem 2rem;
+    margin: 1.5rem 0;
+    font-style: italic;
+    font-size: 1.1rem;
+    color: #334155;
+    border-radius: 0 12px 12px 0;
+}
+
+.quote-box .attribution {
+    font-style: normal;
+    font-size: 0.9rem;
+    color: #64748b;
+    margin-top: 0.75rem;
+    text-align: right;
+}
+
+/* Warning box */
+.warning-box {
+    background: linear-gradient(135deg, #fef2f2 0%, #fee2e2 100%);
+    border-left: 4px solid #dc2626;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+    border-radius: 0 12px 12px 0;
+}
+
+.warning-box h4 {
+    color: #dc2626;
+    margin-bottom: 0.75rem;
+    font-size: 1.1rem;
+}
+
+/* Comparison box */
+.comparison-box {
+    background: #f8fafc;
+    border: 2px solid #e2e8f0;
+    border-radius: 12px;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+}
+
+.comparison-box h4 {
+    color: #334155;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.comparison-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+.comparison-column {
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+.comparison-column.bad {
+    background: #fee2e2;
+    border: 1px solid #fecaca;
+}
+
+.comparison-column.good {
+    background: #d1fae5;
+    border: 1px solid #a7f3d0;
+}
+
+.comparison-column h5 {
+    text-align: center;
+    margin-bottom: 0.75rem;
+    font-size: 1rem;
+}
+
+.comparison-column.bad h5 {
+    color: #dc2626;
+}
+
+.comparison-column.good h5 {
+    color: #059669;
+}

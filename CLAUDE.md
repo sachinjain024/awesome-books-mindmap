@@ -4,31 +4,58 @@
 
 Booksmap is a static HTML website collection presenting various books in an accessible, mind-map style format. Each book gets its own directory with a consistent structure and shared styling.
 
+## Build Workflow
+
+**Content Creation (LLM):**
+- LLMs generate book content as **Markdown files** (.md) with YAML frontmatter
+- Source files live in `src/books/[book-slug]/`
+- Book overview: `src/books/[book-slug]/book.md`
+- Chapters: `src/books/[book-slug]/chapters/chapter-XX.md`
+
+**Build Process (Eleventy):**
+- Run `npm run build` to process markdown and generate HTML
+- Nunjucks templates (`book-index.njk`, `chapter.njk`) provide consistent HTML structure
+- Output files generated in `docs/[book-slug]/` (for GitHub Pages deployment)
+
+**Result:**
+- Clean, maintainable markdown content
+- Consistent HTML output across all books
+- Easy updates without touching HTML boilerplate
+
 ## Project Structure
 
 ```
 booksmap/
 ├── CLAUDE.md                        # This file - shared guidelines
+├── .eleventy.js                     # Eleventy configuration
+├── package.json                     # NPM dependencies and build scripts
 ├── index.html                       # Main homepage with all books
 ├── shared/
 │   ├── styles.css                   # Common CSS for all books
 │   └── highlight.js                 # Text highlighting feature
-├── bhagavad-gita/
-│   ├── index.html                   # Main landing page
-│   ├── styles.css                   # Book-specific overrides (optional)
-│   └── chapters/
-│       └── chapter-XX.html          # Individual chapter pages
-├── the-untethered-soul/
-│   ├── index.html
-│   ├── styles.css
-│   └── chapters/
-│       └── chapter-XX.html
-└── [future-books]/
+├── src/                             # Source files (Markdown)
+│   ├── _includes/                   # Nunjucks templates
+│   │   ├── book-index.njk          # Book overview page template
+│   │   └── chapter.njk             # Chapter page template
+│   └── books/
+│       └── [book-slug]/
+│           ├── book.md              # Book overview (with frontmatter)
+│           └── chapters/
+│               └── chapter-XX.md    # Individual chapter markdown files
+├── [book-slug]/
+│   └── styles.css                   # Book-specific CSS overrides
+└── docs/                            # Generated HTML output (from npm run build)
+    └── [book-slug]/                 # Published to GitHub Pages
+        ├── index.html               # Generated book overview
+        └── chapters/
+            └── chapter-XX.html      # Generated chapter pages
 ```
 
 ---
 
 ## How to Generate a New Mind Map
+
+**IMPORTANT:** When creating a mind map, you will generate **Markdown files**, NOT HTML files. The HTML is built from markdown using Eleventy.
 
 When asked to create a mind map for a book, follow these steps:
 
@@ -43,10 +70,11 @@ Before creating files, understand the book's organization:
 ### Step 2: Create Directory Structure
 
 ```bash
-mkdir -p booksmap/[book-name]/chapters
+mkdir -p src/books/[book-slug]/chapters
+mkdir -p [book-slug]
 ```
 
-Use kebab-case for directory names (e.g., `the-untethered-soul`, `psychology-of-money`).
+Use kebab-case for directory names (e.g., `the-stoic-mind`, `psychology-of-money`).
 
 ### Step 3: Choose a Color Theme
 
@@ -61,7 +89,7 @@ Select an accent color that fits the book's theme:
 
 ### Step 4: Create Book-Specific Styles (styles.css)
 
-Create `[book-name]/styles.css` with CSS custom properties:
+Create `[book-slug]/styles.css` with CSS custom properties:
 
 ```css
 /* [Book Name] - Book-Specific Styles */
@@ -104,160 +132,190 @@ Depending on the book type, add relevant classes:
 .quick-reference { }  /* Summary cards */
 ```
 
-### Step 5: Create the Main Index Page (index.html)
+#### Using CSS Classes in Markdown
 
-The index page should include:
+In your chapter markdown files, you can add CSS classes to sections using the `{.class-name}` syntax:
 
-1. **Header Section**
-   - Book title (h1)
-   - Subtitle with author
-   - Introduction box explaining the mind map
+```markdown
+### The Core Principle {.principle-box}
 
-2. **Central Node**
-   - Book's main title/concept
-   - Optional tagline or core message
+This section will be styled with the .principle-box class
 
-3. **Sections for Each Part/Theme**
-   - Section title bar
-   - Chapters grid with chapter cards
-   - Each card: chapter number, name, description, stats
+### Daily Practice: Morning Routine {.practice-exercise}
 
-4. **Key Teachings Summary**
-   - Bullet points of core lessons
+This section will be styled as a practice exercise
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>[Book Title] Mind Map</title>
-    <link rel="stylesheet" href="../shared/styles.css">
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <div class="container">
-        <h1>[Book Title]</h1>
-        <div class="subtitle">[Subtitle] by [Author]</div>
+### Reflection {.reflection}
 
-        <div class="intro">
-            <h2>About This Mind Map</h2>
-            <p>[Description of what the book covers and how this mind map presents it]</p>
-        </div>
-
-        <div class="central-node">
-            [BOOK TITLE]<br>
-            <span style="font-size: 0.6em; font-weight: normal;">[Core message or tagline]</span>
-        </div>
-
-        <div class="mindmap">
-            <div class="section">
-                <div class="section-title">PART/SECTION NAME</div>
-                <div class="chapters-grid">
-                    <a href="chapters/chapter-01.html" class="chapter-card">
-                        <span class="chapter-number">Chapter 1</span>
-                        <div class="chapter-name">[Chapter Title]</div>
-                        <div class="chapter-description">[2-3 sentence description]</div>
-                        <div class="concept-count">[X] Key Concepts</div>
-                    </a>
-                    <!-- More chapter cards -->
-                </div>
-            </div>
-            <!-- More sections -->
-        </div>
-
-        <div class="key-teachings">
-            <h3>Core Teachings of [Book Title]</h3>
-            <ul>
-                <li><strong>[Concept]</strong> — [Brief explanation]</li>
-                <!-- More key teachings -->
-            </ul>
-        </div>
-    </div>
-    <script src="../shared/highlight.js" defer></script>
-</body>
-</html>
+This section will be styled as a reflection prompt
 ```
 
-### Step 6: Create Chapter Pages
+Common classes to use in chapter content:
+- `{.principle-box}` - Highlight key principles or core teachings
+- `{.practice-exercise}` - Step-by-step practices or exercises
+- `{.reflection}` - Reflection questions or contemplation prompts
+- `{.insight-box}` - Key insights or "aha" moments
+- `{.metaphor-box}` - Important metaphors or analogies
+- `{.quote-box}` - Block quotes (or use standard markdown `>` quotes)
 
-For each chapter, create `chapters/chapter-XX.html`:
+### Step 5: Create the Book Overview (book.md)
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chapter X: [Title] - [Book Name]</title>
-    <link rel="stylesheet" href="../../shared/styles.css">
-    <link rel="stylesheet" href="../styles.css">
-</head>
-<body>
-    <div class="container container-narrow">
-        <a href="../index.html" class="back-button">← Back to Mind Map</a>
+Create `src/books/[book-slug]/book.md` with the following frontmatter and content:
 
-        <h1 class="chapter-title">Chapter X: [Title]</h1>
-        <div class="chapter-meta">[Part Name or Subtitle]</div>
+```markdown
+---
+title: [Book Title]
+subtitle: [Subtitle or Tagline]
+authors: [Author Name(s)]
+slug: [book-slug]
 
-        <div class="intro">
-            <p>[Chapter introduction - what this chapter covers]</p>
-        </div>
+epigraph:
+  quote: "[Opening quote that captures the book's essence]"
+  author: [Quote Author]
 
-        <div class="section">
-            <h2>[Section Title]</h2>
-            <p>[Explanatory content - make it accessible and engaging]</p>
+centralNode:
+  title: [BOOK TITLE IN CAPS]
+  subtitle: [Core message or tagline]
 
-            <div class="quote-box">
-                "[Notable quote from the book]"
-                <div class="attribution">— [Author]</div>
-            </div>
-        </div>
+sections:
+  - title: [SECTION/PART NAME]
+    chapters:
+      - number: 1
+        title: [Chapter Title]
+        subtitle: [Optional: Chapter subtitle if present]
+        description: [2-3 sentence description of what the chapter covers]
 
-        <div class="section">
-            <h2>[Another Section]</h2>
-            <p>[More content]</p>
+      - number: 2
+        title: [Chapter Title]
+        description: [2-3 sentence description]
 
-            <div class="insight-box">
-                <h4>Key Insight</h4>
-                <p>[Important takeaway]</p>
-            </div>
+      # Add all chapters in this section
 
-            <div class="metaphor-box">
-                <h4>[Metaphor Name]</h4>
-                <p>[Explanation of the metaphor]</p>
-            </div>
-        </div>
+  - title: [NEXT SECTION NAME]
+    chapters:
+      - number: X
+        title: [Chapter Title]
+        description: [Description]
 
-        <div class="practice-box">
-            <h4>Practice: [Practice Name]</h4>
-            <ol>
-                <li>[Step 1]</li>
-                <li>[Step 2]</li>
-                <!-- More steps -->
-            </ol>
-        </div>
+      # Add more chapters
 
-        <div class="key-points">
-            <h3>Key Takeaways</h3>
-            <ul>
-                <li>[Takeaway 1]</li>
-                <li>[Takeaway 2]</li>
-                <!-- More takeaways -->
-            </ul>
-        </div>
+keyTeachings:
+  - principle: "[Principle Name/Title]:"
+    description: [Brief explanation of this core teaching]
 
-        <div class="chapter-nav">
-            <a href="chapter-XX.html">← Previous: [Previous Chapter]</a>
-            <a href="chapter-XX.html">Next: [Next Chapter] →</a>
-        </div>
-    </div>
-    <script src="../../shared/highlight.js" defer></script>
-</body>
-</html>
+  - principle: "[Another Principle]:"
+    description: [Brief explanation]
+
+  # Add 4-6 key teachings
+
+layout: book-index
+permalink: [book-slug]/index.html
+---
+
+## About This Book
+
+[Write 2-3 paragraphs explaining:
+- What the book is about
+- Who it's for
+- What readers will learn
+- How this mind map helps]
 ```
 
-### Step 7: Update the Main Homepage (index.html)
+**Important Notes:**
+- The frontmatter (between `---` markers) contains all structured data
+- The content after frontmatter is the introduction text
+- Chapter numbers can be non-sequential (see example with chapters 1, 2, 3, 4, 5, 8...)
+- Group chapters by thematic sections, not necessarily by sequential order
+
+### Step 6: Create Chapter Files (Markdown)
+
+For each chapter, create `src/books/[book-slug]/chapters/chapter-XX.md`:
+
+```markdown
+---
+number: [X]
+title: [Chapter Title]
+meta: [Optional: Brief subtitle or context]
+part: [Section/Part name this chapter belongs to]
+layout: chapter
+book: [book-slug]
+permalink: [book-slug]/chapters/chapter-XX.html
+---
+
+> "[Opening quote from the book that relates to this chapter]"
+> — [Author]
+
+## [First Section Title]
+
+[Engaging introduction paragraph explaining what this chapter covers. Make it accessible and clear.]
+
+[Continue with explanatory content. Break complex ideas into digestible sections. Use practical examples where relevant.]
+
+### [Subsection Title] {.principle-box}
+
+[Use CSS classes like .principle-box, .practice-exercise, or .reflection to add semantic styling to sections]
+
+## [Second Section Title]
+
+[More content explaining key concepts]
+
+- **[Key Point]:** [Explanation]
+- **[Another Point]:** [Explanation]
+
+> "[Another relevant quote]"
+> — [Author]
+
+## [Third Section Title]
+
+[Continue with more content sections]
+
+### Daily Practice: [Practice Name] {.practice-exercise}
+
+- [Step 1 of the practice]
+- [Step 2]
+- [Step 3]
+
+### Reflection {.reflection}
+
+[Thought-provoking question or reflection prompt for the reader]
+
+## Key Takeaways
+
+- [Main takeaway 1]
+- [Main takeaway 2]
+- [Main takeaway 3]
+- [Main takeaway 4]
+- [Main takeaway 5-6]
+```
+
+**Important Chapter Writing Guidelines:**
+- Use zero-padded chapter numbers in filenames (chapter-01.md, chapter-02.md, etc.)
+- Include 1-2 notable quotes from the book
+- Use CSS class annotations like `{.principle-box}` to add semantic styling
+- Break content into 3-5 main sections with `##` headings
+- End with 4-6 key takeaways
+- Navigation is handled automatically by the template based on chapter number
+
+### Step 7: Build the HTML Output
+
+After creating all markdown files, run the Eleventy build command:
+
+```bash
+npm run build
+```
+
+This will:
+- Process all markdown files in `src/books/[book-slug]/`
+- Apply the Nunjucks templates (`book-index.njk` and `chapter.njk`)
+- Generate HTML files in `docs/[book-slug]/`
+- Copy over shared assets and book-specific CSS
+
+For development with live reload:
+```bash
+npm run dev
+```
+
+### Step 8: Update the Main Homepage (index.html)
 
 Add the new book to the root `index.html`:
 
@@ -358,8 +416,12 @@ All books share these fundamental classes from `shared/styles.css`:
 
 ## Technical Notes
 
-- Pure HTML/CSS with vanilla JavaScript for highlighting
-- No build tools or frameworks required
+- **Static Site Generator:** Eleventy (11ty) v3.1.2
+- **Templating:** Nunjucks (.njk templates)
+- **Content Format:** Markdown (.md) with YAML frontmatter
+- **Styling:** Pure CSS with vanilla JavaScript for highlighting
+- **Build Command:** `npm run build` (outputs to `docs/` for GitHub Pages)
+- **Dev Server:** `npm run dev` (live reload on changes)
 - Works offline once downloaded
 - Print-friendly styling
 - Accessible color contrast ratios
@@ -385,12 +447,18 @@ The shared `highlight.js` provides:
 
 ## Checklist for New Mind Map
 
-- [ ] Create directory: `[book-name]/`
-- [ ] Create `[book-name]/chapters/` directory
-- [ ] Create `[book-name]/styles.css` with theme colors
-- [ ] Create `[book-name]/index.html` with all chapter cards
-- [ ] Create all chapter files in `[book-name]/chapters/`
-- [ ] Verify all chapter navigation links work
+- [ ] Research book structure (chapters, sections, key teachings)
+- [ ] Choose appropriate color theme for the book
+- [ ] Create source directories: `src/books/[book-slug]/` and `src/books/[book-slug]/chapters/`
+- [ ] Create root directory for styles: `[book-slug]/`
+- [ ] Create `[book-slug]/styles.css` with theme colors and custom CSS variables
+- [ ] Create `src/books/[book-slug]/book.md` with complete frontmatter and introduction
+- [ ] Create all chapter markdown files in `src/books/[book-slug]/chapters/chapter-XX.md`
+- [ ] Verify all frontmatter is correct (permalinks, chapter numbers, book slugs)
+- [ ] Run `npm run build` to generate HTML output
+- [ ] Verify generated files in `docs/[book-slug]/`
+- [ ] Test chapter navigation (previous/next links work correctly)
 - [ ] Add book to root `index.html` homepage
 - [ ] Add book cover CSS class to root `index.html`
 - [ ] Test filtering/search on homepage includes new book
+- [ ] Run `npm run dev` to preview with live reload

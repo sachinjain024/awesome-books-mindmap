@@ -1,0 +1,297 @@
+/* Nexus by Yuval Noah Harari - Book-specific styles */
+/* Theme: Blue/Cyan for information and technology */
+
+:root {
+    --accent-color: #3b82f6;
+    --accent-color-dark: #1d4ed8;
+    --accent-gradient: linear-gradient(135deg, #3b82f6 0%, #06b6d4 100%);
+    --section-title-bg: #1e3a5f;
+    --key-box-color: #0891b2;
+    --key-box-bg: #f0f9ff;
+    --verse-bg: #eff6ff;
+    --intro-bg: #f0f9ff;
+}
+
+/* Central node with tech gradient */
+.central-node {
+    background: linear-gradient(135deg, #3b82f6 0%, #06b6d4 100%);
+}
+
+/* Section title backgrounds */
+.section-title {
+    background: var(--section-title-bg);
+}
+
+/* Chapter card hover effect */
+.chapter-card:hover {
+    border-color: var(--accent-color);
+    box-shadow: 0 8px 25px rgba(59, 130, 246, 0.2);
+}
+
+/* Authors styling */
+.authors {
+    font-size: 1.3em;
+    color: #64748b;
+    margin-bottom: 10px;
+}
+
+/* Book subtitle */
+.book-subtitle {
+    font-size: 1.1em;
+    color: #475569;
+    font-style: italic;
+    margin-bottom: 30px;
+}
+
+/* Key concept boxes - for Harari's main ideas */
+.concept-box {
+    background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);
+    border-left: 4px solid var(--accent-color);
+    padding: 20px 25px;
+    margin: 25px 0;
+    border-radius: 0 8px 8px 0;
+}
+
+.concept-box h3 {
+    color: var(--accent-color-dark);
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+/* Information network visualization box */
+.network-box {
+    background: #1e293b;
+    color: #e2e8f0;
+    padding: 25px;
+    border-radius: 12px;
+    margin: 25px 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.network-box::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background: linear-gradient(90deg, #3b82f6, #06b6d4, #3b82f6);
+}
+
+.network-box h4 {
+    color: #06b6d4;
+    margin-top: 0;
+}
+
+/* Historical example box */
+.historical-example {
+    background: #fefce8;
+    border: 1px solid #fde047;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 20px 0;
+}
+
+.historical-example h4 {
+    color: #a16207;
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.historical-example h4::before {
+    content: '📜';
+}
+
+/* AI/Technology insight box */
+.ai-insight {
+    background: linear-gradient(135deg, #fdf4ff 0%, #f3e8ff 100%);
+    border-left: 4px solid #a855f7;
+    padding: 20px 25px;
+    margin: 25px 0;
+    border-radius: 0 8px 8px 0;
+}
+
+.ai-insight h4 {
+    color: #7c3aed;
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.ai-insight h4::before {
+    content: '🤖';
+}
+
+/* Warning/concern box */
+.warning-box {
+    background: #fef2f2;
+    border-left: 4px solid #ef4444;
+    padding: 20px 25px;
+    margin: 25px 0;
+    border-radius: 0 8px 8px 0;
+}
+
+.warning-box h4 {
+    color: #dc2626;
+    margin-top: 0;
+}
+
+/* Quote from the book */
+.harari-quote {
+    background: #f8fafc;
+    border-left: 4px solid #94a3b8;
+    padding: 20px 25px;
+    margin: 25px 0;
+    font-style: italic;
+    color: #475569;
+}
+
+.harari-quote cite {
+    display: block;
+    margin-top: 10px;
+    font-style: normal;
+    color: #64748b;
+    font-size: 0.9em;
+}
+
+/* Key argument styling */
+.key-argument {
+    background: var(--key-box-bg);
+    border: 2px solid var(--accent-color);
+    padding: 20px;
+    border-radius: 12px;
+    margin: 25px 0;
+}
+
+.key-argument h4 {
+    color: var(--accent-color-dark);
+    margin-top: 0;
+    border-bottom: 1px solid #bfdbfe;
+    padding-bottom: 10px;
+}
+
+/* Chapter theme badge */
+.chapter-theme {
+    display: inline-block;
+    background: linear-gradient(135deg, #3b82f6 0%, #06b6d4 100%);
+    color: white;
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 0.85em;
+    margin-top: 8px;
+}
+
+/* Part labels in chapter cards */
+.part-label {
+    font-size: 0.75em;
+    color: #64748b;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 4px;
+}
+
+/* Philosophy box - reusing from parenting book pattern */
+.philosophy {
+    background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);
+    border-radius: 12px;
+    padding: 30px;
+    margin: 30px 0;
+    text-align: center;
+}
+
+.philosophy blockquote {
+    font-size: 1.2em;
+    color: #1e40af;
+    font-style: italic;
+    margin: 0;
+    line-height: 1.6;
+}
+
+.philosophy cite {
+    display: block;
+    margin-top: 15px;
+    color: #64748b;
+    font-style: normal;
+}
+
+/* Timeline styling for historical progression */
+.timeline {
+    position: relative;
+    padding-left: 30px;
+    margin: 25px 0;
+}
+
+.timeline::before {
+    content: '';
+    position: absolute;
+    left: 8px;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background: linear-gradient(to bottom, #3b82f6, #06b6d4);
+}
+
+.timeline-item {
+    position: relative;
+    padding: 15px 0;
+}
+
+.timeline-item::before {
+    content: '';
+    position: absolute;
+    left: -26px;
+    top: 20px;
+    width: 12px;
+    height: 12px;
+    background: #3b82f6;
+    border-radius: 50%;
+    border: 2px solid white;
+    box-shadow: 0 0 0 2px #3b82f6;
+}
+
+.timeline-item h4 {
+    color: var(--accent-color-dark);
+    margin: 0 0 8px 0;
+}
+
+/* Intro section styling */
+.intro {
+    background: var(--intro-bg);
+    border-left: 4px solid var(--accent-color);
+}
+
+/* Quick wins styling */
+.quick-wins {
+    background: linear-gradient(135deg, #ecfeff 0%, #f0f9ff 100%);
+    border-radius: 12px;
+    padding: 25px;
+    margin: 30px 0;
+}
+
+.quick-wins h3 {
+    color: var(--accent-color-dark);
+    margin-top: 0;
+}
+
+.quick-wins ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.quick-wins li {
+    padding: 8px 0;
+    padding-left: 28px;
+    position: relative;
+}
+
+.quick-wins li::before {
+    content: '→';
+    position: absolute;
+    left: 0;
+    color: var(--accent-color);
+    font-weight: bold;
+}

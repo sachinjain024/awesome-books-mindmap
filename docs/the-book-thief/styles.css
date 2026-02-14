@@ -1,0 +1,321 @@
+/* The Book Thief by Markus Zusak - Book-specific styles */
+/* Theme: Deep slate and muted burgundy - reflecting Death's narration and wartime Germany */
+
+:root {
+    --accent-color: #7c3aed;
+    --accent-color-dark: #6d28d9;
+    --accent-gradient: linear-gradient(135deg, #7c3aed 0%, #a78bfa 100%);
+    --section-title-bg: #1e1b4b;
+    --key-box-color: #8b5cf6;
+    --key-box-bg: #f5f3ff;
+    --verse-bg: #faf5ff;
+    --intro-bg: #f5f3ff;
+}
+
+/* Central node with death/book gradient */
+.central-node {
+    background: linear-gradient(135deg, #1e1b4b 0%, #7c3aed 100%);
+}
+
+/* Section title backgrounds */
+.section-title {
+    background: var(--section-title-bg);
+}
+
+/* Chapter card hover effect */
+.chapter-card:hover {
+    border-color: var(--accent-color);
+    box-shadow: 0 8px 25px rgba(124, 58, 237, 0.2);
+}
+
+/* Authors styling */
+.authors {
+    font-size: 1.3em;
+    color: #64748b;
+    margin-bottom: 10px;
+}
+
+/* Book subtitle */
+.book-subtitle {
+    font-size: 1.1em;
+    color: #475569;
+    font-style: italic;
+    margin-bottom: 30px;
+}
+
+/* Death's narration box - for Death's observations */
+.death-narration {
+    background: linear-gradient(135deg, #1e1b4b 0%, #312e81 100%);
+    color: #e2e8f0;
+    padding: 25px;
+    border-radius: 12px;
+    margin: 25px 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.death-narration::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background: linear-gradient(90deg, #7c3aed, #a78bfa, #7c3aed);
+}
+
+.death-narration h4 {
+    color: #c4b5fd;
+    margin-top: 0;
+    font-style: italic;
+}
+
+.death-narration p {
+    color: #e2e8f0;
+    line-height: 1.8;
+}
+
+/* Book stolen box - for each book Liesel steals */
+.stolen-book {
+    background: linear-gradient(135deg, #faf5ff 0%, #ede9fe 100%);
+    border-left: 4px solid var(--accent-color);
+    padding: 20px 25px;
+    margin: 25px 0;
+    border-radius: 0 8px 8px 0;
+}
+
+.stolen-book h4 {
+    color: var(--accent-color-dark);
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.stolen-book h4::before {
+    content: '\1F4D6';
+}
+
+/* Character box */
+.character-box {
+    background: #f8fafc;
+    border: 2px solid #e2e8f0;
+    border-radius: 12px;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.character-box h4 {
+    color: var(--accent-color);
+    margin-top: 0;
+    border-bottom: 2px solid #e2e8f0;
+    padding-bottom: 10px;
+}
+
+.character-box .role {
+    font-size: 0.85em;
+    color: #64748b;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Historical context box */
+.historical-context {
+    background: #fef3c7;
+    border-left: 4px solid #f59e0b;
+    padding: 20px 25px;
+    margin: 25px 0;
+    border-radius: 0 8px 8px 0;
+}
+
+.historical-context h4 {
+    color: #b45309;
+    margin-top: 0;
+}
+
+/* Quote from the book */
+.book-quote {
+    background: linear-gradient(135deg, #f5f3ff 0%, #ede9fe 100%);
+    border-left: 4px solid #8b5cf6;
+    padding: 20px 25px;
+    margin: 25px 0;
+    font-style: italic;
+    color: #4c1d95;
+}
+
+.book-quote cite {
+    display: block;
+    margin-top: 10px;
+    font-style: normal;
+    color: #64748b;
+    font-size: 0.9em;
+}
+
+/* Theme badge for parts */
+.part-theme {
+    display: inline-block;
+    background: linear-gradient(135deg, #7c3aed 0%, #a78bfa 100%);
+    color: white;
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 0.85em;
+    margin-top: 8px;
+}
+
+/* Part label in chapter cards */
+.part-label {
+    font-size: 0.75em;
+    color: #64748b;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 4px;
+}
+
+/* Narrator intro box */
+.narrator-intro {
+    background: linear-gradient(135deg, #f5f3ff 0%, #ede9fe 100%);
+    border-radius: 12px;
+    padding: 30px;
+    margin: 30px 0;
+    text-align: center;
+}
+
+.narrator-intro blockquote {
+    font-size: 1.2em;
+    color: #4c1d95;
+    font-style: italic;
+    margin: 0;
+    line-height: 1.6;
+}
+
+.narrator-intro cite {
+    display: block;
+    margin-top: 15px;
+    color: #64748b;
+    font-style: normal;
+}
+
+/* Intro section styling */
+.intro {
+    background: var(--intro-bg);
+    border-left: 4px solid var(--accent-color);
+}
+
+/* Key themes styling */
+.key-themes {
+    background: linear-gradient(135deg, #f5f3ff 0%, #ede9fe 100%);
+    border-radius: 12px;
+    padding: 25px;
+    margin: 30px 0;
+}
+
+.key-themes h3 {
+    color: var(--accent-color-dark);
+    margin-top: 0;
+}
+
+.key-themes ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.key-themes li {
+    padding: 8px 0;
+    padding-left: 28px;
+    position: relative;
+}
+
+.key-themes li::before {
+    content: '\2022';
+    position: absolute;
+    left: 0;
+    color: var(--accent-color);
+    font-weight: bold;
+    font-size: 1.5em;
+    line-height: 1;
+}
+
+/* Color palette box */
+.color-description {
+    background: #1e1b4b;
+    color: #e2e8f0;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+.color-description h4 {
+    color: #c4b5fd;
+    margin-top: 0;
+}
+
+.color-item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin: 10px 0;
+}
+
+.color-swatch {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+}
+
+/* Loss/tragedy box */
+.tragedy-box {
+    background: #fef2f2;
+    border-left: 4px solid #ef4444;
+    padding: 20px 25px;
+    margin: 25px 0;
+    border-radius: 0 8px 8px 0;
+}
+
+.tragedy-box h4 {
+    color: #dc2626;
+    margin-top: 0;
+}
+
+/* Hope/resilience box */
+.hope-box {
+    background: #f0fdf4;
+    border-left: 4px solid #22c55e;
+    padding: 20px 25px;
+    margin: 25px 0;
+    border-radius: 0 8px 8px 0;
+}
+
+.hope-box h4 {
+    color: #16a34a;
+    margin-top: 0;
+}
+
+/* Word definition box - for the power of words theme */
+.word-box {
+    background: #f8fafc;
+    border: 2px dashed #94a3b8;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.word-box .word {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: var(--accent-color);
+}
+
+.word-box .definition {
+    color: #475569;
+    font-style: italic;
+    margin-top: 10px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .death-narration {
+        padding: 20px;
+    }
+}

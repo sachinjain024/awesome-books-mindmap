@@ -1,0 +1,228 @@
+/* The Content Creator Handbook - Book-specific theme */
+/* Coral/Orange palette representing creativity, energy, and digital media */
+
+:root {
+    --accent-color: #f97316;
+    --accent-color-dark: #ea580c;
+    --accent-gradient: linear-gradient(135deg, #f97316 0%, #fb923c 100%);
+    --key-box-color: #dc2626;
+    --key-box-bg: #fef2f2;
+    --verse-bg: #fff7ed;
+}
+
+/* Pro tip styling */
+.pro-tip {
+    background: linear-gradient(135deg, #fef3c7 0%, #fef9c3 100%);
+    border-left: 5px solid #f59e0b;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+    border-radius: 0 12px 12px 0;
+}
+
+.pro-tip h4 {
+    color: #b45309;
+    margin-bottom: 0.5rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.pro-tip h4::before {
+    content: "💡";
+}
+
+.pro-tip p {
+    color: #92400e;
+    margin: 0;
+}
+
+/* Creator quote styling */
+.creator-insight {
+    background: var(--verse-bg);
+    border-left: 5px solid var(--accent-color);
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+    border-radius: 0 12px 12px 0;
+    font-style: italic;
+}
+
+.creator-insight .insight-text {
+    font-size: 1.1em;
+    color: var(--text-dark);
+    line-height: 1.6;
+}
+
+.creator-insight .insight-author {
+    margin-top: 0.75rem;
+    font-weight: 600;
+    color: var(--accent-color-dark);
+    font-style: normal;
+}
+
+/* Strategy box */
+.strategy-box {
+    background: linear-gradient(135deg, #fff7ed 0%, #ffedd5 100%);
+    border-radius: 12px;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+    border: 1px solid #fed7aa;
+}
+
+.strategy-box h3 {
+    color: var(--accent-color-dark);
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.strategy-box h3::before {
+    content: "🎯";
+}
+
+/* Metric highlight */
+.metric-box {
+    background: linear-gradient(135deg, #ecfdf5 0%, #d1fae5 100%);
+    border: 1px solid #6ee7b7;
+    border-radius: 12px;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+    text-align: center;
+}
+
+.metric-box .metric-value {
+    font-size: 2.5em;
+    font-weight: 700;
+    color: #059669;
+    display: block;
+}
+
+.metric-box .metric-label {
+    color: #047857;
+    font-size: 0.9em;
+}
+
+/* Tool recommendation */
+.tool-rec {
+    background: #f0f9ff;
+    border: 1px solid #bae6fd;
+    border-radius: 12px;
+    padding: 1.25rem;
+    margin: 1rem 0;
+}
+
+.tool-rec h4 {
+    color: #0369a1;
+    margin-bottom: 0.5rem;
+}
+
+.tool-rec p {
+    color: #0c4a6e;
+    margin: 0;
+    font-size: 0.95em;
+}
+
+/* Warning/Mistake box */
+.common-mistake {
+    background: #fef2f2;
+    border-left: 4px solid #ef4444;
+    padding: 1.25rem;
+    margin: 1.5rem 0;
+    border-radius: 0 12px 12px 0;
+}
+
+.common-mistake h4 {
+    color: #b91c1c;
+    margin-bottom: 0.5rem;
+}
+
+.common-mistake p, .common-mistake ul {
+    color: #991b1b;
+}
+
+/* Action step */
+.action-step {
+    background: linear-gradient(135deg, #f5f3ff 0%, #ede9fe 100%);
+    border: 1px solid #c4b5fd;
+    border-radius: 12px;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+}
+
+.action-step h4 {
+    color: #6d28d9;
+    margin-bottom: 0.75rem;
+}
+
+.action-step ul {
+    margin: 0;
+    padding-left: 1.5rem;
+}
+
+.action-step li {
+    color: #5b21b6;
+    margin-bottom: 0.5rem;
+}
+
+/* Index page specific */
+.index-page h1 {
+    text-align: center;
+}
+
+.authors {
+    text-align: center;
+    color: var(--text-light);
+    margin-bottom: 2rem;
+    font-size: 1.1em;
+}
+
+/* Creator mantra block on index */
+.creator-mantra {
+    font-style: italic;
+    color: var(--text-medium);
+    text-align: center;
+    padding: 1.5rem;
+    border: 2px dashed var(--accent-color);
+    border-radius: 12px;
+    margin: 2rem 0;
+    background: var(--verse-bg);
+}
+
+.creator-mantra cite {
+    display: block;
+    margin-top: 0.75rem;
+    font-style: normal;
+    font-weight: 600;
+    color: var(--accent-color-dark);
+}
+
+/* Chapter subtitle styling */
+.chapter-subtitle {
+    font-size: 0.85em;
+    color: var(--text-light);
+    margin-top: 0.25rem;
+    font-style: italic;
+}
+
+/* Equipment specs table */
+.specs-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1rem 0;
+}
+
+.specs-table th, .specs-table td {
+    padding: 0.75rem;
+    border: 1px solid #e5e7eb;
+    text-align: left;
+}
+
+.specs-table th {
+    background: var(--verse-bg);
+    color: var(--accent-color-dark);
+    font-weight: 600;
+}
+
+.specs-table tr:nth-child(even) {
+    background: #fafafa;
+}

@@ -1,0 +1,155 @@
+/* The Untethered Soul - Book-Specific Styles */
+/* Deep violet/indigo theme for consciousness and spirituality */
+
+:root {
+    --accent-color: #7c3aed;
+    --accent-color-dark: #6d28d9;
+    --accent-gradient: linear-gradient(135deg, #7c3aed 0%, #a855f7 100%);
+    --section-title-bg: #4c1d95;
+    --key-box-color: #7c3aed;
+    --key-box-bg: #f5f3ff;
+    --verse-bg: #faf5ff;
+    --intro-bg: #f5f3ff;
+}
+
+/* Insight Box - for key spiritual insights */
+.insight-box {
+    background: linear-gradient(135deg, #faf5ff 0%, #ede9fe 100%);
+    border-left: 4px solid var(--accent-color);
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+}
+
+.insight-box h4 {
+    color: var(--accent-color);
+    margin-bottom: 10px;
+    font-size: 1.1em;
+}
+
+.insight-box p {
+    color: var(--text-medium);
+    line-height: 1.8;
+    margin: 0;
+}
+
+/* Practice Box - for meditation/awareness exercises */
+.practice-box {
+    background: linear-gradient(135deg, #ecfdf5 0%, #d1fae5 100%);
+    border: 2px solid #10b981;
+    border-radius: 12px;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.practice-box h4 {
+    color: #059669;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.practice-box ol,
+.practice-box ul {
+    margin-left: 20px;
+    color: var(--text-medium);
+    line-height: 1.8;
+}
+
+/* Quote Box - for notable quotes from the book */
+.quote-box {
+    background: #fffbeb;
+    border-left: 4px solid #f59e0b;
+    padding: 20px 25px;
+    margin: 20px 0;
+    border-radius: 8px;
+    font-style: italic;
+    color: var(--text-dark);
+    line-height: 1.8;
+}
+
+.quote-box .attribution {
+    margin-top: 10px;
+    font-style: normal;
+    font-weight: 600;
+    color: #d97706;
+    font-size: 0.9em;
+}
+
+/* Metaphor Box - for key metaphors/analogies */
+.metaphor-box {
+    background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);
+    border-radius: 12px;
+    padding: 20px;
+    margin: 20px 0;
+    border: 2px solid #f59e0b;
+}
+
+.metaphor-box h4 {
+    color: #b45309;
+    margin-bottom: 10px;
+}
+
+.metaphor-box p {
+    color: var(--text-dark);
+    line-height: 1.8;
+    margin: 0;
+}
+
+/* Concept count for chapter cards */
+.concept-count {
+    color: #7c3aed;
+    font-size: 0.85em;
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+/* Reflection Section */
+.reflection {
+    background: #f8fafc;
+    border: 2px dashed #cbd5e1;
+    border-radius: 12px;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.reflection h4 {
+    color: var(--text-dark);
+    margin-bottom: 15px;
+}
+
+.reflection ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.reflection li {
+    padding: 8px 0;
+    padding-left: 25px;
+    position: relative;
+    color: var(--text-medium);
+    line-height: 1.6;
+}
+
+.reflection li::before {
+    content: "?";
+    position: absolute;
+    left: 0;
+    color: var(--accent-color);
+    font-weight: bold;
+}
+
+/* Central teaching highlight */
+.central-teaching {
+    background: var(--accent-gradient);
+    color: white;
+    padding: 25px;
+    border-radius: 12px;
+    text-align: center;
+    margin: 30px 0;
+    font-size: 1.2em;
+    line-height: 1.6;
+    box-shadow: 0 10px 30px rgba(124, 58, 237, 0.3);
+}

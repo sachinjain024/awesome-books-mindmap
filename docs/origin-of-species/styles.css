@@ -1,0 +1,179 @@
+/* On the Origin of Species - Book-Specific Styles */
+
+:root {
+    --accent-color: #059669;
+    --accent-color-dark: #047857;
+    --accent-gradient: linear-gradient(135deg, #059669 0%, #0d9488 100%);
+    --section-title-bg: #059669;
+    --key-box-color: #059669;
+    --key-box-bg: #ecfdf5;
+    --verse-bg: #f0fdf4;
+    --intro-bg: #f0fdf4;
+}
+
+/* Central node with nature theme */
+.central-node {
+    background: var(--accent-gradient);
+}
+
+/* Chapter cards hover effect */
+.chapter-card:hover {
+    border-color: var(--accent-color);
+}
+
+/* Scientific observation boxes */
+.observation-box {
+    background: linear-gradient(135deg, #f0fdf4 0%, #ecfdf5 100%);
+    border-left: 4px solid #10b981;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+    border-radius: 0 8px 8px 0;
+}
+
+.observation-box h4 {
+    color: #047857;
+    margin-bottom: 0.75rem;
+    font-size: 1.1rem;
+}
+
+/* Evidence boxes */
+.evidence-box {
+    background: #fffbeb;
+    border: 1px solid #fcd34d;
+    border-left: 4px solid #f59e0b;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+    border-radius: 0 8px 8px 0;
+}
+
+.evidence-box h4 {
+    color: #b45309;
+    margin-bottom: 0.75rem;
+    font-size: 1.1rem;
+}
+
+/* Key argument boxes */
+.argument-box {
+    background: linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%);
+    border-left: 4px solid #3b82f6;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+    border-radius: 0 8px 8px 0;
+}
+
+.argument-box h4 {
+    color: #1d4ed8;
+    margin-bottom: 0.75rem;
+    font-size: 1.1rem;
+}
+
+/* Definition boxes */
+.definition-box {
+    background: #faf5ff;
+    border: 2px solid #c084fc;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+    border-radius: 8px;
+}
+
+.definition-box h4 {
+    color: #7c3aed;
+    margin-bottom: 0.75rem;
+    font-size: 1.1rem;
+}
+
+/* Example boxes for Darwin's examples */
+.example-box {
+    background: #fff7ed;
+    border-left: 4px solid #fb923c;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+    border-radius: 0 8px 8px 0;
+}
+
+.example-box h4 {
+    color: #c2410c;
+    margin-bottom: 0.75rem;
+    font-size: 1.1rem;
+}
+
+/* Quote box styling */
+.quote-box {
+    background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
+    border-left: 4px solid var(--accent-color);
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+    border-radius: 0 8px 8px 0;
+    font-style: italic;
+    color: #475569;
+}
+
+.quote-box .attribution {
+    margin-top: 1rem;
+    font-style: normal;
+    font-weight: 600;
+    color: var(--accent-color-dark);
+}
+
+/* Difficulty/objection boxes */
+.objection-box {
+    background: #fef2f2;
+    border: 1px solid #fca5a5;
+    border-left: 4px solid #ef4444;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+    border-radius: 0 8px 8px 0;
+}
+
+.objection-box h4 {
+    color: #dc2626;
+    margin-bottom: 0.75rem;
+    font-size: 1.1rem;
+}
+
+/* Response/solution boxes */
+.response-box {
+    background: #f0fdf4;
+    border: 1px solid #86efac;
+    border-left: 4px solid #22c55e;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+    border-radius: 0 8px 8px 0;
+}
+
+.response-box h4 {
+    color: #16a34a;
+    margin-bottom: 0.75rem;
+    font-size: 1.1rem;
+}
+
+/* Insight boxes */
+.insight-box {
+    background: linear-gradient(135deg, #ecfdf5 0%, #d1fae5 100%);
+    border: 2px solid #10b981;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+    border-radius: 8px;
+}
+
+.insight-box h4 {
+    color: #047857;
+    margin-bottom: 0.75rem;
+    font-size: 1.1rem;
+}
+
+/* Lists within boxes */
+.observation-box ul,
+.evidence-box ul,
+.argument-box ul,
+.example-box ul {
+    margin: 0.5rem 0 0 1.5rem;
+    padding: 0;
+}
+
+.observation-box li,
+.evidence-box li,
+.argument-box li,
+.example-box li {
+    margin-bottom: 0.5rem;
+}

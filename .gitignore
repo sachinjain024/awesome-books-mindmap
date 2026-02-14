@@ -2,3 +2,6 @@
 node_modules/
 _site/
 package-lock.json
+
+# IMPORTANT: docs/ is NOT ignored - it's our GitHub Pages publish directory
+# Eleventy builds to docs/ (not _site/) for GitHub Pages deployment

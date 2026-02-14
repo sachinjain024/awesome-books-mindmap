@@ -1,0 +1,358 @@
+/* Who Wrote the Bhagavadgita by Meghnad Desai - Book-specific styles */
+/* Theme: Deep amber/bronze for scholarly investigation of sacred text */
+
+:root {
+    --accent-color: #b45309;
+    --accent-color-dark: #92400e;
+    --accent-gradient: linear-gradient(135deg, #b45309 0%, #d97706 100%);
+    --section-title-bg: #78350f;
+    --key-box-color: #92400e;
+    --key-box-bg: #fffbeb;
+    --verse-bg: #fef3c7;
+    --intro-bg: #fffbeb;
+}
+
+/* Central node with scholarly gradient */
+.central-node {
+    background: linear-gradient(135deg, #92400e 0%, #d97706 100%);
+}
+
+/* Section title backgrounds */
+.section-title {
+    background: var(--section-title-bg);
+}
+
+/* Chapter card hover effect */
+.chapter-card:hover {
+    border-color: var(--accent-color);
+    box-shadow: 0 8px 25px rgba(180, 83, 9, 0.2);
+}
+
+/* Authors styling */
+.authors {
+    font-size: 1.3em;
+    color: #78350f;
+    margin-bottom: 10px;
+}
+
+/* Book subtitle */
+.book-subtitle {
+    font-size: 1.1em;
+    color: #92400e;
+    font-style: italic;
+    margin-bottom: 30px;
+}
+
+/* Key concept boxes - for Desai's arguments */
+.concept-box {
+    background: linear-gradient(135deg, #fffbeb 0%, #fef3c7 100%);
+    border-left: 4px solid var(--accent-color);
+    padding: 20px 25px;
+    margin: 25px 0;
+    border-radius: 0 8px 8px 0;
+}
+
+.concept-box h3 {
+    color: var(--accent-color-dark);
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+/* Author analysis box - for the three authors theory */
+.author-box {
+    background: #fef3c7;
+    border: 2px solid #fbbf24;
+    border-radius: 12px;
+    padding: 25px;
+    margin: 25px 0;
+    position: relative;
+}
+
+.author-box::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background: linear-gradient(90deg, #92400e, #d97706, #92400e);
+    border-radius: 12px 12px 0 0;
+}
+
+.author-box h4 {
+    color: #92400e;
+    margin-top: 0;
+}
+
+.author-box .period {
+    display: inline-block;
+    background: var(--accent-color);
+    color: white;
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 0.85em;
+    margin-bottom: 10px;
+}
+
+.author-box .verse-count {
+    color: #78350f;
+    font-weight: 600;
+}
+
+/* Historical context box */
+.historical-context {
+    background: #fefce8;
+    border: 1px solid #fde047;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 20px 0;
+}
+
+.historical-context h4 {
+    color: #a16207;
+    margin-top: 0;
+}
+
+/* Scholarly insight box */
+.scholarly-insight {
+    background: linear-gradient(135deg, #f5f3ff 0%, #ede9fe 100%);
+    border-left: 4px solid #7c3aed;
+    padding: 20px 25px;
+    margin: 25px 0;
+    border-radius: 0 8px 8px 0;
+}
+
+.scholarly-insight h4 {
+    color: #6d28d9;
+    margin-top: 0;
+}
+
+/* Critical analysis box */
+.critical-box {
+    background: #fef2f2;
+    border-left: 4px solid #ef4444;
+    padding: 20px 25px;
+    margin: 25px 0;
+    border-radius: 0 8px 8px 0;
+}
+
+.critical-box h4 {
+    color: #dc2626;
+    margin-top: 0;
+}
+
+/* Quote from the book */
+.desai-quote {
+    background: #f8fafc;
+    border-left: 4px solid #94a3b8;
+    padding: 20px 25px;
+    margin: 25px 0;
+    font-style: italic;
+    color: #475569;
+}
+
+.desai-quote cite {
+    display: block;
+    margin-top: 10px;
+    font-style: normal;
+    color: #64748b;
+    font-size: 0.9em;
+}
+
+/* Verse reference box */
+.verse-reference {
+    background: var(--verse-bg);
+    border-left: 4px solid var(--accent-color);
+    padding: 15px 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+}
+
+.verse-reference .verse-id {
+    font-weight: bold;
+    color: var(--accent-color);
+    margin-bottom: 8px;
+    display: block;
+}
+
+/* Chapter theme badge */
+.chapter-theme {
+    display: inline-block;
+    background: linear-gradient(135deg, #92400e 0%, #d97706 100%);
+    color: white;
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 0.85em;
+    margin-top: 8px;
+}
+
+/* Part labels in chapter cards */
+.part-label {
+    font-size: 0.75em;
+    color: #92400e;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 4px;
+}
+
+/* Philosophy/Thesis box */
+.thesis-box {
+    background: linear-gradient(135deg, #fffbeb 0%, #fef3c7 100%);
+    border-radius: 12px;
+    padding: 30px;
+    margin: 30px 0;
+    text-align: center;
+    border: 2px solid #fbbf24;
+}
+
+.thesis-box blockquote {
+    font-size: 1.2em;
+    color: #78350f;
+    font-style: italic;
+    margin: 0;
+    line-height: 1.6;
+}
+
+.thesis-box cite {
+    display: block;
+    margin-top: 15px;
+    color: #92400e;
+    font-style: normal;
+}
+
+/* Timeline styling for historical progression */
+.timeline {
+    position: relative;
+    padding-left: 30px;
+    margin: 25px 0;
+}
+
+.timeline::before {
+    content: '';
+    position: absolute;
+    left: 8px;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background: linear-gradient(to bottom, #92400e, #d97706);
+}
+
+.timeline-item {
+    position: relative;
+    padding: 15px 0;
+}
+
+.timeline-item::before {
+    content: '';
+    position: absolute;
+    left: -26px;
+    top: 20px;
+    width: 12px;
+    height: 12px;
+    background: #b45309;
+    border-radius: 50%;
+    border: 2px solid white;
+    box-shadow: 0 0 0 2px #b45309;
+}
+
+.timeline-item h4 {
+    color: var(--accent-color-dark);
+    margin: 0 0 8px 0;
+}
+
+/* Commentary box for various interpretations */
+.commentary-box {
+    background: #f0fdf4;
+    border: 1px solid #86efac;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 20px 0;
+}
+
+.commentary-box h4 {
+    color: #166534;
+    margin-top: 0;
+}
+
+.commentary-box .commentator {
+    font-weight: 600;
+    color: #15803d;
+}
+
+/* Intro section styling */
+.intro {
+    background: var(--intro-bg);
+    border-left: 4px solid var(--accent-color);
+}
+
+/* Quick wins styling */
+.quick-wins {
+    background: linear-gradient(135deg, #fffbeb 0%, #fef3c7 100%);
+    border-radius: 12px;
+    padding: 25px;
+    margin: 30px 0;
+}
+
+.quick-wins h3 {
+    color: var(--accent-color-dark);
+    margin-top: 0;
+}
+
+.quick-wins ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.quick-wins li {
+    padding: 8px 0;
+    padding-left: 28px;
+    position: relative;
+}
+
+.quick-wins li::before {
+    content: '>';
+    position: absolute;
+    left: 0;
+    color: var(--accent-color);
+    font-weight: bold;
+}
+
+/* Comparison table for verse analysis */
+.verse-comparison {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 15px;
+    margin: 20px 0;
+}
+
+.verse-comparison .author-column {
+    background: #fefce8;
+    padding: 20px;
+    border-radius: 8px;
+    border-top: 4px solid var(--accent-color);
+}
+
+.verse-comparison .author-column h4 {
+    color: #78350f;
+    margin-top: 0;
+}
+
+/* Sanskrit text styling */
+.sanskrit {
+    font-style: italic;
+    color: #78350f;
+}
+
+/* Response box - for Buddhism vs Brahmanism */
+.response-box {
+    background: #ecfeff;
+    border-left: 4px solid #0891b2;
+    padding: 20px 25px;
+    margin: 25px 0;
+    border-radius: 0 8px 8px 0;
+}
+
+.response-box h4 {
+    color: #0e7490;
+    margin-top: 0;
+}

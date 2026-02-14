@@ -11,7 +11,7 @@ Successfully migrated **"The Stoic Mind"** book index page to Eleventy framework
 | **Book Migrated** | The Stoic Mind (index page only) |
 | **Original Files** | ✅ Preserved (untouched) |
 | **Build System** | ✅ Eleventy 3.1.2 |
-| **Generated Output** | ✅ _site/the-stoic-mind/index.html |
+| **Generated Output** | ✅ docs/the-stoic-mind/index.html |
 | **Documentation** | ✅ Complete (4 guides) |
 | **Time to Build** | < 0.1 seconds |
 
@@ -19,13 +19,13 @@ Successfully migrated **"The Stoic Mind"** book index page to Eleventy framework
 
 ### 1. View the Generated Page
 ```bash
-open _site/the-stoic-mind/index.html
+open docs/the-stoic-mind/index.html
 ```
 
 ### 2. Compare with Original
 ```bash
 # Side-by-side comparison
-diff the-stoic-mind/index.html _site/the-stoic-mind/index.html
+diff the-stoic-mind/index.html docs/the-stoic-mind/index.html
 ```
 
 ### 3. Try Live Development
@@ -178,13 +178,13 @@ npm run build
 npm run dev
 
 # View generated file
-open _site/the-stoic-mind/index.html
+open docs/the-stoic-mind/index.html
 
 # Compare with original
-diff the-stoic-mind/index.html _site/the-stoic-mind/index.html
+diff the-stoic-mind/index.html docs/the-stoic-mind/index.html
 
 # Clean build
-rm -rf _site && npm run build
+rm -rf docs && npm run build
 ```
 
 ## 🎓 Learning Resources
@@ -208,7 +208,7 @@ vim src/_data/stoicMind.json
 
 # Rebuild and compare
 npm run build
-diff the-stoic-mind/index.html _site/the-stoic-mind/index.html
+diff the-stoic-mind/index.html docs/the-stoic-mind/index.html
 ```
 
 ### Option B: Expand
@@ -281,7 +281,7 @@ With 35+ books, I'd argue **yes** - the maintenance benefits compound with scale
 See `QUICK_START.md` - though for proof of concept, we only did the index page.
 
 ### "Can I use this in production?"
-Yes! Generated HTML is production-ready. Just deploy `_site/`.
+Yes! Generated HTML is production-ready. Just deploy `docs/` (configured for GitHub Pages).
 
 ### "What if I want to go back?"
 Original files are untouched. Just delete the Eleventy files.
