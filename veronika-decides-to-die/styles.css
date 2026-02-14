@@ -1,0 +1,104 @@
+/* Veronika Decides to Die - Book-Specific Styles */
+
+:root {
+    --accent-color: #7c3aed;
+    --accent-color-dark: #6d28d9;
+    --accent-gradient: linear-gradient(135deg, #a78bfa 0%, #7c3aed 100%);
+    --section-title-bg: #f5f3ff;
+    --key-box-color: #7c3aed;
+    --key-box-bg: #faf5ff;
+    --verse-bg: #f5f3ff;
+    --intro-bg: #ede9fe;
+}
+
+/* Vitriol/madness boxes */
+.vitriol-box {
+    background: #fef3c7;
+    border-left: 4px solid #d97706;
+    padding: 1.5rem;
+    margin: 2rem 0;
+    border-radius: 8px;
+}
+
+.vitriol-box h3 {
+    color: #b45309;
+    margin-top: 0;
+    font-size: 1.2rem;
+}
+
+/* Freedom/awakening */
+.awakening-box {
+    background: linear-gradient(135deg, #f0fdfa 0%, #ccfbf1 100%);
+    border-left: 4px solid #14b8a6;
+    padding: 1.5rem;
+    margin: 2rem 0;
+    border-radius: 8px;
+}
+
+.awakening-box h3 {
+    color: #0f766e;
+    margin-top: 0;
+    font-size: 1.2rem;
+}
+
+/* Patient stories */
+.patient-story {
+    background: linear-gradient(135deg, #fef3f9 0%, #fce7f3 100%);
+    border-left: 4px solid #db2777;
+    padding: 1.5rem;
+    margin: 2rem 0;
+    border-radius: 8px;
+}
+
+.patient-story h3 {
+    color: #be185d;
+    margin-top: 0;
+    font-size: 1.2rem;
+}
+
+/* Life lessons */
+.life-lesson {
+    background: #f0fdf4;
+    border-left: 4px solid #22c55e;
+    padding: 1.5rem;
+    margin: 2rem 0;
+    border-radius: 8px;
+}
+
+.life-lesson h3 {
+    color: #16a34a;
+    margin-top: 0;
+    font-size: 1.2rem;
+}
+
+/* Death/darkness */
+.death-box {
+    background: linear-gradient(135deg, #f9fafb 0%, #f3f4f6 100%);
+    border-left: 4px solid #4b5563;
+    padding: 1.5rem;
+    margin: 2rem 0;
+    border-radius: 8px;
+}
+
+.death-box h3 {
+    color: #374151;
+    margin-top: 0;
+    font-size: 1.2rem;
+}
+
+/* Reflection boxes */
+.reflection {
+    background: linear-gradient(135deg, #dbeafe 0%, #bfdbfe 100%);
+    border-left: 4px solid #3b82f6;
+    padding: 1.5rem;
+    margin: 2rem 0;
+    border-radius: 8px;
+    font-style: italic;
+}
+
+.reflection h3 {
+    color: #2563eb;
+    margin-top: 0;
+    font-size: 1.2rem;
+    font-style: normal;
+}

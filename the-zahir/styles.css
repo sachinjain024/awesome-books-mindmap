@@ -1,0 +1,239 @@
+/* The Zahir - Book-Specific Styles */
+/* A novel of obsession, love, and spiritual awakening */
+
+:root {
+    --accent-color: #4338ca;
+    --accent-color-dark: #3730a3;
+    --accent-gradient: linear-gradient(135deg, #4338ca 0%, #3730a3 100%);
+    --section-title-bg: #4338ca;
+    --key-box-color: #4338ca;
+    --key-box-bg: #eef2ff;
+    --verse-bg: #f3f4f6;
+    --intro-bg: #f8fafc;
+}
+
+/* Zahir Concept - The invisible, ever-present obsession */
+.zahir-concept {
+    background: linear-gradient(135deg, #eef2ff 0%, #fce7f3 100%);
+    border-left: 5px solid #4338ca;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+    border-radius: 8px;
+    font-style: italic;
+}
+
+.zahir-concept strong {
+    color: #4338ca;
+    font-weight: 600;
+}
+
+/* Obsession Box - The consuming nature of the Zahir */
+.obsession-box {
+    background: #fff5f5;
+    border: 2px solid #ec4899;
+    border-left: 5px solid #4338ca;
+    padding: 1.25rem;
+    margin: 1.5rem 0;
+    border-radius: 6px;
+}
+
+.obsession-box strong {
+    color: #4338ca;
+}
+
+/* Memory Box - Flashbacks and moments with Esther */
+.memory-box {
+    background: #f0f9ff;
+    border-left: 5px solid #0284c7;
+    padding: 1.25rem;
+    margin: 1.5rem 0;
+    border-radius: 6px;
+    position: relative;
+}
+
+.memory-box::before {
+    content: "✦";
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    color: #0284c7;
+    font-size: 1.5rem;
+    opacity: 0.5;
+}
+
+/* Awakening Box - Spiritual insights and realizations */
+.awakening-box {
+    background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);
+    border-left: 5px solid #f59e0b;
+    padding: 1.25rem;
+    margin: 1.5rem 0;
+    border-radius: 6px;
+}
+
+.awakening-box strong {
+    color: #92400e;
+}
+
+/* Wisdom Box - Philosophical teachings and truths */
+.wisdom-box {
+    background: #f5f3ff;
+    border-left: 5px solid #7c3aed;
+    padding: 1.25rem;
+    margin: 1.5rem 0;
+    border-radius: 6px;
+}
+
+.wisdom-box strong {
+    color: #6d28d9;
+}
+
+/* Mikhail's Teaching - Key lessons from the mysterious friend */
+.mikhail-teaching {
+    background: linear-gradient(135deg, #dbeafe 0%, #bfdbfe 100%);
+    border-left: 5px solid #0284c7;
+    padding: 1.25rem;
+    margin: 1.5rem 0;
+    border-radius: 6px;
+}
+
+.mikhail-teaching::before {
+    content: "✧ ";
+    color: #0284c7;
+    font-weight: bold;
+}
+
+/* Journey Box - Travel and transformation */
+.journey-box {
+    background: #f0fdf4;
+    border-left: 5px solid #16a34a;
+    padding: 1.25rem;
+    margin: 1.5rem 0;
+    border-radius: 6px;
+}
+
+.journey-box strong {
+    color: #15803d;
+}
+
+/* Reflection - Questions for contemplation */
+.reflection {
+    background: #faf5ff;
+    border: 2px dashed #9333ea;
+    padding: 1.25rem;
+    margin: 1.5rem 0;
+    border-radius: 6px;
+    font-style: italic;
+}
+
+.reflection strong {
+    color: #6b21a8;
+}
+
+/* Quote styling for Zahir */
+.quote-box {
+    background: #f3f4f6;
+    border-left: 5px solid #4338ca;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+    border-radius: 6px;
+    font-style: italic;
+    color: #374151;
+}
+
+.quote-box strong {
+    color: #4338ca;
+    font-style: normal;
+}
+
+/* Principle Box - Core teachings */
+.principle-box {
+    background: linear-gradient(135deg, #f3e8ff 0%, #ede9fe 100%);
+    border-left: 5px solid #7c3aed;
+    padding: 1.25rem;
+    margin: 1.5rem 0;
+    border-radius: 6px;
+}
+
+/* Practice Exercise */
+.practice-exercise {
+    background: #f0fdf4;
+    border: 2px solid #22c55e;
+    border-left: 5px solid #16a34a;
+    padding: 1.25rem;
+    margin: 1.5rem 0;
+    border-radius: 6px;
+}
+
+.practice-exercise strong {
+    color: #15803d;
+}
+
+/* Insight Box */
+.insight-box {
+    background: linear-gradient(135deg, #fef08a 0%, #fef3c7 100%);
+    border-left: 5px solid #ca8a04;
+    padding: 1.25rem;
+    margin: 1.5rem 0;
+    border-radius: 6px;
+}
+
+.insight-box strong {
+    color: #854d0e;
+}
+
+/* Metaphor Box */
+.metaphor-box {
+    background: #f5f3ff;
+    border-left: 5px solid #a855f7;
+    padding: 1.25rem;
+    margin: 1.5rem 0;
+    border-radius: 6px;
+    font-style: italic;
+}
+
+.metaphor-box strong {
+    color: #6b21a8;
+    font-style: normal;
+}
+
+/* Central Node styling for Zahir */
+.central-node {
+    background: linear-gradient(135deg, #4338ca 0%, #3730a3 100%);
+}
+
+/* Section titles */
+.section-title {
+    background: linear-gradient(135deg, #4338ca 0%, #3730a3 100%);
+}
+
+/* Chapter cards */
+.chapter-card {
+    border: 2px solid #e5e7eb;
+    transition: all 0.3s ease;
+}
+
+.chapter-card:hover {
+    border-color: #4338ca;
+    box-shadow: 0 4px 12px rgba(67, 56, 202, 0.15);
+}
+
+/* Highlight color for text selection in Zahir */
+::selection {
+    background-color: rgba(67, 56, 202, 0.3);
+    color: inherit;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .zahir-concept,
+    .obsession-box,
+    .memory-box,
+    .awakening-box,
+    .wisdom-box,
+    .mikhail-teaching,
+    .journey-box,
+    .reflection {
+        margin: 1rem 0;
+        padding: 1rem;
+    }
+}

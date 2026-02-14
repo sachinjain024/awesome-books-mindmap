@@ -1,0 +1,43 @@
+---
+number: 6
+title: The Only Life
+meta: The Midnight Library
+part: Nora's Journey
+layout: chapter
+book: the-midnight-library
+totalChapters: 6
+permalink: the-midnight-library/chapters/chapter-06.html
+---
+
+<div class="intro">
+            <p>Nora chooses to return to her root life. The library collapses; she wakes in the hospital. She has been found in time. The only way to learn is to live—and the life she has is the only life she can now choose to embrace. The novel ends with Nora stepping into the present.</p>
+        </div>
+
+        <div class="section">
+            <h2>Choosing to Return</h2>
+            <p>Nora does not find a "perfect" alternate life. She finds that the only life she can fully live is the one she was in. She chooses to want it. She returns. She wakes. She is alive. The library was the place where she learned that wanting is a choice—and that the life we have is the one we get to live.</p>
+
+            <div class="quote-box">
+                "The only way to learn is to live. So now I'm going to live."
+                <div class="attribution">— Nora Seed, The Midnight Library</div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Living the Only Life</h2>
+            <p>Nora leaves the hospital with a new commitment: to show up for her life. To help her neighbor. To teach. To stay. The novel does not promise that her life will become easy—but it promises that she can choose to want it. That choice is the difference between despair and possibility.</p>
+
+            <div class="insight-box">
+                <h4>Key Insight</h4>
+                <p>The midnight library is not a place to stay—it is a place to learn. The only life worth living is the one we choose to want. The only way to learn is to live—so we must live.</p>
+            </div>
+        </div>
+
+        <div class="key-points">
+            <h3>Key Takeaways</h3>
+            <ul>
+                <li>The only life we can live is the one we have—and we can choose to want it.</li>
+                <li>The only way to learn is to live.</li>
+                <li>Choosing to stay is the first step toward making the root life meaningful.</li>
+            </ul>
+        </div>

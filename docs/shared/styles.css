@@ -70,6 +70,88 @@ h1.chapter-title {
     font-style: italic;
 }
 
+.authors {
+    color: var(--text-dark);
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+/* Book Header Variants */
+.book-hero {
+    margin-bottom: 26px;
+}
+
+.book-hero--option1 {
+    text-align: center;
+    padding: 8px 0 12px;
+}
+
+.book-hero--option2 {
+    text-align: center;
+    padding: 8px 0 14px;
+}
+
+.book-title-main {
+    margin-bottom: 10px;
+    letter-spacing: -0.02em;
+}
+
+.book-tagline {
+    color: var(--text-light);
+    font-size: 1.28em;
+    font-style: italic;
+    line-height: 1.45;
+    max-width: 900px;
+    margin: 0 auto 12px;
+}
+
+.book-author-line {
+    color: var(--text-dark);
+    font-size: 1.02em;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+}
+
+.book-hero-divider {
+    width: 96px;
+    height: 3px;
+    margin: 6px auto 14px;
+    border-radius: 999px;
+    background: var(--accent-gradient);
+}
+
+.book-meta-line {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    gap: 10px;
+    color: var(--text-light);
+    font-size: 1.08em;
+    line-height: 1.45;
+    flex-wrap: wrap;
+}
+
+.book-meta-line--option1 {
+    margin-top: 2px;
+}
+
+.book-tagline-inline {
+    font-style: italic;
+    color: var(--text-light);
+}
+
+.book-meta-dot {
+    color: var(--accent-color);
+    font-weight: 700;
+}
+
+.book-author-inline {
+    color: var(--text-dark);
+    font-weight: 700;
+    font-style: normal;
+}
+
 .chapter-meta {
     color: var(--text-light);
     margin-bottom: 30px;
@@ -564,6 +646,26 @@ h1.chapter-title {
 
     h1.chapter-title {
         font-size: 1.6em;
+    }
+
+    .book-tagline {
+        font-size: 1.05em;
+        margin-bottom: 10px;
+    }
+
+    .book-author-line {
+        font-size: 0.9em;
+        letter-spacing: 0.06em;
+    }
+
+    .book-meta-line {
+        font-size: 0.98em;
+        gap: 8px;
+        line-height: 1.35;
+    }
+
+    .book-meta-dot {
+        display: none;
     }
 
     .chapters-grid {

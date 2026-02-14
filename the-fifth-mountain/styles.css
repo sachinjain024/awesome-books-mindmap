@@ -1,0 +1,212 @@
+/* The Fifth Mountain - Book-Specific Styles */
+/* Biblical prophecy, desert landscape, ancient wisdom, faith tested by fire */
+
+:root {
+    --accent-color: #92400e;
+    --accent-color-dark: #78350f;
+    --accent-gradient: linear-gradient(135deg, #b45309 0%, #92400e 50%, #78350f 100%);
+    --section-title-bg: #b45309;
+    --key-box-color: #b45309;
+    --key-box-bg: #fef3c7;
+    --verse-bg: #fef3c7;
+    --intro-bg: #fef8e8;
+}
+
+/* Prophecy and Divine Communication */
+.prophecy-box {
+    border-left: 5px solid #b45309;
+    background-color: #fef3c7;
+    padding: 1rem;
+    margin: 1.5rem 0;
+    border-radius: 4px;
+}
+
+.prophecy-box strong {
+    color: #92400e;
+}
+
+/* Biblical and Historical Context */
+.biblical-context {
+    background-color: #ede9fe;
+    border-left: 5px solid #7c3aed;
+    padding: 1rem;
+    margin: 1.5rem 0;
+    border-radius: 4px;
+    font-size: 0.95rem;
+}
+
+.biblical-context strong {
+    color: #6d28d9;
+}
+
+/* Tragedy and Suffering */
+.tragedy-box {
+    background-color: #fee2e2;
+    border-left: 5px solid #dc2626;
+    padding: 1rem;
+    margin: 1.5rem 0;
+    border-radius: 4px;
+}
+
+.tragedy-box strong {
+    color: #991b1b;
+}
+
+/* Faith Testing and Spiritual Trials */
+.faith-test {
+    background-color: #dbeafe;
+    border-left: 5px solid #0284c7;
+    padding: 1rem;
+    margin: 1.5rem 0;
+    border-radius: 4px;
+}
+
+.faith-test strong {
+    color: #0c4a6e;
+}
+
+/* Divine Wisdom and Teaching */
+.wisdom-box {
+    background-color: #f0fdf4;
+    border-left: 5px solid #059669;
+    padding: 1rem;
+    margin: 1.5rem 0;
+    border-radius: 4px;
+}
+
+.wisdom-box strong {
+    color: #065f46;
+}
+
+/* Reflection and Contemplation */
+.reflection {
+    background-color: #f3e8ff;
+    border-left: 5px solid #a855f7;
+    padding: 1rem;
+    margin: 1.5rem 0;
+    border-radius: 4px;
+    font-style: italic;
+}
+
+.reflection strong {
+    color: #6d28d9;
+    font-style: normal;
+}
+
+/* Key teachings styled with accent color */
+.key-points {
+    background-color: var(--key-box-bg);
+    border-left: 5px solid var(--key-box-color);
+    padding: 1.5rem;
+    margin: 2rem 0;
+    border-radius: 4px;
+}
+
+.key-points ul {
+    list-style: none;
+    padding: 0;
+}
+
+.key-points li {
+    margin: 0.75rem 0;
+    padding-left: 1.5rem;
+    position: relative;
+}
+
+.key-points li:before {
+    content: "▪";
+    color: var(--accent-color);
+    font-weight: bold;
+    position: absolute;
+    left: 0;
+}
+
+/* Verse/Quote styling */
+.verse {
+    background-color: var(--verse-bg);
+    border-left: 5px solid var(--accent-color);
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+    border-radius: 4px;
+    font-style: italic;
+    color: #4a5568;
+}
+
+.verse-attribution {
+    font-style: normal;
+    color: #2d3748;
+    margin-top: 0.75rem;
+    font-size: 0.9rem;
+}
+
+/* Central node styling for title */
+.central-node {
+    background: var(--accent-gradient);
+    color: white;
+    padding: 2rem;
+    border-radius: 8px;
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.central-node h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    letter-spacing: 0.05em;
+}
+
+.central-node p {
+    margin: 0.5rem 0 0;
+    font-size: 1.1rem;
+    opacity: 0.95;
+}
+
+/* Chapter intro styling */
+.intro {
+    background-color: var(--intro-bg);
+    border-left: 5px solid var(--accent-color);
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+    border-radius: 4px;
+}
+
+/* Section titles */
+.section-title {
+    background-color: var(--section-title-bg);
+    color: white;
+    padding: 0.75rem 1rem;
+    margin: 2rem 0 1rem;
+    border-radius: 4px;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+}
+
+/* Quote box for chapter opening quotes */
+.quote-box {
+    background-color: var(--verse-bg);
+    border-left: 5px solid var(--accent-color);
+    padding: 1.5rem;
+    margin: 2rem 0;
+    border-radius: 4px;
+    font-style: italic;
+    color: #4a5568;
+    text-align: center;
+}
+
+.quote-attribution {
+    font-style: normal;
+    color: #2d3748;
+    margin-top: 1rem;
+    font-weight: 600;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .central-node h1 {
+        font-size: 1.75rem;
+    }
+
+    .central-node {
+        padding: 1.5rem;
+    }
+}

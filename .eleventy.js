@@ -10,13 +10,37 @@ module.exports = function(eleventyConfig) {
   // Dynamically add each book directory from src/static-books to root of output
   const staticBooksDir = path.join(__dirname, 'src/static-books');
   if (fs.existsSync(staticBooksDir)) {
+    const markdownBooksDir = path.join(__dirname, 'src/books');
+    const markdownBookSet = fs.existsSync(markdownBooksDir)
+      ? new Set(
+          fs.readdirSync(markdownBooksDir).filter(book => {
+            const bookPath = path.join(markdownBooksDir, book);
+            return fs.statSync(bookPath).isDirectory();
+          })
+        )
+      : new Set();
+
     const books = fs.readdirSync(staticBooksDir);
     books.forEach(book => {
       const bookPath = path.join(staticBooksDir, book);
-      if (fs.statSync(bookPath).isDirectory()) {
+      if (fs.statSync(bookPath).isDirectory() && !markdownBookSet.has(book)) {
         // Map each book from src/static-books/[book] to docs/[book]
         eleventyConfig.addPassthroughCopy({
           [`src/static-books/${book}`]: book
+        });
+      }
+    });
+  }
+
+  // Copy per-book styles from src/books/[book]/styles.css to docs/[book]/styles.css
+  const markdownBooksDir = path.join(__dirname, 'src/books');
+  if (fs.existsSync(markdownBooksDir)) {
+    const books = fs.readdirSync(markdownBooksDir);
+    books.forEach(book => {
+      const stylesPath = path.join(markdownBooksDir, book, 'styles.css');
+      if (fs.existsSync(stylesPath)) {
+        eleventyConfig.addPassthroughCopy({
+          [`src/books/${book}/styles.css`]: `${book}/styles.css`
         });
       }
     });

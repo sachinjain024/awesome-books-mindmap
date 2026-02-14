@@ -1,0 +1,96 @@
+/* The Practicing Mind - Book-Specific Styles */
+
+:root {
+    --accent-color: #4f46e5;
+    --accent-color-dark: #4338ca;
+    --accent-gradient: linear-gradient(135deg, #4f46e5 0%, #6366f1 100%);
+    --section-title-bg: #eef2ff;
+    --key-box-color: #4f46e5;
+    --key-box-bg: #eef2ff;
+    --principle-bg: #f0f9ff;
+    --practice-bg: #f5f3ff;
+}
+
+/* Principle boxes for core concepts */
+.principle-box {
+    background: var(--principle-bg);
+    border-left: 4px solid var(--accent-color);
+    padding: 1.5rem;
+    margin: 2rem 0;
+    border-radius: 8px;
+}
+
+.principle-box h3 {
+    color: var(--accent-color);
+    margin-top: 0;
+    font-size: 1.3rem;
+}
+
+/* Practice exercise boxes */
+.practice-exercise {
+    background: var(--practice-bg);
+    border: 2px solid var(--accent-color);
+    padding: 1.5rem;
+    margin: 2rem 0;
+    border-radius: 8px;
+}
+
+.practice-exercise h3 {
+    color: var(--accent-color-dark);
+    margin-top: 0;
+    font-size: 1.2rem;
+}
+
+/* Insight boxes */
+.insight-box {
+    background: linear-gradient(to right, #eef2ff 0%, #f0f9ff 100%);
+    border-left: 4px solid #6366f1;
+    padding: 1.5rem;
+    margin: 2rem 0;
+    border-radius: 8px;
+    font-style: italic;
+}
+
+.insight-box strong {
+    color: var(--accent-color-dark);
+    font-style: normal;
+}
+
+/* Reflection prompts */
+.reflection {
+    background: #fef3c7;
+    border-left: 4px solid #f59e0b;
+    padding: 1.5rem;
+    margin: 2rem 0;
+    border-radius: 8px;
+    font-style: italic;
+    color: #78350f;
+}
+
+.reflection h3 {
+    color: #b45309;
+    margin-top: 0;
+    font-style: normal;
+}
+
+/* Four S Words special styling */
+.four-s-words {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    margin: 2rem 0;
+}
+
+.s-word-card {
+    background: var(--practice-bg);
+    border: 2px solid var(--accent-color);
+    padding: 1.5rem;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.s-word-card h4 {
+    color: var(--accent-color);
+    margin-top: 0;
+    font-size: 1.4rem;
+}

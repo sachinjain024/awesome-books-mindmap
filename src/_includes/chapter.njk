@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="../styles.css">
 </head>
 <body>
+    {% set total = totalChapters or 25 %}
     <div class="container container-narrow">
         <a href="../index.html" class="back-button">← Back to Mind Map</a>
 
@@ -27,7 +28,7 @@
             <a href="../index.html">← Back to Overview</a>
             {% endif %}
 
-            {% if number < 25 %}
+            {% if number < total %}
             <a href="chapter-{{ '%02d' | format(number + 1) }}.html">Next: Chapter {{ number + 1 }} →</a>
             {% else %}
             <a href="../index.html">Back to Overview →</a>

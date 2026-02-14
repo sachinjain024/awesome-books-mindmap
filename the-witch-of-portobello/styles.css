@@ -1,0 +1,260 @@
+/* The Witch of Portobello - Book-Specific Styles */
+
+:root {
+    --accent-color: #a855f7;
+    --accent-color-dark: #9333ea;
+    --accent-gradient: linear-gradient(135deg, #a855f7 0%, #e879f9 100%);
+    --section-title-bg: #9333ea;
+    --key-box-color: #a855f7;
+    --key-box-bg: #faf5ff;
+    --verse-bg: #f3e8ff;
+    --intro-bg: #faf5ff;
+}
+
+/* Perspective Box - Highlighting different narrator viewpoints */
+.perspective-box {
+    border-left: 4px solid var(--accent-color);
+    background-color: #faf5ff;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+    border-radius: 0 8px 8px 0;
+    font-style: italic;
+    color: #5b21b6;
+}
+
+.perspective-box strong {
+    color: #7c3aed;
+}
+
+/* Goddess Teaching - Core spiritual teachings about the divine feminine */
+.goddess-teaching {
+    border: 2px solid var(--accent-color);
+    background: linear-gradient(135deg, rgba(168, 85, 247, 0.08) 0%, rgba(232, 121, 249, 0.08) 100%);
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+    border-radius: 8px;
+    position: relative;
+    padding-left: 2.5rem;
+}
+
+.goddess-teaching::before {
+    content: "♀";
+    position: absolute;
+    left: 0.75rem;
+    top: 0.5rem;
+    font-size: 1.5rem;
+    color: var(--accent-color);
+}
+
+.goddess-teaching h4 {
+    color: var(--accent-color-dark);
+    margin-top: 0;
+    font-size: 1.1rem;
+}
+
+/* Dance Ritual - Meditative and spiritual practices */
+.dance-ritual {
+    border-left: 4px solid #e879f9;
+    background-color: #fdf2f8;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+    border-radius: 0 8px 8px 0;
+}
+
+.dance-ritual strong {
+    color: var(--accent-color-dark);
+}
+
+.dance-ritual ul {
+    list-style: none;
+    padding-left: 1.5rem;
+}
+
+.dance-ritual li {
+    margin: 0.75rem 0;
+    position: relative;
+}
+
+.dance-ritual li::before {
+    content: "•";
+    color: var(--accent-color);
+    position: absolute;
+    left: -1rem;
+    font-size: 1.25rem;
+}
+
+/* Divine Feminine - Themes about the goddess and feminine divine energy */
+.divine-feminine {
+    background: linear-gradient(135deg, #f3e8ff 0%, #fce7f3 100%);
+    border: 2px dashed var(--accent-color);
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.divine-feminine strong {
+    color: var(--accent-color-dark);
+    display: block;
+    margin-bottom: 0.5rem;
+    font-size: 1.05rem;
+}
+
+.divine-feminine p {
+    color: #6b21a8;
+    font-style: italic;
+}
+
+/* Wisdom Box - Key insights and philosophical truths */
+.wisdom-box {
+    background-color: #faf5ff;
+    border-left: 4px solid var(--accent-color);
+    border-radius: 0 8px 8px 0;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+}
+
+.wisdom-box p {
+    color: #5b21b6;
+    font-weight: 500;
+}
+
+.wisdom-box em {
+    color: var(--accent-color);
+}
+
+/* Reflection - Questions for contemplation and introspection */
+.reflection {
+    background-color: #f3e8ff;
+    border: 2px solid var(--accent-color);
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+    border-radius: 8px;
+    font-style: italic;
+    color: #5b21b6;
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.reflection::before {
+    content: "?";
+    font-size: 1.5rem;
+    font-style: normal;
+    color: var(--accent-color);
+    font-weight: bold;
+    min-width: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 1.5rem;
+}
+
+/* Quote Box styling for this book */
+.quote-box {
+    background-color: #f3e8ff;
+    border-left: 4px solid var(--accent-color);
+    border-radius: 0 8px 8px 0;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+    font-style: italic;
+    color: #5b21b6;
+}
+
+.quote-box strong {
+    color: var(--accent-color-dark);
+    display: block;
+    margin-top: 0.75rem;
+    font-style: normal;
+}
+
+/* Hagia Sophia reference styling */
+.hagia-sophia {
+    background: linear-gradient(135deg, #fce7f3 0%, #f3e8ff 100%);
+    border: 2px solid var(--accent-color);
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+    border-radius: 8px;
+    position: relative;
+    padding-left: 2.5rem;
+}
+
+.hagia-sophia::before {
+    content: "✨";
+    position: absolute;
+    left: 0.75rem;
+    top: 0.75rem;
+    font-size: 1.25rem;
+}
+
+.hagia-sophia strong {
+    color: var(--accent-color-dark);
+}
+
+/* Persecution and challenge styling */
+.persecution-theme {
+    background-color: #fef2f2;
+    border-left: 4px solid #dc2626;
+    border-radius: 0 8px 8px 0;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+}
+
+.persecution-theme strong {
+    color: #7f1d1d;
+}
+
+/* Central node customization for this book */
+.central-node {
+    background: linear-gradient(135deg, #a855f7 0%, #e879f9 100%);
+}
+
+/* Key teachings/points customization */
+.key-teachings {
+    border: 2px solid var(--accent-color);
+    background: linear-gradient(135deg, rgba(168, 85, 247, 0.05) 0%, rgba(232, 121, 249, 0.05) 100%);
+}
+
+.key-teachings li {
+    border-bottom: 1px solid rgba(168, 85, 247, 0.2);
+    padding: 1rem 0;
+}
+
+.key-teachings li:last-child {
+    border-bottom: none;
+}
+
+.key-teachings strong {
+    color: var(--accent-color-dark);
+}
+
+/* Chapter cards with book theme */
+.chapter-card {
+    border-top: 3px solid var(--accent-color);
+    transition: all 0.3s ease;
+}
+
+.chapter-card:hover {
+    box-shadow: 0 8px 16px rgba(168, 85, 247, 0.15);
+    border-top-color: var(--accent-color-dark);
+}
+
+/* Section titles with accent color */
+.section-title {
+    background-color: var(--section-title-bg);
+    color: white;
+}
+
+/* Print-friendly adjustments */
+@media print {
+    .perspective-box,
+    .goddess-teaching,
+    .dance-ritual,
+    .divine-feminine,
+    .wisdom-box,
+    .reflection,
+    .hagia-sophia {
+        break-inside: avoid;
+        page-break-inside: avoid;
+    }
+}

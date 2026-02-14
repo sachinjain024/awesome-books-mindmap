@@ -9,9 +9,29 @@
 </head>
 <body class="index-page">
     <div class="container">
-        <h1>{{ title }}</h1>
-        <div class="subtitle">{{ subtitle }}</div>
-        <div class="authors">by {{ authors }}</div>
+        {% set hv = headerVariant or "option1" %}
+        <header class="book-hero book-hero--{{ hv }}">
+            {% if hv == "option1" %}
+            <h1 class="book-title-main">{{ title }}</h1>
+            <div class="book-meta-line book-meta-line--option1">
+                <span class="book-tagline-inline">{{ subtitle }}</span>
+                <span class="book-meta-dot">&bull;</span>
+                <span class="book-author-inline">by {{ authors }}</span>
+            </div>
+            {% elif hv == "option2" %}
+            <h1 class="book-title-main">{{ title }}</h1>
+            <div class="book-hero-divider"></div>
+            <div class="book-meta-line">
+                <span class="book-tagline-inline">{{ subtitle }}</span>
+                <span class="book-meta-dot">&bull;</span>
+                <span class="book-author-inline">by {{ authors }}</span>
+            </div>
+            {% else %}
+            <h1>{{ title }}</h1>
+            <div class="subtitle">{{ subtitle }}</div>
+            <div class="authors">by {{ authors }}</div>
+            {% endif %}
+        </header>
 
         <div class="intro">
             {{ content | safe }}
@@ -48,13 +68,24 @@
         </div>
 
         <div class="key-teachings">
-            <h3>Core Stoic Principles</h3>
+            <h3>{{ keyTeachingsTitle or "Core Stoic Principles" }}</h3>
             <ul>
                 {% for teaching in keyTeachings %}
                 <li><strong>{{ teaching.principle }}</strong> {{ teaching.description }}</li>
                 {% endfor %}
             </ul>
         </div>
+
+        {% if quickWins and quickWins.items and quickWins.items.length %}
+        <div class="quick-wins">
+            <h3>{{ quickWins.title or "Quick Wins" }}</h3>
+            <ul>
+                {% for item in quickWins.items %}
+                <li>{{ item }}</li>
+                {% endfor %}
+            </ul>
+        </div>
+        {% endif %}
     </div>
 
     <script src="../shared/highlight.js" defer></script>

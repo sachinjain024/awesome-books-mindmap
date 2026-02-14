@@ -1,0 +1,119 @@
+/* Four Thousand Weeks - Book-Specific Styles */
+
+:root {
+    --accent-color: #2563eb;
+    --accent-color-dark: #1e40af;
+    --accent-gradient: linear-gradient(135deg, #3b82f6 0%, #1e3a8a 100%);
+    --section-title-bg: #dbeafe;
+    --key-box-color: #2563eb;
+    --key-box-bg: #eff6ff;
+    --verse-bg: #f0f9ff;
+    --intro-bg: #dbeafe;
+}
+
+/* Time-specific styling */
+.time-reminder {
+    background: linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%);
+    border-left: 4px solid var(--accent-color);
+    padding: 1.5rem;
+    margin: 2rem 0;
+    border-radius: 8px;
+}
+
+.time-reminder h3 {
+    color: var(--accent-color);
+    margin-top: 0;
+    font-size: 1.2rem;
+}
+
+/* Practical exercises and tools */
+.practice-exercise {
+    background: #f0fdf4;
+    border-left: 4px solid #10b981;
+    padding: 1.5rem;
+    margin: 2rem 0;
+    border-radius: 8px;
+}
+
+.practice-exercise h3 {
+    color: #059669;
+    margin-top: 0;
+    font-size: 1.2rem;
+}
+
+/* Key insights */
+.insight-box {
+    background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);
+    border-left: 4px solid #f59e0b;
+    padding: 1.5rem;
+    margin: 2rem 0;
+    border-radius: 8px;
+}
+
+.insight-box h3 {
+    color: #d97706;
+    margin-top: 0;
+    font-size: 1.2rem;
+}
+
+/* Reflection prompts */
+.reflection {
+    background: linear-gradient(135deg, #f3e8ff 0%, #e9d5ff 100%);
+    border-left: 4px solid #9333ea;
+    padding: 1.5rem;
+    margin: 2rem 0;
+    border-radius: 8px;
+    font-style: italic;
+}
+
+.reflection h3 {
+    color: #7c3aed;
+    margin-top: 0;
+    font-size: 1.2rem;
+    font-style: normal;
+}
+
+/* Trap/Problem boxes (for concepts like "efficiency trap") */
+.trap-box {
+    background: #fef2f2;
+    border-left: 4px solid #ef4444;
+    padding: 1.5rem;
+    margin: 2rem 0;
+    border-radius: 8px;
+}
+
+.trap-box h3 {
+    color: #dc2626;
+    margin-top: 0;
+    font-size: 1.2rem;
+}
+
+/* Solution/Alternative boxes */
+.solution-box {
+    background: #f0fdf4;
+    border-left: 4px solid #22c55e;
+    padding: 1.5rem;
+    margin: 2rem 0;
+    border-radius: 8px;
+}
+
+.solution-box h3 {
+    color: #16a34a;
+    margin-top: 0;
+    font-size: 1.2rem;
+}
+
+/* Philosophy/wisdom boxes */
+.philosophy-box {
+    background: linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%);
+    border-left: 4px solid #3b82f6;
+    padding: 1.5rem;
+    margin: 2rem 0;
+    border-radius: 8px;
+}
+
+.philosophy-box h3 {
+    color: #2563eb;
+    margin-top: 0;
+    font-size: 1.2rem;
+}

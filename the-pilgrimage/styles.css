@@ -1,0 +1,186 @@
+/* The Pilgrimage - Book-Specific Styles */
+/* Golden/Amber theme for spiritual journey and ancient wisdom */
+
+:root {
+    --accent-color: #f59e0b;
+    --accent-color-dark: #d97706;
+    --accent-gradient: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
+    --section-title-bg: #f59e0b;
+    --key-box-color: #f59e0b;
+    --key-box-bg: #fef3c7;
+    --verse-bg: #fef08a;
+    --intro-bg: #fef3c7;
+}
+
+/* Exercise Box - RAM Practices and Spiritual Exercises */
+.exercise-box {
+    background: linear-gradient(135deg, rgba(245, 158, 11, 0.1), rgba(217, 119, 6, 0.1));
+    border-left: 4px solid var(--accent-color);
+    padding: 16px 20px;
+    margin: 20px 0;
+    border-radius: 6px;
+    font-style: italic;
+}
+
+.exercise-box strong {
+    color: var(--accent-color-dark);
+    font-weight: 700;
+}
+
+/* Ritual Practice - Step-by-step guidance */
+.ritual-practice {
+    background: #fefce8;
+    border: 2px dashed var(--accent-color);
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+}
+
+.ritual-practice ol,
+.ritual-practice ul {
+    margin: 12px 0;
+    padding-left: 24px;
+}
+
+.ritual-practice li {
+    margin: 8px 0;
+    color: #4a5568;
+}
+
+/* Teaching Box - Core teachings and wisdom */
+.teaching-box {
+    background: linear-gradient(135deg, #f59e0b15, #d9770615);
+    border-top: 3px solid var(--accent-color);
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 6px;
+}
+
+.teaching-box strong {
+    color: var(--accent-color-dark);
+    display: block;
+    margin-bottom: 8px;
+}
+
+/* Journey Milestone - Key moments on the path */
+.journey-milestone {
+    background: linear-gradient(135deg, rgba(217, 119, 6, 0.08), rgba(245, 158, 11, 0.08));
+    border-left: 5px solid var(--accent-color-dark);
+    padding: 18px 20px;
+    margin: 20px 0;
+    border-radius: 4px;
+    font-weight: 500;
+}
+
+.journey-milestone::before {
+    content: "🚶 ";
+    margin-right: 8px;
+}
+
+/* Wisdom Box - Insight and understanding */
+.wisdom-box {
+    background: #fffbeb;
+    border: 2px solid var(--accent-color);
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 6px;
+}
+
+.wisdom-box strong {
+    color: var(--accent-color-dark);
+}
+
+.wisdom-box p {
+    margin: 8px 0;
+    line-height: 1.6;
+}
+
+/* Reflection - Questions for contemplation */
+.reflection {
+    background: linear-gradient(135deg, #fef08a, #fef3c7);
+    border-left: 4px solid var(--accent-color-dark);
+    padding: 16px 20px;
+    margin: 20px 0;
+    border-radius: 6px;
+    font-style: italic;
+}
+
+.reflection::before {
+    content: "✨ ";
+    margin-right: 8px;
+}
+
+/* Quote Box - Notable passages from the book */
+.quote-box {
+    background: #fef3c7;
+    border-left: 4px solid var(--accent-color);
+    padding: 16px 20px;
+    margin: 20px 0;
+    border-radius: 4px;
+    font-style: italic;
+    color: #5a4a42;
+}
+
+.quote-box p {
+    margin: 0;
+    line-height: 1.6;
+}
+
+/* Central Node Customization */
+.central-node {
+    background: var(--accent-gradient) !important;
+}
+
+/* Section Title Customization */
+.section-title {
+    background: var(--section-title-bg) !important;
+    color: white;
+}
+
+/* Key Teachings/Key Takeaways */
+.key-teachings,
+.key-points {
+    background: #fef3c7;
+    border: 2px solid var(--accent-color);
+    padding: 20px;
+    border-radius: 6px;
+    margin: 20px 0;
+}
+
+.key-teachings li,
+.key-points li {
+    margin: 10px 0;
+    color: #4a5568;
+}
+
+.key-teachings strong,
+.key-points strong {
+    color: var(--accent-color-dark);
+}
+
+/* Chapter Cards */
+.chapter-card {
+    border-top: 4px solid var(--accent-color);
+    transition: all 0.3s ease;
+}
+
+.chapter-card:hover {
+    border-top-color: var(--accent-color-dark);
+    box-shadow: 0 4px 12px rgba(245, 158, 11, 0.2);
+}
+
+/* Verse/Quote styling */
+.verse {
+    background: var(--verse-bg);
+    border-left: 4px solid var(--accent-color-dark);
+    padding: 12px 16px;
+    margin: 16px 0;
+    font-style: italic;
+    color: #5a4a42;
+}
+
+/* Intro Box */
+.intro {
+    background: var(--intro-bg);
+    border-left: 4px solid var(--accent-color);
+}

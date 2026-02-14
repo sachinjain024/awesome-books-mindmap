@@ -1,0 +1,121 @@
+/* Eleven Minutes - Book-Specific Styles */
+
+:root {
+    --accent-color: #db2777;
+    --accent-color-dark: #be185d;
+    --accent-gradient: linear-gradient(135deg, #ec4899 0%, #db2777 100%);
+    --section-title-bg: #fce7f3;
+    --key-box-color: #db2777;
+    --key-box-bg: #fdf2f8;
+    --verse-bg: #fef3f9;
+    --intro-bg: #fce7f3;
+}
+
+/* Journey/transformation boxes */
+.journey-box {
+    background: linear-gradient(135deg, #fef3f9 0%, #fce7f3 100%);
+    border-left: 4px solid var(--accent-color);
+    padding: 1.5rem;
+    margin: 2rem 0;
+    border-radius: 8px;
+}
+
+.journey-box h3 {
+    color: var(--accent-color);
+    margin-top: 0;
+    font-size: 1.2rem;
+}
+
+/* Diary entry style */
+.diary-entry {
+    background: #fffbeb;
+    border-left: 4px solid #f59e0b;
+    padding: 1.5rem;
+    margin: 2rem 0;
+    border-radius: 8px;
+    font-style: italic;
+}
+
+.diary-entry h3 {
+    color: #d97706;
+    margin-top: 0;
+    font-size: 1.2rem;
+    font-style: normal;
+}
+
+/* Love/Sacred sex themes */
+.sacred-love {
+    background: linear-gradient(135deg, #f3e8ff 0%, #e9d5ff 100%);
+    border-left: 4px solid #9333ea;
+    padding: 1.5rem;
+    margin: 2rem 0;
+    border-radius: 8px;
+}
+
+.sacred-love h3 {
+    color: #7c3aed;
+    margin-top: 0;
+    font-size: 1.2rem;
+}
+
+/* Inner light/wisdom boxes */
+.inner-light {
+    background: linear-gradient(135deg, #fef9c3 0%, #fef08a 100%);
+    border-left: 4px solid #eab308;
+    padding: 1.5rem;
+    margin: 2rem 0;
+    border-radius: 8px;
+}
+
+.inner-light h3 {
+    color: #ca8a04;
+    margin-top: 0;
+    font-size: 1.2rem;
+}
+
+/* Lesson learned boxes */
+.lesson-box {
+    background: #f0fdf4;
+    border-left: 4px solid #22c55e;
+    padding: 1.5rem;
+    margin: 2rem 0;
+    border-radius: 8px;
+}
+
+.lesson-box h3 {
+    color: #16a34a;
+    margin-top: 0;
+    font-size: 1.2rem;
+}
+
+/* Reflection/contemplation */
+.reflection {
+    background: linear-gradient(135deg, #dbeafe 0%, #bfdbfe 100%);
+    border-left: 4px solid #3b82f6;
+    padding: 1.5rem;
+    margin: 2rem 0;
+    border-radius: 8px;
+    font-style: italic;
+}
+
+.reflection h3 {
+    color: #2563eb;
+    margin-top: 0;
+    font-size: 1.2rem;
+    font-style: normal;
+}
+
+/* Darkness/struggle boxes */
+.darkness-box {
+    background: #f5f3ff;
+    border-left: 4px solid #6b21a8;
+    padding: 1.5rem;
+    margin: 2rem 0;
+    border-radius: 8px;
+}
+
+.darkness-box h3 {
+    color: #6b21a8;
+    margin-top: 0;
+    font-size: 1.2rem;
+}

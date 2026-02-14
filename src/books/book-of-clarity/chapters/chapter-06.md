@@ -1,0 +1,84 @@
+---
+number: 6
+title: "Business Model & Pricing"
+meta: "Part II: Strategy | 3 Mental Models"
+part: "Part II: Strategy"
+layout: chapter
+book: book-of-clarity
+totalChapters: 13
+permalink: book-of-clarity/chapters/chapter-06.html
+---
+
+<div class="section">
+            <h2>How to Make Money</h2>
+            <p>A product that people love but can't pay for is a hobby, not a business. These mental models help you think clearly about pricing and business models—the mechanisms that turn value creation into revenue.</p>
+        </div>
+
+        <div class="mental-model">
+            <h3><span class="model-number">30</span>Generating Profit Requires Creativity</h3>
+            <p>Most founders default to obvious business models: subscription, freemium, advertising. But the most successful companies often invent entirely new ways to capture value.</p>
+            <p>Amazon Prime isn't just a subscription—it's a lock-in mechanism that increases purchase frequency. Google doesn't sell ads; it auctions attention. Costco makes more money from memberships than from product margins.</p>
+            <p>Think creatively about how you can capture value in ways your competitors haven't considered.</p>
+        </div>
+
+        <div class="first-principles">
+            <h4>Business Model Innovation Questions</h4>
+            <ul>
+                <li>Who else benefits from my product existing? Can they pay?</li>
+                <li>What recurring value do I create that could justify recurring revenue?</li>
+                <li>What would customers pay to avoid rather than gain?</li>
+                <li>Can I capture value from multiple sides of a transaction?</li>
+            </ul>
+        </div>
+
+        <div class="mental-model">
+            <h3><span class="model-number">31</span>What People Pay for Something Is Determined by Its Perceived Alternatives</h3>
+            <p>Price isn't determined by your costs or even your value—it's determined by what customers perceive as alternatives. If the alternative is free, you can't charge much. If the alternative is expensive, you can charge more.</p>
+            <p>This is why framing matters. A $100 productivity tool seems expensive compared to free alternatives. But if you frame it as saving 10 hours a month (worth $500+), it seems cheap. Control the frame, control the perceived value.</p>
+        </div>
+
+        <div class="startup-example">
+            <h4>Example: Pricing by Alternatives</h4>
+            <p>A corporate training program that costs $5,000 seems expensive compared to free YouTube tutorials. But if positioned as replacing a $50,000/year junior hire while they learn, it seems like a bargain. Same product, different anchor.</p>
+        </div>
+
+        <div class="mental-model">
+            <h3><span class="model-number">32</span>Your Product's Price Determines Your Business Playbook</h3>
+            <p>Price isn't just a number—it dictates your entire business strategy. A $10/month product requires millions of customers, self-serve onboarding, and viral growth. A $100,000/year product requires an enterprise sales team, custom implementations, and relationship building.</p>
+            <p>Choose your price point deliberately, because it constrains everything else: your sales motion, your customer support model, your marketing channels, and your company culture.</p>
+        </div>
+
+        <div class="framework-box">
+            <h4>Price Point Implications</h4>
+            <table class="comparison-table">
+                <tr>
+                    <th>Price</th>
+                    <th>Strategy</th>
+                </tr>
+                <tr>
+                    <td>$10-50/mo</td>
+                    <td>Self-serve, viral, high volume, low touch</td>
+                </tr>
+                <tr>
+                    <td>$100-500/mo</td>
+                    <td>Inside sales, demos, some support</td>
+                </tr>
+                <tr>
+                    <td>$1,000-10,000/mo</td>
+                    <td>Account executives, onboarding, success teams</td>
+                </tr>
+                <tr>
+                    <td>$50,000+/year</td>
+                    <td>Enterprise sales, custom work, long cycles</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="key-points">
+            <h3>Key Takeaways from Chapter 6</h3>
+            <ul>
+                <li><strong>Get Creative:</strong> The best business models are inventive, not obvious</li>
+                <li><strong>Control Anchors:</strong> Price is relative to perceived alternatives</li>
+                <li><strong>Price = Strategy:</strong> Your price point determines your entire playbook</li>
+            </ul>
+        </div>

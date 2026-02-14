@@ -1,0 +1,98 @@
+---
+number: 7
+title: "B2C vs B2B"
+meta: "Part III: Customer Dynamics | 4 Mental Models"
+part: "Part III: Customer Dynamics"
+layout: chapter
+book: book-of-clarity
+totalChapters: 13
+permalink: book-of-clarity/chapters/chapter-07.html
+---
+
+<div class="section">
+            <h2>Two Fundamentally Different Games</h2>
+            <p>Selling to consumers is fundamentally different from selling to businesses. The psychology, sales motions, and competitive dynamics are so different that many concepts don't transfer. These mental models clarify the distinctions.</p>
+        </div>
+
+        <div class="mental-model">
+            <h3><span class="model-number">33</span>Consumers Want to Conform, Companies Want to Differentiate</h3>
+            <p>Consumers buy what their peers buy. Fashion trends, popular restaurants, viral apps—people want to fit in. Marketing to consumers means leveraging social proof and FOMO.</p>
+            <p>Companies are the opposite. They want competitive advantages, not conformity. "Everyone else uses this" is a warning sign for B2B buyers—if everyone has it, it's not a differentiator. B2B marketing emphasizes uniqueness.</p>
+        </div>
+
+        <div class="first-principles">
+            <h4>The Proof Point Difference</h4>
+            <p><strong>B2C:</strong> "Millions of people love this!" = Good</p>
+            <p><strong>B2B:</strong> "Your competitors don't have this yet!" = Good</p>
+            <p>Same product, opposite selling points depending on who's buying.</p>
+        </div>
+
+        <div class="mental-model">
+            <h3><span class="model-number">34</span>Consumers Hate Getting Sold To, Companies Love It</h3>
+            <p>Try cold-calling a consumer. They'll hang up immediately. Consumers despise being sold to—they want to discover products themselves or hear about them from friends.</p>
+            <p>Companies are different. They actively want vendors to pitch them solutions. Enterprise buyers attend conferences, take sales meetings, and evaluate proposals. Outbound sales works in B2B; it's almost never effective in B2C.</p>
+        </div>
+
+        <div class="startup-example">
+            <h4>Sales Motion Implications</h4>
+            <p><strong>B2C:</strong> Content marketing, influencers, viral loops, word-of-mouth, brand advertising</p>
+            <p><strong>B2B:</strong> Cold outreach, demos, sales calls, conferences, partnerships, account-based marketing</p>
+        </div>
+
+        <div class="mental-model">
+            <h3><span class="model-number">35</span>Consumers Want Stuff for Free, Companies Want to Pay</h3>
+            <p>Consumers resist paying. Freemium works because it accommodates the consumer's preference for free, hoping to convert a small percentage.</p>
+            <p>Businesses are skeptical of free. "If it's free, you're the product." Enterprise buyers actually prefer to pay—it implies quality, accountability, and support. A free B2B tool often signals low quality.</p>
+        </div>
+
+        <div class="pitfall-box">
+            <h4>The Freemium Mismatch</h4>
+            <p>Freemium works well in B2C. In B2B, it can actually hurt you. Companies worry about free tools disappearing, having no support, or harvesting their data. Consider charging from day one for B2B products.</p>
+        </div>
+
+        <div class="mental-model">
+            <h3><span class="model-number">36</span>It's Winners-Take-All in B2C, While B2B Is a Long Tail</h3>
+            <p>Consumer markets tend toward monopolies. There's one dominant social network, one dominant search engine, one dominant e-commerce site. The network effects are so strong that second place is barely viable.</p>
+            <p>B2B markets are fragmented. Different industries, company sizes, and use cases create niches. You can build a great B2B company being #5 in your category because you serve a specific segment better than anyone else.</p>
+        </div>
+
+        <div class="framework-box">
+            <h4>B2C vs B2B Summary</h4>
+            <table class="comparison-table">
+                <tr>
+                    <th>Dimension</th>
+                    <th>B2C</th>
+                    <th>B2B</th>
+                </tr>
+                <tr>
+                    <td>Social Dynamic</td>
+                    <td>Conform (fit in)</td>
+                    <td>Differentiate (stand out)</td>
+                </tr>
+                <tr>
+                    <td>Sales</td>
+                    <td>Hate being sold to</td>
+                    <td>Welcome sales conversations</td>
+                </tr>
+                <tr>
+                    <td>Pricing</td>
+                    <td>Want free</td>
+                    <td>Skeptical of free</td>
+                </tr>
+                <tr>
+                    <td>Market</td>
+                    <td>Winner-take-all</td>
+                    <td>Fragmented, long tail</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="key-points">
+            <h3>Key Takeaways from Chapter 7</h3>
+            <ul>
+                <li><strong>Different Psychologies:</strong> Consumers follow crowds; businesses seek differentiation</li>
+                <li><strong>Different Sales:</strong> Outbound works in B2B, not B2C</li>
+                <li><strong>Different Pricing:</strong> Free signals value in B2C, risk in B2B</li>
+                <li><strong>Different Markets:</strong> B2C consolidates; B2B stays fragmented</li>
+            </ul>
+        </div>

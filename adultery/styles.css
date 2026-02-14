@@ -1,0 +1,119 @@
+/* Adultery by Paulo Coelho - Book-Specific Styles */
+
+:root {
+    --accent-color: #991b1b;
+    --accent-color-dark: #7f1d1d;
+    --accent-gradient: linear-gradient(135deg, #991b1b 0%, #7f1d1d 100%);
+    --section-title-bg: #991b1b;
+    --key-box-color: #991b1b;
+    --key-box-bg: #fef2f2;
+    --verse-bg: #fee2e2;
+    --intro-bg: #fef2f2;
+}
+
+/* Emptiness and void */
+.emptiness-box {
+    background-color: #f3f4f6;
+    border-left: 4px solid #991b1b;
+    padding: 1rem;
+    margin: 1.5rem 0;
+    border-radius: 4px;
+    font-style: italic;
+    color: #4b5563;
+}
+
+/* Passion and desire */
+.passion-box {
+    background-color: #fee2e2;
+    border-left: 4px solid #991b1b;
+    padding: 1rem;
+    margin: 1.5rem 0;
+    border-radius: 4px;
+}
+
+.passion-box strong {
+    color: #991b1b;
+}
+
+/* Marriage and relationships */
+.marriage-reflection {
+    background-color: #fef2f2;
+    border-left: 4px solid #7f1d1d;
+    padding: 1rem;
+    margin: 1.5rem 0;
+    border-radius: 4px;
+}
+
+/* Depression and struggle */
+.depression-box {
+    background-color: #f0f0f0;
+    border-left: 4px solid #666;
+    padding: 1rem;
+    margin: 1.5rem 0;
+    border-radius: 4px;
+    color: #4a5568;
+}
+
+/* Awakening and realization */
+.awakening-box {
+    background-color: #fce7f3;
+    border-left: 4px solid #991b1b;
+    padding: 1rem;
+    margin: 1.5rem 0;
+    border-radius: 4px;
+}
+
+/* General reflection */
+.reflection {
+    background-color: #f9fafb;
+    border-left: 4px solid #991b1b;
+    padding: 1rem;
+    margin: 1.5rem 0;
+    border-radius: 4px;
+    font-style: italic;
+}
+
+/* Central node customization */
+.central-node {
+    background: linear-gradient(135deg, #991b1b 0%, #7f1d1d 100%);
+}
+
+/* Quote styling */
+.quote-box {
+    background-color: #fee2e2;
+    border-left: 5px solid #991b1b;
+    padding: 1.5rem;
+    margin: 2rem 0;
+    border-radius: 4px;
+    font-size: 1.1rem;
+    font-style: italic;
+    color: #7f1d1d;
+}
+
+.quote-box em {
+    display: block;
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+    font-style: normal;
+}
+
+/* Key points customization */
+.key-teachings ul li {
+    border-left: 4px solid #991b1b;
+    padding-left: 1rem;
+}
+
+/* Chapter cards customization */
+.chapters-grid .chapter-card:hover {
+    border-top-color: #991b1b;
+    box-shadow: 0 4px 8px rgba(153, 27, 27, 0.1);
+}
+
+/* Back button customization */
+.back-button {
+    color: #991b1b;
+}
+
+.back-button:hover {
+    color: #7f1d1d;
+}
