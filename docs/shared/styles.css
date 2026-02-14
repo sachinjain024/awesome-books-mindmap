@@ -171,6 +171,39 @@ h1.chapter-title {
     text-decoration: underline;
 }
 
+/* Breadcrumb Navigation */
+.breadcrumb {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 24px;
+    font-size: 0.95em;
+    color: var(--text-medium);
+}
+
+.breadcrumb-link {
+    color: var(--accent-color);
+    text-decoration: none;
+    font-weight: 500;
+    transition: all 0.2s ease;
+}
+
+.breadcrumb-link:hover {
+    text-decoration: underline;
+    color: var(--accent-color-dark);
+}
+
+.breadcrumb-separator {
+    color: var(--text-light);
+    font-weight: 300;
+    user-select: none;
+}
+
+.breadcrumb-current {
+    color: var(--text-medium);
+    font-weight: 600;
+}
+
 /* Introduction Box */
 .intro {
     background: var(--intro-bg);

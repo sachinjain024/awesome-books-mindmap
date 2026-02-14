@@ -1,0 +1,117 @@
+/* Mental Models - Book-Specific Styles */
+
+:root {
+    --accent-color: #3b82f6;
+    --accent-color-dark: #2563eb;
+    --accent-gradient: linear-gradient(135deg, #3b82f6 0%, #1d4ed8 100%);
+    --section-title-bg: #dbeafe;
+    --key-box-color: #1d4ed8;
+    --key-box-bg: #eff6ff;
+    --model-bg: #f0f9ff;
+    --thinking-bg: #e0f2fe;
+}
+
+/* Model boxes for each thinking tool */
+.model-box {
+    background: var(--model-bg);
+    border-left: 4px solid var(--accent-color);
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+    border-radius: 8px;
+}
+
+.model-box h3 {
+    color: var(--accent-color-dark);
+    margin-top: 0;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.model-number {
+    display: inline-block;
+    background: var(--accent-gradient);
+    color: white;
+    padding: 0.25rem 0.75rem;
+    border-radius: 20px;
+    font-size: 0.875rem;
+    font-weight: 600;
+    margin-right: 0.5rem;
+}
+
+/* Thinking type boxes */
+.thinking-type {
+    background: var(--thinking-bg);
+    border: 2px solid var(--accent-color);
+    padding: 1.25rem;
+    margin: 1.5rem 0;
+    border-radius: 8px;
+}
+
+/* Application examples */
+.application-box {
+    background: #fef3c7;
+    border-left: 4px solid #f59e0b;
+    padding: 1.25rem;
+    margin: 1.5rem 0;
+    border-radius: 6px;
+}
+
+/* Avoidance strategies */
+.avoidance-box {
+    background: #fce7f3;
+    border-left: 4px solid #ec4899;
+    padding: 1.25rem;
+    margin: 1.5rem 0;
+    border-radius: 6px;
+}
+
+/* Key insight boxes */
+.insight-box {
+    background: linear-gradient(to right, #eff6ff, #dbeafe);
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+    border-radius: 8px;
+    border: 1px solid var(--accent-color);
+}
+
+/* Practice exercises */
+.practice-exercise {
+    background: #f0fdf4;
+    border-left: 4px solid #10b981;
+    padding: 1.25rem;
+    margin: 1.5rem 0;
+    border-radius: 6px;
+}
+
+/* Common mistakes/warnings */
+.warning-box {
+    background: #fef2f2;
+    border-left: 4px solid #ef4444;
+    padding: 1.25rem;
+    margin: 1.5rem 0;
+    border-radius: 6px;
+}
+
+/* Quick reference cards */
+.quick-reference {
+    background: white;
+    border: 2px solid var(--accent-color);
+    padding: 1.25rem;
+    margin: 1.5rem 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(59, 130, 246, 0.1);
+}
+
+/* Mental model principles */
+.principle-box {
+    background: linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%);
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+    border-radius: 8px;
+    border-left: 5px solid var(--accent-color-dark);
+}
+
+.principle-box h3 {
+    color: var(--accent-color-dark);
+    margin-top: 0;
+}
