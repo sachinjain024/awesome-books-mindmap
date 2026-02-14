@@ -33,17 +33,22 @@ booksmap/
 ├── shared/
 │   ├── styles.css                   # Common CSS for all books
 │   └── highlight.js                 # Text highlighting feature
-├── src/                             # Source files (Markdown)
+├── src/                             # All source content
 │   ├── _includes/                   # Nunjucks templates
 │   │   ├── book-index.njk          # Book overview page template
 │   │   └── chapter.njk             # Chapter page template
-│   └── books/
+│   ├── books/                       # Markdown source files (new books)
+│   │   └── [book-slug]/
+│   │       ├── book.md              # Book overview (with frontmatter)
+│   │       ├── styles.css           # Book-specific CSS overrides
+│   │       └── chapters/
+│   │           └── chapter-XX.md    # Individual chapter markdown files
+│   └── static-books/                # Pre-generated HTML books (legacy)
 │       └── [book-slug]/
-│           ├── book.md              # Book overview (with frontmatter)
+│           ├── index.html
+│           ├── styles.css
 │           └── chapters/
-│               └── chapter-XX.md    # Individual chapter markdown files
-├── [book-slug]/
-│   └── styles.css                   # Book-specific CSS overrides
+│               └── chapter-XX.html
 └── docs/                            # Generated HTML output (from npm run build)
     └── [book-slug]/                 # Published to GitHub Pages
         ├── index.html               # Generated book overview
@@ -71,7 +76,6 @@ Before creating files, understand the book's organization:
 
 ```bash
 mkdir -p src/books/[book-slug]/chapters
-mkdir -p [book-slug]
 ```
 
 Use kebab-case for directory names (e.g., `the-stoic-mind`, `psychology-of-money`).
@@ -89,7 +93,7 @@ Select an accent color that fits the book's theme:
 
 ### Step 4: Create Book-Specific Styles (styles.css)
 
-Create `[book-slug]/styles.css` with CSS custom properties:
+Create `src/books/[book-slug]/styles.css` with CSS custom properties:
 
 ```css
 /* [Book Name] - Book-Specific Styles */
