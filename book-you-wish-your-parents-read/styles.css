@@ -1,0 +1,105 @@
+/* The Book You Wish Your Parents Had Read - Book-Specific Styles */
+
+:root {
+    --accent-color: #0891b2;
+    --accent-color-dark: #0e7490;
+    --accent-gradient: linear-gradient(135deg, #06b6d4 0%, #0891b2 100%);
+    --section-title-bg: #0891b2;
+    --key-box-color: #0891b2;
+    --key-box-bg: #ecfeff;
+    --insight-bg: #f0fdfa;
+    --practice-bg: #ccfbf1;
+    --reflection-bg: #e0f2fe;
+}
+
+/* Insight boxes for key parenting insights */
+.insight-box {
+    background: var(--insight-bg);
+    border-left: 4px solid var(--accent-color);
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+    border-radius: 0 8px 8px 0;
+}
+
+.insight-box h3 {
+    color: var(--accent-color-dark);
+    margin-top: 0;
+    font-size: 1.2rem;
+}
+
+/* Practice exercises */
+.practice-exercise {
+    background: var(--practice-bg);
+    border: 2px solid var(--accent-color);
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+    border-radius: 8px;
+}
+
+.practice-exercise h3 {
+    color: var(--accent-color-dark);
+    margin-top: 0;
+    font-size: 1.2rem;
+}
+
+/* Reflection prompts */
+.reflection {
+    background: var(--reflection-bg);
+    border-left: 4px solid #0284c7;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+    border-radius: 0 8px 8px 0;
+    font-style: italic;
+}
+
+.reflection h3 {
+    color: #0369a1;
+    margin-top: 0;
+    font-size: 1.1rem;
+    font-style: normal;
+}
+
+/* Example scenarios */
+.example-scenario {
+    background: #fef3c7;
+    border-left: 4px solid #f59e0b;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+    border-radius: 0 8px 8px 0;
+}
+
+.example-scenario h3 {
+    color: #d97706;
+    margin-top: 0;
+    font-size: 1.1rem;
+}
+
+/* Principle boxes for core parenting principles */
+.principle-box {
+    background: linear-gradient(to right, var(--key-box-bg), white);
+    border: 2px solid var(--accent-color);
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+    border-radius: 8px;
+}
+
+.principle-box h3 {
+    color: var(--accent-color-dark);
+    margin-top: 0;
+    font-size: 1.3rem;
+}
+
+/* Warning/common mistake boxes */
+.common-mistake {
+    background: #fee2e2;
+    border-left: 4px solid #dc2626;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+    border-radius: 0 8px 8px 0;
+}
+
+.common-mistake h3 {
+    color: #b91c1c;
+    margin-top: 0;
+    font-size: 1.1rem;
+}
