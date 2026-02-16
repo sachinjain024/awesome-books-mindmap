@@ -1,0 +1,268 @@
+/* Tuesdays with Morrie - Book-Specific Styles */
+/* Theme: Warm amber/gold - representing warmth, wisdom, and the golden light of Morrie's teachings */
+
+:root {
+    --accent-color: #d97706;
+    --accent-color-dark: #b45309;
+    --accent-gradient: linear-gradient(135deg, #d97706 0%, #f59e0b 100%);
+    --section-title-bg: #92400e;
+    --key-box-color: #b45309;
+    --key-box-bg: #fffbeb;
+    --verse-bg: #fffbeb;
+    --intro-bg: #fffbeb;
+}
+
+/* Morrie's wisdom quote boxes */
+.morrie-wisdom {
+    background: linear-gradient(135deg, #fffbeb 0%, #fef3c7 100%);
+    border-left: 4px solid #d97706;
+    padding: 20px 25px;
+    margin: 25px 0;
+    border-radius: 0 8px 8px 0;
+    font-style: italic;
+}
+
+.morrie-wisdom::before {
+    content: "Morrie's Wisdom";
+    display: block;
+    font-weight: bold;
+    color: #b45309;
+    font-style: normal;
+    margin-bottom: 8px;
+    font-size: 0.9em;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+/* Life lesson boxes */
+.life-lesson {
+    background: white;
+    border: 2px solid #d97706;
+    border-radius: 12px;
+    padding: 20px;
+    margin: 25px 0;
+    position: relative;
+}
+
+.life-lesson::before {
+    content: "Life Lesson";
+    position: absolute;
+    top: -12px;
+    left: 20px;
+    background: var(--accent-gradient);
+    color: white;
+    padding: 4px 14px;
+    border-radius: 20px;
+    font-size: 0.85em;
+    font-weight: bold;
+}
+
+/* Dialogue between Mitch and Morrie */
+.dialogue-box {
+    background: #f8fafc;
+    border-radius: 12px;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.dialogue-line {
+    padding: 10px 15px;
+    margin: 8px 0;
+    border-radius: 8px;
+    position: relative;
+}
+
+.dialogue-line .speaker {
+    font-weight: bold;
+    margin-right: 8px;
+}
+
+.dialogue-line.morrie {
+    background: #fef3c7;
+    margin-right: 20px;
+}
+
+.dialogue-line.mitch {
+    background: #dbeafe;
+    margin-left: 20px;
+}
+
+/* Reflection prompts */
+.reflection {
+    background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
+    border: 2px dashed #94a3b8;
+    border-radius: 12px;
+    padding: 20px;
+    margin: 25px 0;
+    text-align: center;
+}
+
+.reflection::before {
+    content: "Pause and Reflect";
+    display: block;
+    font-weight: bold;
+    color: #64748b;
+    margin-bottom: 10px;
+    font-size: 0.9em;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+/* Metaphor/analogy boxes */
+.metaphor-box {
+    background: linear-gradient(135deg, #faf5ff 0%, #f3e8ff 100%);
+    border-left: 4px solid #7c3aed;
+    padding: 20px 25px;
+    margin: 25px 0;
+    border-radius: 0 8px 8px 0;
+}
+
+.metaphor-box::before {
+    content: "Metaphor";
+    display: block;
+    font-weight: bold;
+    color: #7c3aed;
+    margin-bottom: 8px;
+    font-size: 0.9em;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+/* Aphorism - Morrie's memorable sayings */
+.aphorism {
+    background: linear-gradient(135deg, #fffbeb 0%, #fde68a 100%);
+    border: 2px solid #f59e0b;
+    border-radius: 12px;
+    padding: 25px 30px;
+    margin: 30px 0;
+    text-align: center;
+    font-size: 1.15em;
+    font-style: italic;
+    color: #92400e;
+    position: relative;
+}
+
+.aphorism::before {
+    content: "\201C";
+    font-size: 3em;
+    color: #d97706;
+    position: absolute;
+    top: -5px;
+    left: 15px;
+    font-style: normal;
+    line-height: 1;
+}
+
+/* Tuesday session header */
+.tuesday-session {
+    background: linear-gradient(135deg, #92400e 0%, #b45309 100%);
+    color: white;
+    border-radius: 12px;
+    padding: 20px 25px;
+    margin: 25px 0;
+    text-align: center;
+}
+
+.tuesday-session h3 {
+    color: white;
+    margin: 0;
+}
+
+.tuesday-session p {
+    color: #fde68a;
+    margin: 5px 0 0;
+    font-size: 0.95em;
+}
+
+/* Contrast box - what society says vs what Morrie teaches */
+.contrast {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin: 25px 0;
+}
+
+.society-says {
+    background: #fef2f2;
+    border: 2px solid #ef4444;
+    border-radius: 12px;
+    padding: 20px;
+}
+
+.society-says h4 {
+    color: #dc2626;
+}
+
+.society-says h4::before {
+    content: "Society Says: ";
+}
+
+.morrie-teaches {
+    background: #f0fdf4;
+    border: 2px solid #22c55e;
+    border-radius: 12px;
+    padding: 20px;
+}
+
+.morrie-teaches h4 {
+    color: #16a34a;
+}
+
+.morrie-teaches h4::before {
+    content: "Morrie Teaches: ";
+}
+
+@media (max-width: 768px) {
+    .contrast {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Backstory/flashback sections */
+.backstory {
+    background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+    border-left: 4px solid #64748b;
+    padding: 20px 25px;
+    margin: 25px 0;
+    border-radius: 0 8px 8px 0;
+}
+
+.backstory::before {
+    content: "Looking Back";
+    display: block;
+    font-weight: bold;
+    color: #475569;
+    margin-bottom: 8px;
+    font-size: 0.9em;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+/* Quick wins / practical takeaways */
+.quick-wins {
+    background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);
+    border: 2px solid #f59e0b;
+    border-radius: 12px;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.quick-wins h3 {
+    color: #d97706;
+    margin-bottom: 15px;
+}
+
+.quick-wins li {
+    position: relative;
+    padding-left: 25px;
+    margin-bottom: 10px;
+    list-style: none;
+}
+
+.quick-wins li::before {
+    content: "\2713";
+    position: absolute;
+    left: 0;
+    color: #d97706;
+    font-weight: bold;
+}
