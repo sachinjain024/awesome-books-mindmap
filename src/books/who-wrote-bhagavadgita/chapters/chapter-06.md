@@ -1,0 +1,162 @@
+---
+number: 6
+title: "The Three Authors Theory"
+meta: "Part II: The Authorship Question | Desai's Central Argument"
+part: "PART II: THE AUTHORSHIP QUESTION - Scholarly Investigation"
+layout: chapter
+book: who-wrote-bhagavadgita
+totalChapters: 12
+permalink: who-wrote-bhagavadgita/chapters/chapter-06.html
+---
+
+<div class="section">
+            <h2>The Heart of the Investigation</h2>
+            <p>This chapter presents Desai's central thesis: the Bhagavad Gita was not written by a single author but by three different writers across several centuries. Each author addressed specific philosophical challenges of their time, wrote for different audiences, and promoted different paths to liberation. Their works were eventually combined into the 700-verse text we know today.</p>
+        </div>
+
+        <div class="thesis-box">
+            <blockquote>"The Gita is not one text but three, each responding to the religious challenges of its era, each offering a different solution to the problem of human existence."</blockquote>
+            <cite>Meghnad Desai</cite>
+        </div>
+
+        <div class="section">
+            <h2>Overview of the Three Authors</h2>
+            <p>Before examining each author in detail (covered in subsequent chapters), Desai presents an overview of his theory:</p>
+        </div>
+
+        <div class="verse-comparison">
+            <div class="author-column">
+                <h4>Author 1</h4>
+                <p><strong>Period:</strong> ~600 BCE</p>
+                <p><strong>Verses:</strong> 126</p>
+                <p><strong>Focus:</strong> Karma yoga, sannyasa</p>
+                <p><strong>Audience:</strong> Educated seekers</p>
+            </div>
+            <div class="author-column">
+                <h4>Author 2</h4>
+                <p><strong>Period:</strong> ~5th century BCE</p>
+                <p><strong>Verses:</strong> 119</p>
+                <p><strong>Focus:</strong> Karma, sattvika</p>
+                <p><strong>Audience:</strong> Philosophical elite</p>
+            </div>
+            <div class="author-column">
+                <h4>Author 3</h4>
+                <p><strong>Period:</strong> ~300 BCE</p>
+                <p><strong>Verses:</strong> 455</p>
+                <p><strong>Focus:</strong> Bhakti devotion</p>
+                <p><strong>Audience:</strong> Common people</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>The Evidence Pattern</h2>
+            <p>Desai identifies several categories of evidence supporting the three-author theory:</p>
+        </div>
+
+        <div class="author-box">
+            <h4>1. Terminological Shifts</h4>
+            <p>The vocabulary changes dramatically across sections:</p>
+            <ul>
+                <li>Early sections use Upanishadic terminology (Brahman, atman, moksha)</li>
+                <li>Middle sections introduce Sankhya-Yoga terms (prakriti, purusha, gunas)</li>
+                <li>Later sections emphasize bhakti vocabulary (bhakta, prasada, surrender)</li>
+            </ul>
+            <p>These aren't just stylistic variations but reflect different philosophical frameworks.</p>
+        </div>
+
+        <div class="author-box">
+            <h4>2. Contradictory Teachings</h4>
+            <p>The text offers apparently contradictory advice:</p>
+            <ul>
+                <li>Action (karma) is praised, then renunciation (sannyasa) is praised</li>
+                <li>Knowledge (jnana) is declared supreme, then devotion (bhakti) is declared supreme</li>
+                <li>The impersonal Brahman is ultimate, then personal Krishna is ultimate</li>
+            </ul>
+            <p>Traditional interpreters harmonize these; Desai sees different authors with different views.</p>
+        </div>
+
+        <div class="author-box">
+            <h4>3. Audience Shifts</h4>
+            <p>Different sections address markedly different audiences:</p>
+            <ul>
+                <li>Sophisticated philosophical arguments for the educated elite</li>
+                <li>Simple devotional teachings accessible to all</li>
+                <li>Technical yoga instructions for practitioners</li>
+            </ul>
+            <p>A single author might adapt their message, but the shifts here are fundamental.</p>
+        </div>
+
+        <div class="author-box">
+            <h4>4. Historical Markers</h4>
+            <p>Different sections reflect different historical periods:</p>
+            <ul>
+                <li>Pre-Buddhist philosophy with no awareness of Buddhist challenge</li>
+                <li>Engagement with Buddhist concepts (nirvana, karma theory)</li>
+                <li>Post-Buddhist bhakti as a strategic response to Buddhism's appeal</li>
+            </ul>
+        </div>
+
+        <div class="scholarly-insight">
+            <h4>The Numerical Evidence</h4>
+            <p>Khair's verse-by-verse analysis assigns:</p>
+            <ul>
+                <li><strong>126 verses</strong> to Author 1 (~18% of the text)</li>
+                <li><strong>119 verses</strong> to Author 2 (~17% of the text)</li>
+                <li><strong>455 verses</strong> to Author 3 (~65% of the text)</li>
+            </ul>
+            <p>The third author contributed nearly two-thirds of the Gita, reflecting the bhakti movement's dominance in the text's final form.</p>
+        </div>
+
+        <div class="section">
+            <h2>Why Three Authors?</h2>
+            <p>Why specifically three authors rather than two or four? Desai argues that the evidence clusters into three distinct groups based on:</p>
+        </div>
+
+        <div class="concept-box">
+            <h3>Criteria for Author Identification</h3>
+            <ul>
+                <li><strong>Philosophical Framework:</strong> Each author operates within a distinct worldview</li>
+                <li><strong>Temporal Markers:</strong> Each reflects a different historical period</li>
+                <li><strong>Soteriological Focus:</strong> Each emphasizes a different path to liberation</li>
+                <li><strong>Target Audience:</strong> Each writes for a different readership</li>
+                <li><strong>Internal Consistency:</strong> Verses attributed to each author cohere among themselves</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>The Compilation Process</h2>
+            <p>If three authors wrote separately, how did their works become one text? Desai proposes that a later editor, possibly Badarayana (discussed in Chapter 10), compiled the three texts into a single work, adding transitional material to create narrative continuity.</p>
+            <p>This process mirrors what scholars believe happened with other ancient texts:</p>
+            <ul>
+                <li>The Hebrew Bible's documentary hypothesis (J, E, D, P sources)</li>
+                <li>The layered composition of the Homeric epics</li>
+                <li>The growth of the Mahabharata itself from Jaya to its final form</li>
+            </ul>
+        </div>
+
+        <div class="critical-box">
+            <h4>Implications of the Theory</h4>
+            <p>If true, the three-author theory changes how we read the Gita:</p>
+            <ul>
+                <li>Contradictions need not be reconciled; they represent different positions</li>
+                <li>The "comprehensiveness" of the Gita reflects compilation, not divine omniscience</li>
+                <li>Each section can be understood in its historical context</li>
+                <li>The text's evolution mirrors broader religious and social changes in India</li>
+            </ul>
+        </div>
+
+        <div class="desai-quote">
+            "Understanding that three authors wrote the Gita does not diminish it; it illuminates it. We can now see not just what the text says but why it says what it says, and to whom."
+            <cite>Meghnad Desai</cite>
+        </div>
+
+        <div class="key-points">
+            <h3>Key Insights from Chapter 6</h3>
+            <ul>
+                <li><strong>Three Authors:</strong> Desai proposes three distinct authors across several centuries</li>
+                <li><strong>Evidence Categories:</strong> Terminology, contradictions, audience, and historical markers support this</li>
+                <li><strong>Verse Distribution:</strong> 126 + 119 + 455 = 700 verses, with bhakti author contributing most</li>
+                <li><strong>Later Compilation:</strong> An editor combined the three texts into one unified work</li>
+                <li><strong>Parallel Traditions:</strong> Similar compositional processes are documented in other ancient texts</li>
+            </ul>
+        </div>

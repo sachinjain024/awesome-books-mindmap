@@ -1,0 +1,53 @@
+/* Life of Pi - Book-Specific Styles */
+/* Orange / survival theme */
+
+:root {
+    --accent-color: #ea580c;
+    --accent-color-dark: #c2410c;
+    --accent-gradient: linear-gradient(135deg, #ea580c 0%, #f97316 100%);
+    --section-title-bg: #9a3412;
+    --key-box-color: #c2410c;
+    --key-box-bg: #fff7ed;
+    --verse-bg: #ffedd5;
+    --intro-bg: #fff7ed;
+}
+
+.quote-box {
+    background: #fff7ed;
+    border-left: 4px solid var(--accent-color);
+    padding: 20px 25px;
+    margin: 20px 0;
+    border-radius: 8px;
+    font-style: italic;
+    color: var(--text-dark);
+    line-height: 1.8;
+}
+
+.quote-box .attribution {
+    margin-top: 10px;
+    font-style: normal;
+    font-weight: 600;
+    color: var(--accent-color-dark);
+    font-size: 0.9em;
+}
+
+.insight-box {
+    background: linear-gradient(135deg, #fff7ed 0%, #ffedd5 100%);
+    border-left: 4px solid var(--accent-color);
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+}
+
+.insight-box h4 {
+    color: var(--accent-color);
+    margin-bottom: 10px;
+    font-size: 1.1em;
+}
+
+.concept-count {
+    color: var(--accent-color);
+    font-size: 0.85em;
+    margin-top: 10px;
+    font-weight: 600;
+}

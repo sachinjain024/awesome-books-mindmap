@@ -43,12 +43,6 @@ booksmap/
 │   │       ├── styles.css           # Book-specific CSS overrides
 │   │       └── chapters/
 │   │           └── chapter-XX.md    # Individual chapter markdown files
-│   └── static-books/                # Pre-generated HTML books (legacy)
-│       └── [book-slug]/
-│           ├── index.html
-│           ├── styles.css
-│           └── chapters/
-│               └── chapter-XX.html
 └── docs/                            # Generated HTML output (from npm run build)
     └── [book-slug]/                 # Published to GitHub Pages
         ├── index.html               # Generated book overview

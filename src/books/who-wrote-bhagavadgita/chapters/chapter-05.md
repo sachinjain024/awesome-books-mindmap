@@ -1,0 +1,141 @@
+---
+number: 5
+title: "Quest for the Original Gita"
+meta: "Part II: The Authorship Question | G.S. Khair's Research Foundation"
+part: "PART II: THE AUTHORSHIP QUESTION - Scholarly Investigation"
+layout: chapter
+book: who-wrote-bhagavadgita
+totalChapters: 12
+permalink: who-wrote-bhagavadgita/chapters/chapter-05.html
+---
+
+<div class="section">
+            <h2>The Scholarly Foundation</h2>
+            <p>Desai builds his argument primarily on the research of G.S. Khair, whose book <em>Quest for the Original Gita</em> provided a systematic analysis of the text's composition. Khair's work represents the most rigorous attempt to identify the different authors and their contributions to the Gita.</p>
+        </div>
+
+        <div class="concept-box">
+            <h3>Who Was G.S. Khair?</h3>
+            <p>G.S. Khair was an Indian scholar who applied modern textual analysis methods to the Bhagavad Gita. Unlike traditional commentators who sought to harmonize apparent contradictions, Khair investigated them as evidence of multiple authorship. His approach was philological and historical rather than theological.</p>
+        </div>
+
+        <div class="section">
+            <h2>The Methodology</h2>
+            <p>Khair's approach combined several analytical techniques:</p>
+        </div>
+
+        <div class="verse-reference">
+            <span class="verse-id">Analytical Methods</span>
+            <ul>
+                <li><strong>Stylistic Analysis:</strong> Examining vocabulary, sentence structure, and literary style across chapters</li>
+                <li><strong>Philosophical Consistency:</strong> Identifying shifts in philosophical framework and terminology</li>
+                <li><strong>Audience Analysis:</strong> Noting changes in the implied audience (learned vs. ordinary)</li>
+                <li><strong>Historical Markers:</strong> Dating sections based on references to religious and philosophical developments</li>
+                <li><strong>Internal Contradictions:</strong> Cataloguing passages that contradict each other</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Evidence of Composite Authorship</h2>
+            <p>Khair identified several types of evidence suggesting multiple authors:</p>
+        </div>
+
+        <div class="author-box">
+            <h4>Stylistic Variations</h4>
+            <p>Different sections of the Gita display markedly different literary styles:</p>
+            <ul>
+                <li>Some passages are philosophically dense and abstract</li>
+                <li>Others are devotionally fervent and emotionally charged</li>
+                <li>Still others read as practical instructions for spiritual practice</li>
+            </ul>
+            <p>While a single author might vary their style, the shifts in the Gita are so dramatic as to suggest different hands.</p>
+        </div>
+
+        <div class="author-box">
+            <h4>Philosophical Inconsistencies</h4>
+            <p>The Gita appears to advocate different, sometimes contradictory positions:</p>
+            <ul>
+                <li>Sankhya dualism vs. Vedantic monism</li>
+                <li>Action (karma) vs. renunciation (sannyasa)</li>
+                <li>Knowledge (jnana) vs. devotion (bhakti) as the supreme path</li>
+                <li>Impersonal Brahman vs. personal God as ultimate reality</li>
+            </ul>
+            <p>Traditional interpreters explain these as complementary aspects of a unified teaching. Khair suggested they represent different authors with different views.</p>
+        </div>
+
+        <div class="author-box">
+            <h4>Shifts in Addressee</h4>
+            <p>Parts of the Gita address a sophisticated philosophical audience, using technical terms and assuming prior knowledge. Other parts seem aimed at ordinary people, explaining basic concepts and offering accessible devotional paths.</p>
+            <p>This suggests different authors writing for different audiences, their works later combined into a single text.</p>
+        </div>
+
+        <div class="scholarly-insight">
+            <h4>The Interpolation Pattern</h4>
+            <p>Khair observed that interpolations (later additions) in ancient Indian texts typically share certain characteristics:</p>
+            <ul>
+                <li>They often address concerns not present in the original context</li>
+                <li>They may introduce new terminology or concepts</li>
+                <li>They sometimes create narrative awkwardness (as a long sermon before battle does)</li>
+                <li>They may reflect later religious developments</li>
+            </ul>
+            <p>The Gita displays all these characteristics when examined against the Mahabharata narrative.</p>
+        </div>
+
+        <div class="section">
+            <h2>The Dating Evidence</h2>
+            <p>Khair used philosophical and linguistic markers to date different portions of the Gita:</p>
+        </div>
+
+        <div class="historical-context">
+            <h4>Philosophical Chronology</h4>
+            <ul>
+                <li><strong>Pre-Buddhist Elements:</strong> Some passages reflect Upanishadic philosophy before Buddhist influence</li>
+                <li><strong>Buddhist-Era Elements:</strong> Others use terminology (like nirvana) and concepts that emerged with or in response to Buddhism</li>
+                <li><strong>Post-Buddhist Elements:</strong> Still others reflect the bhakti movement's rise as a counter to Buddhism</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>The Three-Author Hypothesis</h2>
+            <p>Based on his analysis, Khair proposed that three distinct authors contributed to the Gita at different periods. Each had their own philosophical agenda and target audience:</p>
+        </div>
+
+        <div class="verse-comparison">
+            <div class="author-column">
+                <h4>Author 1</h4>
+                <p>Early period, Upanishadic philosophy, educated audience, karma-yoga emphasis</p>
+            </div>
+            <div class="author-column">
+                <h4>Author 2</h4>
+                <p>Buddha's era, responding to Buddhist challenge, sattvika qualities</p>
+            </div>
+            <div class="author-column">
+                <h4>Author 3</h4>
+                <p>Post-Buddhist, bhakti movement, ordinary people, devotional path</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <p>Desai adopts Khair's framework as the foundation for his own analysis, adding economic and political dimensions to understand why these texts were written and combined.</p>
+        </div>
+
+        <div class="critical-box">
+            <h4>Controversial but Scholarly</h4>
+            <p>Khair's work remains controversial, particularly among traditional Hindu believers who maintain the Gita's unified, divine authorship. However, his methodology follows established principles of textual criticism applied to other ancient texts, including the Bible. The discomfort arises not from the method but from its application to a revered scripture.</p>
+        </div>
+
+        <div class="desai-quote">
+            "Khair did for the Gita what textual critics have done for the Hebrew Bible and the Homeric epics: he identified the seams where different texts were stitched together. This is not desecration but scholarship."
+            <cite>Meghnad Desai</cite>
+        </div>
+
+        <div class="key-points">
+            <h3>Key Insights from Chapter 5</h3>
+            <ul>
+                <li><strong>Scholarly Basis:</strong> Desai builds on G.S. Khair's rigorous textual analysis</li>
+                <li><strong>Multiple Evidence Types:</strong> Stylistic, philosophical, and chronological markers suggest composite authorship</li>
+                <li><strong>Interpolation Patterns:</strong> The Gita shows characteristics typical of texts with later additions</li>
+                <li><strong>Dating Markers:</strong> Different sections reflect pre-Buddhist, Buddhist-era, and post-Buddhist concerns</li>
+                <li><strong>Three-Author Hypothesis:</strong> Khair proposed three distinct authors with different audiences and agendas</li>
+            </ul>
+        </div>

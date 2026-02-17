@@ -81,7 +81,7 @@
             <h3>{{ quickWins.title or "Quick Wins" }}</h3>
             <ul>
                 {% for item in quickWins.items %}
-                <li>{{ item }}</li>
+                <li>{{ item | safe }}</li>
                 {% endfor %}
             </ul>
         </div>

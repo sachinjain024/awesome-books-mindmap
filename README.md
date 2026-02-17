@@ -224,7 +224,6 @@ awesome-books-mindmap/
 │   │       ├── styles.css        # Book-specific styles
 │   │       └── chapters/
 │   │           └── chapter-XX.md # Chapter content
-│   ├── static-books/             # Pre-generated HTML books (legacy)
 │   └── _includes/                # Nunjucks templates
 ├── docs/                         # Generated site (GitHub Pages)
 ├── shared/
