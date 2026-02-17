@@ -4,8 +4,6 @@ const path = require('path');
 module.exports = function(eleventyConfig) {
   // Copy shared assets
   eleventyConfig.addPassthroughCopy("shared");
-  eleventyConfig.addPassthroughCopy("index.html");
-  
   // Copy per-book styles from src/books/[book]/styles.css to docs/[book]/styles.css
   const markdownBooksDir = path.join(__dirname, 'src/books');
   if (fs.existsSync(markdownBooksDir)) {

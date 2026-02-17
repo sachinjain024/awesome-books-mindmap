@@ -29,7 +29,7 @@ booksmap/
 ├── CLAUDE.md                        # This file - shared guidelines
 ├── .eleventy.js                     # Eleventy configuration
 ├── package.json                     # NPM dependencies and build scripts
-├── index.html                       # Main homepage with all books
+├── src/index.html                   # Main homepage source (Eleventy outputs to docs/index.html)
 ├── shared/
 │   ├── styles.css                   # Common CSS for all books
 │   └── highlight.js                 # Text highlighting feature
@@ -313,9 +313,9 @@ For development with live reload:
 npm run dev
 ```
 
-### Step 8: Update the Main Homepage (index.html)
+### Step 8: Update the Main Homepage (src/index.html)
 
-Add the new book to the root `index.html`:
+Add the new book to `src/index.html` (Eleventy will build it to `docs/index.html`):
 
 1. **Add book cover style** in the `<style>` section:
 ```css
@@ -456,7 +456,7 @@ The shared `highlight.js` provides:
 - [ ] Run `npm run build` to generate HTML output
 - [ ] Verify generated files in `docs/[book-slug]/`
 - [ ] Test chapter navigation (previous/next links work correctly)
-- [ ] Add book to root `index.html` homepage
-- [ ] Add book cover CSS class to root `index.html`
+- [ ] Add book to `src/index.html` homepage
+- [ ] Add book cover CSS class to `src/index.html`
 - [ ] Test filtering/search on homepage includes new book
 - [ ] Run `npm run dev` to preview with live reload
