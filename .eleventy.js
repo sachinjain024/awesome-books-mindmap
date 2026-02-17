@@ -1,7 +1,14 @@
 const fs = require('fs');
 const path = require('path');
+const markdownIt = require("markdown-it");
+const markdownItAttrs = require("markdown-it-attrs");
 
 module.exports = function(eleventyConfig) {
+  // Configure markdown-it with attrs plugin to support {.class-name} syntax
+  const md = markdownIt({ html: true, linkify: true, typographer: true });
+  md.use(markdownItAttrs);
+  eleventyConfig.setLibrary("md", md);
+
   // Copy shared assets
   eleventyConfig.addPassthroughCopy("shared");
   // Copy per-book styles from src/books/[book]/styles.css to docs/[book]/styles.css

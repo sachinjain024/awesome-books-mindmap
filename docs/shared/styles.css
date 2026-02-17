@@ -535,6 +535,91 @@ h1.chapter-title {
     border-radius: 3px;
 }
 
+/* Chapter Content (markdown-generated pages) */
+/* The CSS reset strips all default browser styles, so we re-apply readable
+   typography for every element that markdown-it can produce inside .chapter-content */
+.chapter-content {
+    color: var(--text-medium);
+    line-height: 1.8;
+    font-size: 1em;
+}
+
+.chapter-content h2 {
+    color: var(--text-dark);
+    font-size: 1.5em;
+    margin-top: 36px;
+    margin-bottom: 14px;
+    border-bottom: 2px solid var(--border-color);
+    padding-bottom: 8px;
+}
+
+.chapter-content h3 {
+    color: var(--text-dark);
+    font-size: 1.2em;
+    margin-top: 24px;
+    margin-bottom: 10px;
+}
+
+.chapter-content h4 {
+    color: var(--text-dark);
+    font-size: 1.05em;
+    margin-top: 18px;
+    margin-bottom: 8px;
+}
+
+.chapter-content p {
+    margin-bottom: 16px;
+    line-height: 1.8;
+    color: var(--text-medium);
+}
+
+.chapter-content ul,
+.chapter-content ol {
+    margin: 0 0 16px 28px;
+    line-height: 1.8;
+    color: var(--text-medium);
+}
+
+.chapter-content li {
+    margin-bottom: 6px;
+}
+
+.chapter-content li > ul,
+.chapter-content li > ol {
+    margin-top: 6px;
+    margin-bottom: 0;
+}
+
+.chapter-content blockquote {
+    border-left: 4px solid var(--accent-color);
+    background: var(--intro-bg);
+    margin: 24px 0;
+    padding: 16px 20px;
+    border-radius: 0 8px 8px 0;
+    color: var(--text-dark);
+    font-style: italic;
+}
+
+.chapter-content blockquote p {
+    margin-bottom: 0;
+    line-height: 1.7;
+}
+
+.chapter-content strong {
+    color: var(--text-dark);
+    font-weight: 700;
+}
+
+.chapter-content em {
+    font-style: italic;
+}
+
+.chapter-content hr {
+    border: none;
+    border-top: 2px solid var(--border-color);
+    margin: 32px 0;
+}
+
 /* Chapter Navigation */
 .chapter-nav {
     display: flex;

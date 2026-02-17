@@ -589,10 +589,63 @@
 
     // ==================== Initialization ====================
 
+    // ==================== Section Boxes Module ====================
+
+    /**
+     * Wrap classified headings into container divs so CSS box styles work correctly.
+     * Handles two cases:
+     *   1. Legacy HTML: {.class-name} appears as literal text in heading content
+     *   2. New HTML (markdown-it-attrs): class is already an attribute on the heading
+     * In both cases the heading and its following siblings (until the next same/higher-level
+     * heading) are moved into a wrapper div with the relevant class.
+     */
+    function initSectionBoxes() {
+        var content = document.querySelector('.chapter-content');
+        if (!content) return;
+
+        // Phase 1: Convert literal {.class-name} text patterns into class attributes
+        content.querySelectorAll('h2, h3').forEach(function (heading) {
+            var match = heading.textContent.match(/^(.*?)\s*\{\.([^}]+)\}\s*$/);
+            if (match) {
+                heading.textContent = match[1].trim();
+                heading.className = (heading.className ? heading.className + ' ' : '') + match[2];
+            }
+        });
+
+        // Phase 2: Wrap each classified heading and its content siblings into a div
+        // Process h3 before h2 so inner sections are wrapped first
+        ['h3', 'h2'].forEach(function (tag) {
+            content.querySelectorAll(tag + '[class]').forEach(function (heading) {
+                var classes = heading.className.trim();
+                if (!classes) return;
+
+                var level = parseInt(heading.tagName[1], 10);
+                var wrapper = document.createElement('div');
+                wrapper.className = classes;
+                heading.className = '';
+
+                var siblings = [];
+                var next = heading.nextElementSibling;
+                while (next) {
+                    if (/^H[1-6]$/.test(next.tagName) && parseInt(next.tagName[1], 10) <= level) break;
+                    siblings.push(next);
+                    next = next.nextElementSibling;
+                }
+
+                heading.parentNode.insertBefore(wrapper, heading);
+                wrapper.appendChild(heading);
+                siblings.forEach(function (s) { wrapper.appendChild(s); });
+            });
+        });
+    }
+
     /**
      * Initialize the highlighting feature
      */
     function init() {
+        // Apply section box wrapping before restoring highlights (offsets must be stable)
+        initSectionBoxes();
+
         // Restore existing highlights
         restoreHighlights();
 
