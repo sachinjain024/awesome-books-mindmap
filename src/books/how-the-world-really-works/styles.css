@@ -1,0 +1,74 @@
+/* How the World Really Works - Book-Specific Styles */
+
+:root {
+    --accent-color: #0891b2;
+    --accent-color-dark: #0e7490;
+    --accent-gradient: linear-gradient(135deg, #0891b2 0%, #0284c7 100%);
+    --section-title-bg: #0891b2;
+    --key-box-color: #0e7490;
+    --key-box-bg: #ecfeff;
+    --verse-bg: #ecfeff;
+    --intro-bg: #ecfeff;
+}
+
+.data-box {
+    background: linear-gradient(135deg, #ecfeff 0%, #cffafe 100%);
+    border-left: 4px solid #0891b2;
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+}
+
+.fact-box {
+    background: linear-gradient(135deg, #0891b2 0%, #0284c7 100%);
+    color: white;
+    border-radius: 12px;
+    padding: 2rem;
+    margin: 2rem 0;
+    box-shadow: 0 4px 15px rgba(8, 145, 178, 0.3);
+}
+
+.fact-box strong {
+    color: #bae6fd;
+}
+
+.myth-reality {
+    background: linear-gradient(135deg, #fef9c3 0%, #fef08a 100%);
+    border-left: 4px solid #ca8a04;
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+}
+
+.process-box {
+    background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%);
+    border-left: 4px solid #16a34a;
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+}
+
+.risk-box {
+    background: linear-gradient(135deg, #fff1f2 0%, #ffe4e6 100%);
+    border-left: 4px solid #e11d48;
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+}
+
+.reflection {
+    background: linear-gradient(135deg, #fdf4ff 0%, #fae8ff 100%);
+    border-left: 4px solid #a855f7;
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+    font-style: italic;
+}
+
+.insight-box {
+    background: linear-gradient(135deg, #ecfdf5 0%, #d1fae5 100%);
+    border-left: 4px solid #10b981;
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+}

@@ -1,0 +1,65 @@
+/* The 5AM Club - Book-Specific Styles */
+
+:root {
+    --accent-color: #f97316;
+    --accent-color-dark: #c2410c;
+    --accent-gradient: linear-gradient(135deg, #f97316 0%, #fbbf24 100%);
+    --section-title-bg: #f97316;
+    --key-box-color: #c2410c;
+    --key-box-bg: #fff7ed;
+    --verse-bg: #fff7ed;
+    --intro-bg: #fff7ed;
+}
+
+.principle-box {
+    background: linear-gradient(135deg, #fff7ed 0%, #ffedd5 100%);
+    border-left: 4px solid #f97316;
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+}
+
+.practice-exercise {
+    background: linear-gradient(135deg, #fef3c7 0%, #fde68a 30%);
+    border-left: 4px solid #f59e0b;
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+}
+
+.reflection {
+    background: linear-gradient(135deg, #fdf4ff 0%, #fae8ff 100%);
+    border-left: 4px solid #a855f7;
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+    font-style: italic;
+}
+
+.insight-box {
+    background: linear-gradient(135deg, #ecfdf5 0%, #d1fae5 100%);
+    border-left: 4px solid #10b981;
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+}
+
+.formula-box {
+    background: linear-gradient(135deg, #f97316 0%, #fbbf24 100%);
+    color: white;
+    border-radius: 12px;
+    padding: 2rem;
+    margin: 2rem 0;
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.1rem;
+    box-shadow: 0 4px 15px rgba(249, 115, 22, 0.3);
+}
+
+.empire-box {
+    background: white;
+    border: 2px solid #f97316;
+    border-radius: 10px;
+    padding: 1.5rem;
+    margin: 1rem 0;
+}
