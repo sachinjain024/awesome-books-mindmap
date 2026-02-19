@@ -207,7 +207,7 @@ h1.chapter-title {
 /* Introduction Box */
 .intro {
     background: var(--intro-bg);
-    padding: 20px;
+    padding: 24px 28px;
     border-radius: 10px;
     margin-bottom: 30px;
     border-left: 5px solid var(--accent-color);
@@ -215,7 +215,47 @@ h1.chapter-title {
 
 .intro h2 {
     color: var(--accent-color);
-    margin-bottom: 10px;
+    margin-top: 24px;
+    margin-bottom: 12px;
+    font-size: 1.25em;
+}
+
+.intro h2:first-child {
+    margin-top: 0;
+}
+
+.intro p {
+    color: var(--text-medium);
+    line-height: 1.8;
+    margin-bottom: 14px;
+}
+
+.intro p:last-child {
+    margin-bottom: 0;
+}
+
+/* Epigraph / Philosophy Quote */
+.philosophy {
+    text-align: center;
+    margin: 0 auto 28px;
+    max-width: 780px;
+    padding: 0 16px;
+    border: none;
+    background: none;
+    font-style: italic;
+    color: var(--text-medium);
+    line-height: 1.75;
+    font-size: 1em;
+}
+
+.philosophy cite {
+    display: block;
+    margin-top: 8px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 0.9em;
+    color: var(--text-light);
+    letter-spacing: 0.02em;
 }
 
 /* Central Node (Mindmap) */

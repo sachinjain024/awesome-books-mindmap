@@ -1,0 +1,75 @@
+/* Building a Second Brain - Book-Specific Styles */
+
+:root {
+    --accent-color: #0891b2;
+    --accent-color-dark: #0e7490;
+    --accent-gradient: linear-gradient(135deg, #0891b2 0%, #0e7490 100%);
+    --section-title-bg: #0891b2;
+    --key-box-color: #0e7490;
+    --key-box-bg: #ecfeff;
+    --verse-bg: #f0f9ff;
+    --intro-bg: #e0f7fa;
+}
+
+.code-box {
+    background: linear-gradient(135deg, #e0f7fa 0%, #f0f9ff 100%);
+    border-left: 4px solid var(--accent-color);
+    border-radius: 8px;
+    padding: 1.2rem 1.5rem;
+    margin: 1.5rem 0;
+}
+
+.para-box {
+    background: #f0fdf4;
+    border-left: 4px solid #16a34a;
+    border-radius: 8px;
+    padding: 1.2rem 1.5rem;
+    margin: 1.5rem 0;
+}
+
+.technique-box {
+    background: #fef9f0;
+    border-left: 4px solid #d97706;
+    border-radius: 8px;
+    padding: 1.2rem 1.5rem;
+    margin: 1.5rem 0;
+}
+
+.insight-box {
+    background: #faf5ff;
+    border-left: 4px solid #7c3aed;
+    border-radius: 8px;
+    padding: 1.2rem 1.5rem;
+    margin: 1.5rem 0;
+}
+
+.practice-box {
+    background: #f0fdf4;
+    border: 1px solid #bbf7d0;
+    border-radius: 8px;
+    padding: 1.2rem 1.5rem;
+    margin: 1.5rem 0;
+}
+
+.reflection {
+    background: #fffbeb;
+    border: 1px dashed #fbbf24;
+    border-radius: 8px;
+    padding: 1.2rem 1.5rem;
+    margin: 1.5rem 0;
+    font-style: italic;
+}
+
+.quote-box {
+    background: var(--verse-bg);
+    border-left: 4px solid var(--accent-color);
+    border-radius: 0 8px 8px 0;
+    padding: 1rem 1.5rem;
+    margin: 1.5rem 0;
+    font-style: italic;
+    color: #374151;
+}
+
+.central-node {
+    background: linear-gradient(135deg, #0891b2 0%, #0e7490 100%);
+}
