@@ -1,0 +1,92 @@
+/* Thinking in Bets - Book-Specific Styles */
+
+:root {
+    --accent-color: #1d4ed8;
+    --accent-color-dark: #1e3a8a;
+    --accent-gradient: linear-gradient(135deg, #1d4ed8 0%, #7c3aed 100%);
+    --section-title-bg: #1e3a8a;
+    --key-box-color: #1d4ed8;
+    --key-box-bg: #eff6ff;
+    --verse-bg: #f0f4ff;
+    --intro-bg: #eff6ff;
+}
+
+.bet-box {
+    background: linear-gradient(135deg, #eff6ff 0%, #e0e7ff 100%);
+    border-left: 4px solid var(--accent-color);
+    border-radius: 8px;
+    padding: 1.2rem 1.5rem;
+    margin: 1.5rem 0;
+}
+
+.bet-box h3 {
+    color: var(--accent-color-dark);
+    margin-top: 0;
+}
+
+.outcome-box {
+    background: #fefce8;
+    border-left: 4px solid #ca8a04;
+    border-radius: 8px;
+    padding: 1.2rem 1.5rem;
+    margin: 1.5rem 0;
+}
+
+.outcome-box h3 {
+    color: #92400e;
+    margin-top: 0;
+}
+
+.bias-box {
+    background: #fff1f2;
+    border-left: 4px solid #e11d48;
+    border-radius: 8px;
+    padding: 1.2rem 1.5rem;
+    margin: 1.5rem 0;
+}
+
+.bias-box h3 {
+    color: #9f1239;
+    margin-top: 0;
+}
+
+.tool-box {
+    background: #f0fdf4;
+    border-left: 4px solid #16a34a;
+    border-radius: 8px;
+    padding: 1.2rem 1.5rem;
+    margin: 1.5rem 0;
+}
+
+.tool-box h3 {
+    color: #14532d;
+    margin-top: 0;
+}
+
+.principle-box {
+    background: linear-gradient(135deg, #eff6ff 0%, #f5f3ff 100%);
+    border: 2px solid var(--accent-color);
+    border-radius: 10px;
+    padding: 1.2rem 1.5rem;
+    margin: 1.5rem 0;
+}
+
+.principle-box h3 {
+    color: var(--accent-color-dark);
+    margin-top: 0;
+}
+
+.reflection {
+    background: #faf5ff;
+    border-left: 4px solid #7c3aed;
+    border-radius: 8px;
+    padding: 1.2rem 1.5rem;
+    margin: 1.5rem 0;
+    font-style: italic;
+}
+
+.reflection h3 {
+    color: #6d28d9;
+    margin-top: 0;
+    font-style: normal;
+}
