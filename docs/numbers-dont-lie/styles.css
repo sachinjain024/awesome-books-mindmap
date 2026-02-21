@@ -1,0 +1,45 @@
+/* Numbers Don't Lie - Book-Specific Styles */
+
+:root {
+    --accent-color: #0891b2;
+    --accent-color-dark: #0e7490;
+    --accent-gradient: linear-gradient(135deg, #0891b2 0%, #06b6d4 100%);
+    --section-title-bg: #0891b2;
+    --key-box-color: #0891b2;
+    --key-box-bg: #ecfeff;
+    --verse-bg: #ecfeff;
+    --intro-bg: #ecfeff;
+}
+
+.data-box {
+    background: linear-gradient(135deg, #ecfeff 0%, #cffafe 100%);
+    border-left: 4px solid #0891b2;
+    padding: 16px 20px;
+    border-radius: 0 8px 8px 0;
+    margin: 16px 0;
+}
+
+.insight-box {
+    background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);
+    border-left: 4px solid #0284c7;
+    padding: 16px 20px;
+    border-radius: 0 8px 8px 0;
+    margin: 16px 0;
+}
+
+.principle-box {
+    background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%);
+    border-left: 4px solid #16a34a;
+    padding: 16px 20px;
+    border-radius: 0 8px 8px 0;
+    margin: 16px 0;
+}
+
+.reflection {
+    background: #fefce8;
+    border: 2px solid #fde047;
+    padding: 16px 20px;
+    border-radius: 8px;
+    font-style: italic;
+    margin: 16px 0;
+}

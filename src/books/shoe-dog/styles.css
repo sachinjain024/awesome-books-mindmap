@@ -1,0 +1,45 @@
+/* Shoe Dog - Book-Specific Styles */
+
+:root {
+    --accent-color: #e65c00;
+    --accent-color-dark: #b34700;
+    --accent-gradient: linear-gradient(135deg, #e65c00 0%, #f9a825 100%);
+    --section-title-bg: #e65c00;
+    --key-box-color: #e65c00;
+    --key-box-bg: #fff7ed;
+    --verse-bg: #fff7ed;
+    --intro-bg: #fff7ed;
+}
+
+.insight-box {
+    background: linear-gradient(135deg, #fff7ed 0%, #ffedd5 100%);
+    border-left: 4px solid #e65c00;
+    padding: 16px 20px;
+    border-radius: 0 8px 8px 0;
+    margin: 16px 0;
+}
+
+.principle-box {
+    background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);
+    border-left: 4px solid #f59e0b;
+    padding: 16px 20px;
+    border-radius: 0 8px 8px 0;
+    margin: 16px 0;
+}
+
+.reflection {
+    background: #f0fdf4;
+    border: 2px solid #86efac;
+    padding: 16px 20px;
+    border-radius: 8px;
+    font-style: italic;
+    margin: 16px 0;
+}
+
+.lesson-box {
+    background: linear-gradient(135deg, #fef2f2 0%, #fecaca 100%);
+    border-left: 4px solid #ef4444;
+    padding: 16px 20px;
+    border-radius: 0 8px 8px 0;
+    margin: 16px 0;
+}

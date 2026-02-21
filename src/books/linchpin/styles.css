@@ -1,0 +1,53 @@
+/* Linchpin - Book-Specific Styles */
+
+:root {
+    --accent-color: #7c3aed;
+    --accent-color-dark: #6d28d9;
+    --accent-gradient: linear-gradient(135deg, #7c3aed 0%, #a855f7 100%);
+    --section-title-bg: #7c3aed;
+    --key-box-color: #7c3aed;
+    --key-box-bg: #faf5ff;
+    --verse-bg: #faf5ff;
+    --intro-bg: #faf5ff;
+}
+
+.insight-box {
+    background: linear-gradient(135deg, #faf5ff 0%, #f3e8ff 100%);
+    border-left: 4px solid #7c3aed;
+    padding: 16px 20px;
+    border-radius: 0 8px 8px 0;
+    margin: 16px 0;
+}
+
+.principle-box {
+    background: linear-gradient(135deg, #fdf4ff 0%, #fae8ff 100%);
+    border-left: 4px solid #a855f7;
+    padding: 16px 20px;
+    border-radius: 0 8px 8px 0;
+    margin: 16px 0;
+}
+
+.reflection {
+    background: #fefce8;
+    border: 2px solid #fde047;
+    padding: 16px 20px;
+    border-radius: 8px;
+    font-style: italic;
+    margin: 16px 0;
+}
+
+.resistance-box {
+    background: linear-gradient(135deg, #fef2f2 0%, #fecaca 100%);
+    border-left: 4px solid #ef4444;
+    padding: 16px 20px;
+    border-radius: 0 8px 8px 0;
+    margin: 16px 0;
+}
+
+.art-box {
+    background: linear-gradient(135deg, #fff7ed 0%, #ffedd5 100%);
+    border-left: 4px solid #f97316;
+    padding: 16px 20px;
+    border-radius: 0 8px 8px 0;
+    margin: 16px 0;
+}
