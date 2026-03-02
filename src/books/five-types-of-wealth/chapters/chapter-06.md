@@ -1,0 +1,97 @@
+---
+number: 6
+title: Financial Wealth
+meta: Enough Is the Goal
+part: The Five Types
+layout: chapter
+book: five-types-of-wealth
+permalink: five-types-of-wealth/chapters/chapter-06.html
+---
+
+> "The secret to happiness, you see, is not found in seeking more, but in developing the capacity to enjoy less."
+> — Socrates
+
+## Reframing the Goal
+
+This is the chapter where Bloom makes a bold, counterintuitive argument about money: **the goal is not to maximize financial wealth — the goal is to reach "enough."**
+
+This will seem strange in a book with "wealth" in the title. But Bloom's argument is grounded in both philosophy and psychology: beyond a certain threshold, additional financial wealth produces diminishing returns to happiness. And the relentless pursuit of "more" beyond that threshold actively undermines the other types of wealth that matter most.
+
+The research backs this up. The famous 2010 Kahneman-Deaton study found that day-to-day emotional wellbeing rose with income up to approximately $75,000 and then largely plateaued. More recent research suggests the ceiling may be higher — perhaps $100,000-$200,000 depending on location and circumstances — but the core finding holds: **money buys happiness up to a point, and beyond that point, its marginal value drops dramatically**.
+
+The problem is that most people chase financial wealth as if the relationship were linear — as if twice the money would produce twice the happiness. It doesn't. And in the pursuit of financial maximization, many sacrifice the dimensions of wealth (time, relationships, health) where they would see far greater happiness returns.
+
+## Defining Your "Enough"
+
+The first and most important financial practice Bloom recommends is defining your personal "enough."
+
+### The Enough Calculation {.wealth-box}
+
+"Enough" is not a single number — it has two components:
+
+**Security enough:** The financial cushion required to weather unexpected life events — job loss, medical emergency, family crisis — without catastrophic disruption. Typically 6-12 months of expenses in liquid savings, plus adequate insurance coverage.
+
+**Freedom enough:** The point at which your financial assets (investments, savings, income) generate enough passive income or security to give you genuine freedom over your time and choices. This is the "financial independence" threshold — different for everyone based on spending levels and life goals.
+
+The calculation: if your annual spending is $X, and you can safely withdraw 4% of a portfolio annually, you need $25X in invested assets to be financially independent.
+
+Once you've defined these two thresholds, your financial goal becomes clear: get to security enough as quickly as possible, then work toward freedom enough at a pace that doesn't require sacrificing the other four types of wealth.
+
+## The Trap of Lifestyle Inflation
+
+One of the greatest threats to reaching "enough" is **lifestyle inflation** — the tendency for spending to expand in proportion to income increases.
+
+Most people, when they earn more, spend more. A raise becomes a nicer apartment. A promotion funds a new car. The hedonic treadmill keeps running, and the gap between income and freedom never closes.
+
+### Breaking the Cycle {.insight-box}
+
+The antidote to lifestyle inflation is what Bloom calls "lifestyle design" — intentionally choosing what you spend money on based on what actually increases your wellbeing, rather than defaulting to status-signaling consumption.
+
+Research on what money can buy in terms of wellbeing is surprisingly clear:
+
+- **Experiences beat things** — the research consistently shows that money spent on experiences (travel, events, shared activities) produces more lasting happiness than money spent on possessions
+- **Time-saving beats stuff** — paying to outsource tasks you dislike (cleaning, errands, etc.) produces more wellbeing per dollar than most purchases
+- **Giving beats getting** — research by Elizabeth Dunn shows that spending money on others produces more happiness than spending on yourself
+- **Health investment beats entertainment** — money spent on your physical health (quality food, gym, healthcare) has among the highest wellbeing returns of any spending category
+
+## Principles of Financial Wealth
+
+Beyond the philosophical framing, Bloom offers practical principles for building financial wealth:
+
+### Principle 1: Spend Less Than You Earn {.practice-box}
+
+The foundation of financial wealth — so simple it sounds trivial, so hard to actually do. Every system for building wealth depends on this fundamental surplus. Without it, nothing else works.
+
+### Principle 2: Invest the Difference
+
+Money not spent should not sit idle. Invested in diversified, low-cost index funds over decades, it compounds dramatically. Time in the market, not timing the market, is what produces long-term wealth.
+
+### Principle 3: Eliminate High-Cost Debt
+
+High-interest debt (credit cards, payday loans) is the most powerful force working against financial wealth. Every dollar of high-interest debt consumes future earning potential. Eliminating it is the highest guaranteed return available.
+
+### Principle 4: Build Multiple Streams
+
+Relying on a single income source concentrates financial risk. Over time, building additional income streams — side business, investments, rental income, content creation — increases both financial security and eventually freedom.
+
+### Principle 5: Money Is a Tool, Not a Goal {.reflection-box}
+
+The most important mindset shift: financial wealth is instrumental — a means to an end — not an end in itself. Money is valuable because of what it enables: time freedom, security, experiences, generosity.
+
+Ask yourself: what would you do differently with your money if you viewed it as a tool for building a rich life rather than as a score being kept? What would you spend less on? What would you spend more on?
+
+## The Freedom Orientation
+
+Bloom's reframe positions all financial decisions through the lens of one question: **does this move me closer to freedom, or further from it?**
+
+Every unnecessary expense is a tax on your future freedom. Every investment is a vote for your future self's options. Every income increase that gets consumed by lifestyle inflation is a missed opportunity to accelerate the journey.
+
+The goal is not to be the richest person in the graveyard. The goal is to build enough financial wealth to live the life you actually want — and to stop mistaking the accumulation of money for a life well lived.
+
+### Key Takeaways
+
+- The goal of financial wealth is not maximization but reaching "enough" — the threshold of security and freedom that enables a genuinely good life
+- Research shows that money buys happiness up to a threshold, but beyond it, the returns drop sharply — financial maximization often comes at the cost of time, relationships, and health
+- Lifestyle inflation is the primary threat to reaching financial freedom — intentionally designing your spending around what actually increases wellbeing beats defaulting to status consumption
+- Experiences, time-saving, and giving consistently outperform possessions in wellbeing per dollar
+- Money is a tool for building freedom — every financial decision should be evaluated through the lens of whether it moves you closer to or further from the life you want

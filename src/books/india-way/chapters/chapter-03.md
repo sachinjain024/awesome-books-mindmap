@@ -1,0 +1,86 @@
+---
+number: 3
+title: The Decline of the Western Order
+meta: From Unipolarity to Multipolarity
+part: The Changing World Order
+layout: chapter
+book: india-way
+permalink: india-way/chapters/chapter-03.html
+---
+
+> "The liberal international order is not ending — but it is changing beyond recognition. Those who built it are struggling; those who never fully accepted it are emboldened."
+> — S. Jaishankar
+
+## The World That Was
+
+For seventy-five years after World War II, the international system operated within a framework shaped largely by American power and Western ideas. The Bretton Woods institutions — the IMF, World Bank, and GATT/WTO — governed the global economy. NATO and American alliances provided security for much of the developed world. The United Nations Security Council legitimized (or delegitimized) the use of force. Western liberal democracy was presented as the end point of political development.
+
+This order had genuine accomplishments: the longest period of great-power peace in modern history, extraordinary economic growth, the spread of democracy, and the reduction of absolute poverty at a pace previously unimaginable.
+
+But it was always an order built by and largely for the West — and the non-Western world always understood this.
+
+## The Fractures
+
+### The Rise of Non-Western Powers {.geopolitics-box}
+
+The most fundamental fracture in the Western order is the redistribution of economic and military power toward non-Western states — foremost China, but also India, Brazil, Turkey, and others.
+
+China's rise is the defining geopolitical fact of the early 21st century. From approximately $400 billion in GDP in 1990 to nearly $18 trillion today, China has achieved the fastest large-economy growth in recorded history. Chinese military spending has grown proportionally. Chinese technology companies now compete with American ones at the global frontier.
+
+This rise is incompatible with the continuation of an order built on Western primacy. China is too large, too capable, and too ambitious to fit comfortably within rules it had no role in designing.
+
+### The Western Internal Crisis {.geopolitics-box}
+
+The fractures are not only external. The post-2008 period revealed deep internal contradictions within the Western order:
+
+**Economic inequality:** Globalization produced aggregate gains but distributed them unevenly, generating political backlash across the Western world. The hollowing out of manufacturing employment in America and Europe created constituencies for protectionism and nationalism.
+
+**Democratic backsliding:** Ironically, the liberal order has witnessed democratic decline in many of the democracies that built it — including, to varying degrees, Hungary, Poland, and the United States itself.
+
+**Institutional sclerosis:** The UN Security Council, IMF, and World Bank were designed in 1945 for a world that no longer exists. Reform attempts have largely failed, leaving institutions that are simultaneously too legitimate to ignore and too unreformed to be effective.
+
+**COVID-19 as stress test:** The pandemic revealed the limits of Western-model governance — uneven responses, vaccine nationalism, and institutional dysfunction — while China and some Asian democracies demonstrated different models of effective state response.
+
+## Multipolarity: The New Reality
+
+### What Multipolarity Means {.policy-box}
+
+A multipolar world is one in which no single power has the capacity to impose its will on others or set the rules of the international system unilaterally. Multiple centers of significant power — states and increasingly non-state actors — must negotiate, balance, and compete in a world without clear hierarchy.
+
+For India, multipolarity is both a challenge and an opportunity:
+
+**The challenge:** Multipolarity means less predictability, weaker international institutions, and more intensive diplomatic labor. There is no guarantee that the strongest powers will not resolve their competition at India's expense.
+
+**The opportunity:** A multipolar world creates genuine space for middle and rising powers to exercise influence, form coalitions, and advance their interests in ways that a unipolar world does not permit.
+
+### India's Multipolar Opportunity {.strategy-box}
+
+Jaishankar argues that a multipolar world is in India's interest in a way the unipolar American order never quite was. India's interests were often subordinated to American priorities in the unipolar moment — on Pakistan, on nuclear status, on trade, on multilateral institutions.
+
+In a multipolar world, India can:
+- Build relationships with multiple major powers simultaneously without subordinating to any
+- Form coalitions on specific issues across ideological lines
+- Assert its interests more forcefully when major powers need India's alignment
+- Shape norms in emerging domains (space, cyber, AI) rather than adapting to established ones
+
+The prerequisite is that India must actually exercise this agency — which requires the strategic deliberateness argued throughout the book.
+
+## The Technology Dimension
+
+### Digital Power as a New Axis {.geopolitics-box}
+
+The emerging world order is not just about military and economic power — it is increasingly about technological power, and specifically digital power: the capacity to control critical infrastructure, data, and platforms.
+
+The United States and China are competing for dominance in the technologies that will define 21st-century power: artificial intelligence, semiconductors, 5G telecommunications, and quantum computing. This competition is creating a technological Cold War with significant implications for every country that depends on these technologies.
+
+India faces a choice: be a passive consumer of technology standards set by others, or actively develop indigenous capabilities and assert itself as a pole in the technology order.
+
+Jaishankar argues forcefully for the latter. India's digital economy is already substantial; its technology talent is globally recognized; its domestic market is large enough to create viable alternatives. The India Stack — Aadhaar, UPI, and related digital public infrastructure — demonstrates what indigenous Indian technology development can achieve.
+
+### Key Takeaways
+
+- The Western-led post-War international order is fracturing under the weight of rising non-Western powers, internal Western contradictions, and institutional reform failures
+- China's rise is the defining fracture — it is too large and ambitious to fit within rules it did not design
+- Multipolarity creates genuine opportunity for India to exercise influence and advance interests that were often subordinated in the unipolar moment
+- Democratic backsliding, economic inequality, and COVID-19 have eroded the credibility of Western liberal governance as a universal model
+- The technology dimension — AI, semiconductors, digital infrastructure — is a new axis of great power competition in which India must develop indigenous capabilities

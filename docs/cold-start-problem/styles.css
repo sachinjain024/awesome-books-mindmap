@@ -1,0 +1,78 @@
+/* The Cold Start Problem - Book-Specific Styles */
+
+:root {
+    --accent-color: #3b82f6;
+    --accent-color-dark: #1d4ed8;
+    --accent-gradient: linear-gradient(135deg, #3b82f6 0%, #6366f1 100%);
+    --section-title-bg: #3b82f6;
+    --key-box-color: #1e40af;
+    --key-box-bg: #eff6ff;
+    --verse-bg: #dbeafe;
+    --intro-bg: #eff6ff;
+}
+
+.network-box {
+    background: linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%);
+    border-left: 4px solid #3b82f6;
+    border-radius: 8px;
+    padding: 1.2rem 1.5rem;
+    margin: 1.5rem 0;
+}
+
+.network-box h3 {
+    color: #1d4ed8;
+    margin-bottom: 0.5rem;
+}
+
+.strategy-box {
+    background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%);
+    border-left: 4px solid #16a34a;
+    border-radius: 8px;
+    padding: 1.2rem 1.5rem;
+    margin: 1.5rem 0;
+}
+
+.strategy-box h3 {
+    color: #15803d;
+    margin-bottom: 0.5rem;
+}
+
+.example-box {
+    background: #fafafa;
+    border: 1px solid #e5e7eb;
+    border-left: 4px solid #6366f1;
+    border-radius: 8px;
+    padding: 1.2rem 1.5rem;
+    margin: 1.5rem 0;
+}
+
+.example-box h3 {
+    color: #4338ca;
+    margin-bottom: 0.5rem;
+}
+
+.warning-box {
+    background: linear-gradient(135deg, #fff7ed 0%, #fed7aa 100%);
+    border-left: 4px solid #f97316;
+    border-radius: 8px;
+    padding: 1.2rem 1.5rem;
+    margin: 1.5rem 0;
+}
+
+.warning-box h3 {
+    color: #c2410c;
+    margin-bottom: 0.5rem;
+}
+
+.concept-box {
+    background: linear-gradient(135deg, #faf5ff 0%, #ede9fe 100%);
+    border-left: 4px solid #8b5cf6;
+    border-radius: 8px;
+    padding: 1.2rem 1.5rem;
+    margin: 1.5rem 0;
+}
+
+.concept-box h3 {
+    color: #6d28d9;
+    margin-bottom: 0.5rem;
+}

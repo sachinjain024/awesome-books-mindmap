@@ -1,0 +1,77 @@
+/* The India Way - Book-Specific Styles */
+
+:root {
+    --accent-color: #ff6b35;
+    --accent-color-dark: #e85d2f;
+    --accent-gradient: linear-gradient(135deg, #ff6b35 0%, #f7931e 100%);
+    --section-title-bg: #ff6b35;
+    --key-box-color: #9a3412;
+    --key-box-bg: #fff7ed;
+    --verse-bg: #ffedd5;
+    --intro-bg: #fff7ed;
+}
+
+.policy-box {
+    background: linear-gradient(135deg, #fff7ed 0%, #ffedd5 100%);
+    border-left: 4px solid #ff6b35;
+    border-radius: 8px;
+    padding: 1.2rem 1.5rem;
+    margin: 1.5rem 0;
+}
+
+.policy-box h3 {
+    color: #c2410c;
+    margin-bottom: 0.5rem;
+}
+
+.geopolitics-box {
+    background: linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%);
+    border-left: 4px solid #1d4ed8;
+    border-radius: 8px;
+    padding: 1.2rem 1.5rem;
+    margin: 1.5rem 0;
+}
+
+.geopolitics-box h3 {
+    color: #1e40af;
+    margin-bottom: 0.5rem;
+}
+
+.history-box {
+    background: linear-gradient(135deg, #fdf4ff 0%, #fae8ff 100%);
+    border-left: 4px solid #a21caf;
+    border-radius: 8px;
+    padding: 1.2rem 1.5rem;
+    margin: 1.5rem 0;
+}
+
+.history-box h3 {
+    color: #86198f;
+    margin-bottom: 0.5rem;
+}
+
+.strategy-box {
+    background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%);
+    border-left: 4px solid #16a34a;
+    border-radius: 8px;
+    padding: 1.2rem 1.5rem;
+    margin: 1.5rem 0;
+}
+
+.strategy-box h3 {
+    color: #15803d;
+    margin-bottom: 0.5rem;
+}
+
+.insight-box {
+    background: linear-gradient(135deg, #fafafa 0%, #f3f4f6 100%);
+    border-left: 4px solid #6b7280;
+    border-radius: 8px;
+    padding: 1.2rem 1.5rem;
+    margin: 1.5rem 0;
+}
+
+.insight-box h3 {
+    color: #374151;
+    margin-bottom: 0.5rem;
+}
