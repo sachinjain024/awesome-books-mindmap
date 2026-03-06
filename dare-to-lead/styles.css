@@ -1,0 +1,156 @@
+/* Dare to Lead - Book-Specific Styles */
+
+:root {
+    --accent-color: #e11d48;
+    --accent-color-dark: #be123c;
+    --accent-gradient: linear-gradient(135deg, #e11d48 0%, #f97316 100%);
+    --section-title-bg: #e11d48;
+    --key-box-color: #e11d48;
+    --key-box-bg: #fff1f2;
+    --verse-bg: #fef2f2;
+    --intro-bg: #fff5f5;
+}
+
+/* Central node with book theme */
+.central-node {
+    background: var(--accent-gradient);
+}
+
+/* Vulnerability box for key vulnerability concepts */
+.vulnerability-box {
+    background: linear-gradient(135deg, #fff1f2 0%, #ffe4e6 100%);
+    border-left: 4px solid #e11d48;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+    border-radius: 0 12px 12px 0;
+}
+
+.vulnerability-box h3,
+.vulnerability-box h4 {
+    color: #be123c;
+    margin-bottom: 0.75rem;
+    font-size: 1.1rem;
+}
+
+/* Courage box for brave leadership moments */
+.courage-box {
+    background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);
+    border-left: 4px solid #f59e0b;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+    border-radius: 0 12px 12px 0;
+}
+
+.courage-box h3,
+.courage-box h4 {
+    color: #b45309;
+    margin-bottom: 0.75rem;
+    font-size: 1.1rem;
+}
+
+/* Practice exercise for actionable steps */
+.practice-exercise {
+    background: linear-gradient(135deg, #dcfce7 0%, #bbf7d0 100%);
+    border-left: 4px solid #16a34a;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+    border-radius: 0 12px 12px 0;
+}
+
+.practice-exercise h3,
+.practice-exercise h4 {
+    color: #166534;
+    margin-bottom: 0.75rem;
+    font-size: 1.1rem;
+}
+
+/* Reflection prompts */
+.reflection {
+    background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);
+    border: 2px dashed #38bdf8;
+    border-radius: 12px;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+}
+
+.reflection h3,
+.reflection h4 {
+    color: #0369a1;
+    margin-bottom: 0.75rem;
+}
+
+/* Armor box for shields and defense mechanisms */
+.armor-box {
+    background: linear-gradient(135deg, #f1f5f9 0%, #e2e8f0 100%);
+    border-left: 4px solid #64748b;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+    border-radius: 0 12px 12px 0;
+}
+
+.armor-box h3,
+.armor-box h4 {
+    color: #475569;
+    margin-bottom: 0.75rem;
+    font-size: 1.1rem;
+}
+
+/* Values box for core values work */
+.values-box {
+    background: linear-gradient(135deg, #ede9fe 0%, #ddd6fe 100%);
+    border-left: 4px solid #7c3aed;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+    border-radius: 0 12px 12px 0;
+}
+
+.values-box h3,
+.values-box h4 {
+    color: #5b21b6;
+    margin-bottom: 0.75rem;
+    font-size: 1.1rem;
+}
+
+/* Trust box for BRAVING inventory */
+.trust-box {
+    background: linear-gradient(135deg, #dbeafe 0%, #bfdbfe 100%);
+    border-left: 4px solid #2563eb;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+    border-radius: 0 12px 12px 0;
+}
+
+.trust-box h3,
+.trust-box h4 {
+    color: #1d4ed8;
+    margin-bottom: 0.75rem;
+    font-size: 1.1rem;
+}
+
+/* Rumble box for difficult conversations */
+.rumble-box {
+    background: linear-gradient(135deg, #fff7ed 0%, #ffedd5 100%);
+    border-left: 4px solid #ea580c;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+    border-radius: 0 12px 12px 0;
+}
+
+.rumble-box h3,
+.rumble-box h4 {
+    color: #c2410c;
+    margin-bottom: 0.75rem;
+    font-size: 1.1rem;
+}
+
+/* Quote box styling */
+.quote-box {
+    background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
+    border-left: 4px solid #e11d48;
+    padding: 1.5rem 2rem;
+    margin: 1.5rem 0;
+    font-style: italic;
+    font-size: 1.1rem;
+    color: #334155;
+    border-radius: 0 12px 12px 0;
+}

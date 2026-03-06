@@ -1,0 +1,127 @@
+/* The Five Dysfunctions of a Team - Book-Specific Styles */
+
+:root {
+    --accent-color: #ea580c;
+    --accent-color-dark: #c2410c;
+    --accent-gradient: linear-gradient(135deg, #ea580c 0%, #f59e0b 100%);
+    --section-title-bg: #ea580c;
+    --key-box-color: #ea580c;
+    --key-box-bg: #fff7ed;
+    --verse-bg: #fffbeb;
+    --intro-bg: #fff8f0;
+}
+
+/* Dysfunction Box - highlights the core dysfunction being discussed */
+.dysfunction-box {
+    background: linear-gradient(135deg, #fff7ed 0%, #fef3c7 100%);
+    border-left: 4px solid #ea580c;
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+}
+
+.dysfunction-box h3 {
+    color: #c2410c;
+    margin-top: 0;
+}
+
+/* Antidote Box - the solution/remedy for each dysfunction */
+.antidote-box {
+    background: linear-gradient(135deg, #ecfdf5 0%, #d1fae5 100%);
+    border-left: 4px solid #059669;
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+}
+
+.antidote-box h3 {
+    color: #059669;
+    margin-top: 0;
+}
+
+/* Story Box - fable excerpts and narrative examples */
+.story-box {
+    background: #fffbeb;
+    border-left: 4px solid #f59e0b;
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+    font-style: italic;
+}
+
+.story-box h3 {
+    color: #b45309;
+    font-style: normal;
+    margin-top: 0;
+}
+
+/* Practice Exercise - actionable exercises for teams */
+.practice-exercise {
+    background: linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%);
+    border-left: 4px solid #3b82f6;
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+}
+
+.practice-exercise h3 {
+    color: #1d4ed8;
+    margin-top: 0;
+}
+
+/* Reflection - thought-provoking questions */
+.reflection {
+    background: linear-gradient(135deg, #faf5ff 0%, #f3e8ff 100%);
+    border-left: 4px solid #8b5cf6;
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+}
+
+.reflection h3 {
+    color: #7c3aed;
+    margin-top: 0;
+}
+
+/* Pyramid Level - visual hierarchy of the dysfunction pyramid */
+.pyramid-level {
+    background: linear-gradient(135deg, #fff7ed 0%, #ffedd5 100%);
+    border: 2px solid #ea580c;
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+    text-align: center;
+}
+
+.pyramid-level h3 {
+    color: #c2410c;
+    margin-top: 0;
+}
+
+/* Warning Box - common pitfalls and dangers */
+.warning-box {
+    background: linear-gradient(135deg, #fef2f2 0%, #fee2e2 100%);
+    border-left: 4px solid #dc2626;
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+}
+
+.warning-box h3 {
+    color: #dc2626;
+    margin-top: 0;
+}
+
+/* Team Exercise - group activities and facilitation guides */
+.team-exercise {
+    background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%);
+    border: 2px dashed #16a34a;
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+}
+
+.team-exercise h3 {
+    color: #16a34a;
+    margin-top: 0;
+}

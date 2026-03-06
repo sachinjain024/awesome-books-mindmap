@@ -1,0 +1,251 @@
+/* Drive by Daniel H. Pink - Book-Specific Styles */
+
+:root {
+    --accent-color: #7c3aed;
+    --accent-color-dark: #6d28d9;
+    --accent-gradient: linear-gradient(135deg, #7c3aed 0%, #a78bfa 100%);
+    --section-title-bg: #7c3aed;
+    --key-box-color: #7c3aed;
+    --key-box-bg: #f5f3ff;
+    --verse-bg: #faf5ff;
+    --intro-bg: #f8f5ff;
+}
+
+/* Central Node Override */
+.central-node {
+    background: var(--accent-gradient);
+}
+
+/* Chapter Card Hover */
+.chapter-card:hover {
+    border-color: var(--accent-color);
+}
+
+/* Section Title */
+.section-title {
+    background: var(--section-title-bg);
+}
+
+/* Key Points Box */
+.key-points, .key-teachings {
+    border-left-color: var(--accent-color);
+    background: var(--key-box-bg);
+}
+
+/* Quote Box */
+.quote-box {
+    background: linear-gradient(135deg, #f5f3ff 0%, #ede9fe 100%);
+    border-left: 4px solid var(--accent-color);
+    padding: 20px 25px;
+    margin: 25px 0;
+    border-radius: 0 12px 12px 0;
+    font-style: italic;
+    color: #4c1d95;
+}
+
+.quote-box .attribution {
+    font-style: normal;
+    font-weight: 600;
+    margin-top: 10px;
+    color: #6d28d9;
+    font-size: 0.9em;
+}
+
+/* Research Box - For scientific studies and evidence */
+.research-box {
+    background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%);
+    border-left: 4px solid #16a34a;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 0 10px 10px 0;
+}
+
+.research-box h3, .research-box h4 {
+    color: #166534;
+    margin: 0 0 10px 0;
+    font-size: 1em;
+}
+
+.research-box p, .research-box ul, .research-box ol {
+    color: #14532d;
+    margin: 0;
+}
+
+.research-box li {
+    margin-bottom: 8px;
+}
+
+/* Motivation Box - For motivation concepts and principles */
+.motivation-box {
+    background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);
+    border-left: 4px solid #d97706;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 0 10px 10px 0;
+}
+
+.motivation-box h3, .motivation-box h4 {
+    color: #92400e;
+    margin: 0 0 10px 0;
+    font-size: 1em;
+}
+
+.motivation-box p, .motivation-box ul {
+    margin: 0;
+    color: #78350f;
+}
+
+/* Practice Exercise - For actionable exercises */
+.practice-exercise {
+    background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);
+    border: 2px solid #0284c7;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+}
+
+.practice-exercise h3, .practice-exercise h4 {
+    color: #0369a1;
+    margin: 0 0 15px 0;
+}
+
+.practice-exercise ol, .practice-exercise ul {
+    color: #0c4a6e;
+    margin: 0;
+    padding-left: 20px;
+}
+
+.practice-exercise li {
+    margin-bottom: 10px;
+}
+
+/* Reflection - For thought-provoking questions */
+.reflection {
+    background: linear-gradient(135deg, #faf5ff 0%, #f3e8ff 100%);
+    border: 2px dashed #a78bfa;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    font-style: italic;
+}
+
+.reflection h3, .reflection h4 {
+    color: #6d28d9;
+    margin: 0 0 10px 0;
+    font-style: normal;
+}
+
+.reflection p {
+    color: #5b21b6;
+    margin: 5px 0;
+}
+
+/* Principle Box - For core principles */
+.principle-box {
+    background: var(--accent-gradient);
+    color: white;
+    padding: 25px;
+    margin: 25px 0;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.principle-box h3 {
+    margin: 0 0 10px 0;
+    font-size: 1.3em;
+    color: white;
+}
+
+.principle-box p {
+    margin: 0;
+    opacity: 0.95;
+    color: white;
+}
+
+/* Warning Box - For dangers and pitfalls */
+.warning-box {
+    background: linear-gradient(135deg, #fef2f2 0%, #fecaca 100%);
+    border-left: 4px solid #dc2626;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 0 10px 10px 0;
+}
+
+.warning-box h3, .warning-box h4 {
+    color: #991b1b;
+    margin: 0 0 10px 0;
+    font-size: 1em;
+}
+
+.warning-box p, .warning-box ul {
+    margin: 0;
+    color: #7f1d1d;
+}
+
+.warning-box li {
+    margin-bottom: 8px;
+}
+
+/* Type I Box - For intrinsic motivation traits */
+.type-i-box {
+    background: linear-gradient(135deg, #f5f3ff 0%, #ede9fe 100%);
+    border: 2px solid #7c3aed;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+}
+
+.type-i-box h3, .type-i-box h4 {
+    color: #5b21b6;
+    margin: 0 0 10px 0;
+    font-size: 1em;
+}
+
+.type-i-box p, .type-i-box ul {
+    color: #4c1d95;
+    margin: 0;
+}
+
+.type-i-box li {
+    margin-bottom: 8px;
+}
+
+/* Type X Box - For extrinsic motivation traits */
+.type-x-box {
+    background: linear-gradient(135deg, #fff7ed 0%, #ffedd5 100%);
+    border: 2px solid #ea580c;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+}
+
+.type-x-box h3, .type-x-box h4 {
+    color: #9a3412;
+    margin: 0 0 10px 0;
+    font-size: 1em;
+}
+
+.type-x-box p, .type-x-box ul {
+    color: #7c2d12;
+    margin: 0;
+}
+
+.type-x-box li {
+    margin-bottom: 8px;
+}
+
+/* Chapter Number Accent */
+.chapter-number {
+    color: var(--accent-color);
+}
+
+/* Intro Box */
+.intro {
+    border-left-color: var(--accent-color);
+    background: var(--intro-bg);
+}
+
+/* Concept Count Badge */
+.concept-count {
+    color: var(--accent-color);
+}

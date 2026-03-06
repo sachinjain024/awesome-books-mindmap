@@ -1,0 +1,140 @@
+/* Tribal Leadership - Book-Specific Styles */
+
+:root {
+    --accent-color: #0891b2;
+    --accent-color-dark: #0e7490;
+    --accent-gradient: linear-gradient(135deg, #0891b2 0%, #06b6d4 100%);
+    --section-title-bg: #0891b2;
+    --key-box-color: #0891b2;
+    --key-box-bg: #ecfeff;
+    --verse-bg: #f0fdfa;
+    --intro-bg: #f0feff;
+}
+
+/* Central node with book theme */
+.central-node {
+    background: var(--accent-gradient);
+}
+
+/* Stage box for tribal stage descriptions */
+.stage-box {
+    background: linear-gradient(135deg, #ecfeff 0%, #cffafe 100%);
+    border-left: 4px solid #0891b2;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+    border-radius: 0 12px 12px 0;
+}
+
+.stage-box h3,
+.stage-box h4 {
+    color: #0e7490;
+    margin-bottom: 0.75rem;
+    font-size: 1.1rem;
+}
+
+/* Tribe box for group dynamics and tribal identity */
+.tribe-box {
+    background: linear-gradient(135deg, #f0fdfa 0%, #ccfbf1 100%);
+    border-left: 4px solid #14b8a6;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+    border-radius: 0 12px 12px 0;
+}
+
+.tribe-box h3,
+.tribe-box h4 {
+    color: #0d9488;
+    margin-bottom: 0.75rem;
+    font-size: 1.1rem;
+}
+
+/* Practice exercise for actionable steps */
+.practice-exercise {
+    background: linear-gradient(135deg, #dcfce7 0%, #bbf7d0 100%);
+    border-left: 4px solid #16a34a;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+    border-radius: 0 12px 12px 0;
+}
+
+.practice-exercise h3,
+.practice-exercise h4 {
+    color: #166534;
+    margin-bottom: 0.75rem;
+    font-size: 1.1rem;
+}
+
+/* Reflection prompts */
+.reflection {
+    background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);
+    border: 2px dashed #38bdf8;
+    border-radius: 12px;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+}
+
+.reflection h3,
+.reflection h4 {
+    color: #0369a1;
+    margin-bottom: 0.75rem;
+}
+
+/* Principle box for core principles */
+.principle-box {
+    background: linear-gradient(135deg, #ede9fe 0%, #ddd6fe 100%);
+    border-left: 4px solid #7c3aed;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+    border-radius: 0 12px 12px 0;
+}
+
+.principle-box h3,
+.principle-box h4 {
+    color: #5b21b6;
+    margin-bottom: 0.75rem;
+    font-size: 1.1rem;
+}
+
+/* Language box for stage-specific language patterns */
+.language-box {
+    background: linear-gradient(135deg, #fff7ed 0%, #ffedd5 100%);
+    border-left: 4px solid #ea580c;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+    border-radius: 0 12px 12px 0;
+}
+
+.language-box h3,
+.language-box h4 {
+    color: #c2410c;
+    margin-bottom: 0.75rem;
+    font-size: 1.1rem;
+}
+
+/* Leverage point for stage transition strategies */
+.leverage-point {
+    background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);
+    border-left: 4px solid #f59e0b;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+    border-radius: 0 12px 12px 0;
+}
+
+.leverage-point h3,
+.leverage-point h4 {
+    color: #b45309;
+    margin-bottom: 0.75rem;
+    font-size: 1.1rem;
+}
+
+/* Quote box styling */
+.quote-box {
+    background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
+    border-left: 4px solid #0891b2;
+    padding: 1.5rem 2rem;
+    margin: 1.5rem 0;
+    font-style: italic;
+    font-size: 1.1rem;
+    color: #334155;
+    border-radius: 0 12px 12px 0;
+}

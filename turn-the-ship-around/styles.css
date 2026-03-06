@@ -1,0 +1,144 @@
+/* Turn the Ship Around! - Book-Specific Styles */
+
+:root {
+    --accent-color: #1e40af;
+    --accent-color-dark: #1e3a8a;
+    --accent-gradient: linear-gradient(135deg, #1e40af 0%, #0ea5e9 100%);
+    --section-title-bg: #1e40af;
+    --key-box-color: #1e40af;
+    --key-box-bg: #dbeafe;
+    --verse-bg: #eff6ff;
+    --intro-bg: #f0f9ff;
+}
+
+/* Central node with naval theme */
+.central-node {
+    background: var(--accent-gradient);
+}
+
+/* Story box for real submarine anecdotes */
+.story-box {
+    background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);
+    border-left: 4px solid #0369a1;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+    border-radius: 0 12px 12px 0;
+}
+
+.story-box h3, .story-box h4 {
+    color: #0369a1;
+    margin-bottom: 0.75rem;
+    font-size: 1.1rem;
+}
+
+/* Leader-Leader box for model highlights */
+.leader-leader-box {
+    background: linear-gradient(135deg, #dbeafe 0%, #bfdbfe 100%);
+    border-left: 4px solid #1e40af;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+    border-radius: 0 12px 12px 0;
+}
+
+.leader-leader-box h3, .leader-leader-box h4 {
+    color: #1e3a8a;
+    margin-bottom: 0.75rem;
+    font-size: 1.1rem;
+}
+
+/* Mechanism box for specific organizational mechanisms */
+.mechanism-box {
+    background: linear-gradient(135deg, #ecfdf5 0%, #d1fae5 100%);
+    border-left: 4px solid #059669;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+    border-radius: 0 12px 12px 0;
+}
+
+.mechanism-box h3, .mechanism-box h4 {
+    color: #047857;
+    margin-bottom: 0.75rem;
+    font-size: 1.1rem;
+}
+
+/* Principle box for core leadership principles */
+.principle-box {
+    background: linear-gradient(135deg, #ede9fe 0%, #ddd6fe 100%);
+    border-left: 4px solid #7c3aed;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+    border-radius: 0 12px 12px 0;
+}
+
+.principle-box h3, .principle-box h4 {
+    color: #5b21b6;
+    margin-bottom: 0.75rem;
+    font-size: 1.1rem;
+}
+
+/* Practice exercise for reader application */
+.practice-exercise {
+    background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);
+    border-left: 4px solid #f59e0b;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+    border-radius: 0 12px 12px 0;
+}
+
+.practice-exercise h3, .practice-exercise h4 {
+    color: #b45309;
+    margin-bottom: 0.75rem;
+    font-size: 1.1rem;
+}
+
+/* Reflection box for contemplation */
+.reflection {
+    background: linear-gradient(135deg, #fdf4ff 0%, #f5d0fe 100%);
+    border-left: 4px solid #a855f7;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+    border-radius: 0 12px 12px 0;
+    font-style: italic;
+}
+
+.reflection h3, .reflection h4 {
+    color: #7e22ce;
+    margin-bottom: 0.75rem;
+    font-size: 1.1rem;
+    font-style: normal;
+}
+
+/* Contrast box for leader-leader vs leader-follower comparisons */
+.contrast-box {
+    background: linear-gradient(135deg, #fff7ed 0%, #fed7aa 100%);
+    border-left: 4px solid #ea580c;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+    border-radius: 0 12px 12px 0;
+}
+
+.contrast-box h3, .contrast-box h4 {
+    color: #c2410c;
+    margin-bottom: 0.75rem;
+    font-size: 1.1rem;
+}
+
+/* Quote box styling */
+.quote-box {
+    background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
+    border-left: 4px solid #1e40af;
+    padding: 1.5rem 2rem;
+    margin: 1.5rem 0;
+    font-style: italic;
+    font-size: 1.1rem;
+    color: #334155;
+    border-radius: 0 12px 12px 0;
+}
+
+.quote-box .attribution {
+    font-style: normal;
+    font-size: 0.9rem;
+    color: #64748b;
+    margin-top: 0.75rem;
+    text-align: right;
+}

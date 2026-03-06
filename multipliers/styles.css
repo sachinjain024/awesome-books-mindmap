@@ -1,0 +1,149 @@
+/* Multipliers - Book-Specific Styles */
+
+:root {
+    --accent-color: #059669;
+    --accent-color-dark: #047857;
+    --accent-gradient: linear-gradient(135deg, #059669 0%, #10b981 100%);
+    --section-title-bg: #059669;
+    --key-box-color: #059669;
+    --key-box-bg: #ecfdf5;
+    --verse-bg: #f0fdf4;
+    --intro-bg: #f0fdf8;
+}
+
+/* Central node with book theme */
+.central-node {
+    background: var(--accent-gradient);
+}
+
+/* Multiplier box - positive leadership behaviors */
+.multiplier-box {
+    background: linear-gradient(135deg, #ecfdf5 0%, #d1fae5 100%);
+    border-left: 4px solid #059669;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+    border-radius: 0 12px 12px 0;
+}
+
+.multiplier-box h3,
+.multiplier-box h4 {
+    color: #047857;
+    margin-bottom: 0.75rem;
+    font-size: 1.1rem;
+}
+
+/* Diminisher box - negative leadership behaviors */
+.diminisher-box {
+    background: linear-gradient(135deg, #fef2f2 0%, #fee2e2 100%);
+    border-left: 4px solid #dc2626;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+    border-radius: 0 12px 12px 0;
+}
+
+.diminisher-box h3,
+.diminisher-box h4 {
+    color: #dc2626;
+    margin-bottom: 0.75rem;
+    font-size: 1.1rem;
+}
+
+/* Accidental diminisher box - well-intentioned but diminishing */
+.accidental-diminisher-box {
+    background: linear-gradient(135deg, #fffbeb 0%, #fef3c7 100%);
+    border-left: 4px solid #d97706;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+    border-radius: 0 12px 12px 0;
+}
+
+.accidental-diminisher-box h3,
+.accidental-diminisher-box h4 {
+    color: #b45309;
+    margin-bottom: 0.75rem;
+    font-size: 1.1rem;
+}
+
+/* Practice exercise box */
+.practice-exercise {
+    background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%);
+    border: 2px solid #86efac;
+    border-radius: 12px;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+}
+
+.practice-exercise h3,
+.practice-exercise h4 {
+    color: #166534;
+    margin-bottom: 0.75rem;
+}
+
+/* Reflection box */
+.reflection {
+    background: linear-gradient(135deg, #ede9fe 0%, #ddd6fe 100%);
+    border-left: 4px solid #7c3aed;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+    border-radius: 0 12px 12px 0;
+}
+
+.reflection h3,
+.reflection h4 {
+    color: #5b21b6;
+    margin-bottom: 0.75rem;
+    font-size: 1.1rem;
+}
+
+/* Principle box */
+.principle-box {
+    background: linear-gradient(135deg, #ecfdf5 0%, #ccfbf1 100%);
+    border-left: 4px solid #0d9488;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+    border-radius: 0 12px 12px 0;
+}
+
+.principle-box h3,
+.principle-box h4 {
+    color: #0f766e;
+    margin-bottom: 0.75rem;
+    font-size: 1.1rem;
+}
+
+/* Contrast box - side-by-side comparison */
+.contrast-box {
+    background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
+    border: 2px solid #cbd5e1;
+    border-radius: 12px;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+}
+
+.contrast-box h3,
+.contrast-box h4 {
+    color: #334155;
+    margin-bottom: 0.75rem;
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+/* Quote box styling */
+.quote-box {
+    background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
+    border-left: 4px solid #059669;
+    padding: 1.5rem 2rem;
+    margin: 1.5rem 0;
+    font-style: italic;
+    font-size: 1.1rem;
+    color: #334155;
+    border-radius: 0 12px 12px 0;
+}
+
+.quote-box .attribution {
+    font-style: normal;
+    font-size: 0.9rem;
+    color: #64748b;
+    margin-top: 0.75rem;
+    text-align: right;
+}

@@ -1,0 +1,122 @@
+---
+number: 5
+title: Purpose
+meta: "The Three Elements"
+part: THE THREE ELEMENTS
+layout: chapter
+book: drive
+permalink: drive/chapters/chapter-05.html
+---
+
+> "The most deeply motivated people -- not to mention those who are most productive and satisfied -- hitch their desires to a cause larger than themselves."
+> -- Daniel H. Pink
+
+Purpose is the third and final element of Motivation 3.0. While autonomy concerns our desire to direct our own lives and mastery concerns our desire to improve, purpose concerns our desire to be part of something bigger than ourselves. Pink argues that purpose provides the context for autonomy and mastery -- the "why" that gives meaning to the "what" and "how."
+
+## The Purpose Motive
+
+Pink observes that as people age and accumulate wealth, their motivations tend to shift. Young workers often focus on extrinsic rewards -- salary, promotions, status symbols. But over time, many of the most successful people begin searching for something more: meaning, significance, and contribution. This is not sentimentality. It is a deep, evidence-based human need.
+
+### The Purpose Shift {.motivation-box}
+
+Baby boomers reaching their sixties and beyond are not slowing down -- they are redirecting. Many are leaving lucrative careers to pursue social entrepreneurship, volunteer work, or causes they believe in. This "purpose shift" is not unique to one generation. Research shows that across all age groups, when people connect their work to a purpose larger than themselves, their motivation, satisfaction, and performance all increase.
+
+Purpose is not a nice-to-have. It is a must-have. Without it, autonomy and mastery become directionless -- impressive capabilities in search of a worthy application.
+
+## Purpose Maximization vs. Profit Maximization
+
+One of Pink's most provocative arguments concerns the relationship between purpose and profit. He does not argue against profit -- he argues that purpose and profit are not opposites. In fact, purpose-driven organizations often outperform purely profit-driven ones.
+
+### The Old Model: Profit as Objective {.type-x-box}
+
+Under Motivation 2.0, the purpose of a business is to maximize shareholder value. Profit is the goal; everything else -- employees, customers, community impact -- is a means to that end. This model has produced enormous wealth, but it has also produced disengaged workers, short-term thinking, and organizations that struggle to attract and retain talent.
+
+### The New Model: Profit as Catalyst {.type-i-box}
+
+Under Motivation 3.0, purpose becomes the objective and profit becomes the catalyst that allows the organization to pursue that purpose. This is not idealism -- it is increasingly how the most innovative and successful companies operate.
+
+Companies like Patagonia, TOMS Shoes, and Whole Foods have built purpose into their DNA. They pursue profits, but profits serve a larger mission. The result: higher employee engagement, stronger brand loyalty, and often superior financial performance.
+
+> "We are in the midst of a 'purpose moment.' At all levels, people are searching for what they can do to make a difference."
+> -- Daniel H. Pink
+
+## The Three Components of Purpose
+
+Pink identifies three areas where purpose manifests in organizations and individual lives.
+
+### Purpose Goals {.principle-box}
+
+The most motivated organizations and individuals use profit to reach purpose -- not the other way around. Purpose goals are about making a contribution, serving a cause, and leaving the world better than you found it.
+
+### 1. Goals: Using Profit to Reach Purpose {.type-i-box}
+
+Purpose-driven goals go beyond quarterly targets and revenue milestones. They answer the question: "Why does this work matter?" Companies that articulate a clear purpose -- one that transcends profit -- find that employees are more engaged, more creative, and more willing to go above and beyond.
+
+TOMS Shoes built its entire business model around purpose: for every pair of shoes sold, a pair is given to a child in need. This "one for one" model is not a marketing gimmick -- it is the company's reason for existence. The result is a workforce that is deeply motivated by the impact of their work.
+
+### 2. Words: The Language of Purpose {.type-i-box}
+
+The words an organization uses reveal its true priorities. Purpose-driven organizations use language like "we," "community," "impact," and "serve." Profit-driven organizations use language like "efficiency," "maximize," "leverage," and "compete." The language shapes the culture, and the culture shapes behavior.
+
+Pink cites research showing that when leaders frame the organization's work in terms of purpose and contribution, employees report higher levels of satisfaction and engagement. The words we use to describe our work actually change how we experience it.
+
+### 3. Policies: Leaving Space for Purpose {.type-i-box}
+
+Purpose cannot be mandated from the top. But policies can create the conditions in which purpose flourishes. Companies that allow employees to spend time on pro bono projects, volunteer days, or social impact initiatives create space for purpose to emerge organically.
+
+Salesforce's 1-1-1 model -- donating 1% of equity, 1% of product, and 1% of employee time to charitable causes -- is an example of policy-level purpose. It sends a signal that the company's mission extends beyond its bottom line.
+
+## The Science of Purpose
+
+### Viktor Frankl and the Will to Meaning {.research-box}
+
+Pink draws on the work of psychiatrist Viktor Frankl, whose experiences in Nazi concentration camps led him to conclude that the primary human drive is not pleasure (as Freud believed) or power (as Adler believed), but meaning. Frankl observed that those who survived the camps were often those who maintained a sense of purpose -- a reason to endure.
+
+Frankl's concept of "the will to meaning" anticipates much of the modern research on purpose and motivation. When people have a clear sense of purpose, they are more resilient, more productive, and more satisfied with their lives.
+
+### Purpose and Well-Being {.research-box}
+
+Research by psychologists like Martin Seligman and Ed Diener consistently shows that purpose is one of the strongest predictors of psychological well-being. People who report a strong sense of purpose in their lives score higher on measures of happiness, life satisfaction, and resilience -- and lower on measures of anxiety, depression, and stress.
+
+This is not merely correlational. Intervention studies show that when people are helped to identify and articulate their purpose, their well-being improves. Purpose is not just a byproduct of a good life -- it is a cause of one.
+
+## Purpose Across Generations
+
+Pink notes that the desire for purpose is particularly strong among younger generations entering the workforce. Millennials and Gen Z workers consistently rank purpose and meaning among their top priorities in a job -- often above salary and benefits.
+
+### The Generational Shift {.motivation-box}
+
+A growing body of research shows that younger workers are willing to accept lower pay in exchange for more meaningful work. They want to know that their work matters -- that it contributes to something beyond the bottom line. Organizations that fail to articulate a compelling purpose will struggle to attract and retain the best young talent.
+
+This is not naivete. It is a rational response to a world where basic material needs are largely met, and where the marginal utility of additional income is lower than the marginal utility of additional meaning.
+
+## Finding Your Purpose
+
+### A Purpose Audit {.practice-exercise}
+
+Ask yourself these questions to assess your current connection to purpose:
+
+1. **Why do I get up in the morning?** If the answer is only "because I have to" or "to earn money," your sense of purpose may need attention.
+2. **What would I do if money were no object?** This question reveals your intrinsic interests and values.
+3. **What do I want to be remembered for?** This forces long-term thinking about impact and legacy.
+4. **Does my current work serve something larger than myself?** If not, what changes could bring it closer to that ideal?
+5. **Am I using profit as a catalyst toward purpose, or treating it as the goal itself?**
+
+### Sentence Completion Exercise {.practice-exercise}
+
+Pink suggests a simple exercise borrowed from Clare Boothe Luce's advice to President Kennedy. Luce told Kennedy that a great man can be summed up in one sentence. Lincoln's sentence: "He preserved the union and freed the slaves."
+
+Try completing this sentence: "My purpose is to _______________." If you cannot complete it, you have important work to do. If you can, check whether your daily activities align with that sentence.
+
+### Reflection {.reflection}
+
+Think about the moments in your life when you felt most alive and most motivated. What were you doing? Who were you serving? What cause or mission was driving you? How can you bring more of that into your daily work and life?
+
+## Key Takeaways
+
+- Purpose -- the yearning to serve something larger than ourselves -- is the third essential element of intrinsic motivation.
+- Purpose provides the context that makes autonomy and mastery meaningful. Without purpose, they are impressive but directionless.
+- The most successful organizations are shifting from profit maximization to purpose maximization, using profit as a catalyst rather than an objective.
+- Purpose manifests in three areas: goals (what the organization strives for), words (how it talks about its mission), and policies (how it allocates resources for impact).
+- Viktor Frankl's "will to meaning" and modern positive psychology research both confirm that purpose is a fundamental human need, not a luxury.
+- Younger generations are increasingly demanding purpose from their work, making purpose not just a moral imperative but a competitive advantage.

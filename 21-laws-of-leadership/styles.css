@@ -1,0 +1,141 @@
+/* The 21 Irrefutable Laws of Leadership - Book-Specific Styles */
+
+:root {
+    --accent-color: #b45309;
+    --accent-color-dark: #92400e;
+    --accent-gradient: linear-gradient(135deg, #b45309 0%, #d97706 100%);
+    --section-title-bg: #b45309;
+    --key-box-color: #b45309;
+    --key-box-bg: #fffbeb;
+    --verse-bg: #fefce8;
+    --intro-bg: #fffdf0;
+}
+
+/* Central node with book theme */
+.central-node {
+    background: var(--accent-gradient);
+}
+
+/* Law box for highlighting individual laws */
+.law-box {
+    background: linear-gradient(135deg, #fffbeb 0%, #fef3c7 100%);
+    border-left: 4px solid #b45309;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+    border-radius: 0 12px 12px 0;
+}
+
+.law-box h3, .law-box h4 {
+    color: #92400e;
+    margin-bottom: 0.75rem;
+    font-size: 1.1rem;
+}
+
+/* Example box for real-world leadership examples */
+.example-box {
+    background: linear-gradient(135deg, #ecfdf5 0%, #d1fae5 100%);
+    border-left: 4px solid #059669;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+    border-radius: 0 12px 12px 0;
+}
+
+.example-box h3, .example-box h4 {
+    color: #065f46;
+    margin-bottom: 0.75rem;
+    font-size: 1.1rem;
+}
+
+/* Practice exercise box */
+.practice-exercise {
+    background: linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%);
+    border-left: 4px solid #3b82f6;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+    border-radius: 0 12px 12px 0;
+}
+
+.practice-exercise h3, .practice-exercise h4 {
+    color: #1e40af;
+    margin-bottom: 0.75rem;
+    font-size: 1.1rem;
+}
+
+/* Reflection box */
+.reflection {
+    background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);
+    border: 2px dashed #38bdf8;
+    border-radius: 12px;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+}
+
+.reflection h3, .reflection h4 {
+    color: #0369a1;
+    margin-bottom: 0.75rem;
+}
+
+/* Principle box for core leadership principles */
+.principle-box {
+    background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);
+    border-left: 4px solid #d97706;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+    border-radius: 0 12px 12px 0;
+}
+
+.principle-box h3, .principle-box h4 {
+    color: #92400e;
+    margin-bottom: 0.75rem;
+    font-size: 1.1rem;
+}
+
+/* Warning box for leadership pitfalls */
+.warning-box {
+    background: linear-gradient(135deg, #fef2f2 0%, #fee2e2 100%);
+    border-left: 4px solid #dc2626;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+    border-radius: 0 12px 12px 0;
+}
+
+.warning-box h3, .warning-box h4 {
+    color: #dc2626;
+    margin-bottom: 0.75rem;
+    font-size: 1.1rem;
+}
+
+/* Assessment box for self-evaluation */
+.assessment-box {
+    background: linear-gradient(135deg, #faf5ff 0%, #ede9fe 100%);
+    border-left: 4px solid #7c3aed;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+    border-radius: 0 12px 12px 0;
+}
+
+.assessment-box h3, .assessment-box h4 {
+    color: #5b21b6;
+    margin-bottom: 0.75rem;
+    font-size: 1.1rem;
+}
+
+/* Quote box styling */
+.quote-box {
+    background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
+    border-left: 4px solid #b45309;
+    padding: 1.5rem 2rem;
+    margin: 1.5rem 0;
+    font-style: italic;
+    font-size: 1.1rem;
+    color: #334155;
+    border-radius: 0 12px 12px 0;
+}
+
+.quote-box .attribution {
+    font-style: normal;
+    font-size: 0.9rem;
+    color: #64748b;
+    margin-top: 0.75rem;
+    text-align: right;
+}

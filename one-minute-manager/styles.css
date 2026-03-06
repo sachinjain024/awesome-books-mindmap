@@ -1,0 +1,162 @@
+/* The One Minute Manager - Book-Specific Styles */
+
+:root {
+    --accent-color: #2563eb;
+    --accent-color-dark: #1d4ed8;
+    --accent-gradient: linear-gradient(135deg, #2563eb 0%, #3b82f6 100%);
+    --section-title-bg: #2563eb;
+    --key-box-color: #2563eb;
+    --key-box-bg: #eff6ff;
+    --verse-bg: #f0f9ff;
+    --intro-bg: #f5f8ff;
+}
+
+/* Central node with book theme */
+.central-node {
+    background: var(--accent-gradient);
+}
+
+/* Technique box for management techniques */
+.technique-box {
+    background: linear-gradient(135deg, #dbeafe 0%, #bfdbfe 100%);
+    border-left: 4px solid #2563eb;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+    border-radius: 0 12px 12px 0;
+}
+
+.technique-box h4,
+.technique-box h3 {
+    color: #1d4ed8;
+    margin-bottom: 0.75rem;
+    font-size: 1.1rem;
+}
+
+/* Story box for parable/narrative elements */
+.story-box {
+    background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);
+    border-left: 4px solid #f59e0b;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+    border-radius: 0 12px 12px 0;
+}
+
+.story-box h4,
+.story-box h3 {
+    color: #b45309;
+    margin-bottom: 0.75rem;
+    font-size: 1.1rem;
+}
+
+/* Practice exercise box */
+.practice-exercise {
+    background: linear-gradient(135deg, #dcfce7 0%, #bbf7d0 100%);
+    border-left: 4px solid #16a34a;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+    border-radius: 0 12px 12px 0;
+}
+
+.practice-exercise h4,
+.practice-exercise h3 {
+    color: #166534;
+    margin-bottom: 0.75rem;
+    font-size: 1.1rem;
+}
+
+/* Reflection box */
+.reflection {
+    background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);
+    border: 2px dashed #38bdf8;
+    border-radius: 12px;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+}
+
+.reflection h4,
+.reflection h3 {
+    color: #0369a1;
+    margin-bottom: 0.75rem;
+}
+
+/* Principle box for core principles */
+.principle-box {
+    background: linear-gradient(135deg, #ede9fe 0%, #ddd6fe 100%);
+    border-left: 4px solid #7c3aed;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+    border-radius: 0 12px 12px 0;
+}
+
+.principle-box h4,
+.principle-box h3 {
+    color: #5b21b6;
+    margin-bottom: 0.75rem;
+    font-size: 1.1rem;
+}
+
+/* One Minute box - special highlight for the core one-minute techniques */
+.one-minute-box {
+    background: linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%);
+    border: 2px solid #2563eb;
+    border-radius: 12px;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+    position: relative;
+}
+
+.one-minute-box::before {
+    content: "1 MIN";
+    position: absolute;
+    top: -10px;
+    right: 20px;
+    background: #2563eb;
+    color: white;
+    padding: 2px 10px;
+    border-radius: 8px;
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.one-minute-box h4,
+.one-minute-box h3 {
+    color: #1d4ed8;
+    margin-bottom: 0.75rem;
+    font-size: 1.1rem;
+}
+
+/* Manager tip box */
+.manager-tip {
+    background: #f8fafc;
+    border: 2px solid #e2e8f0;
+    border-radius: 12px;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+}
+
+.manager-tip h4,
+.manager-tip h3 {
+    color: #334155;
+    margin-bottom: 1rem;
+}
+
+/* Quote box styling */
+.quote-box {
+    background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
+    border-left: 4px solid #2563eb;
+    padding: 1.5rem 2rem;
+    margin: 1.5rem 0;
+    font-style: italic;
+    font-size: 1.1rem;
+    color: #334155;
+    border-radius: 0 12px 12px 0;
+}
+
+.quote-box .attribution {
+    font-style: normal;
+    font-size: 0.9rem;
+    color: #64748b;
+    margin-top: 0.75rem;
+    text-align: right;
+}
