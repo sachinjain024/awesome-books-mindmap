@@ -1,0 +1,155 @@
+/* Zero to One - Book-Specific Styles */
+
+:root {
+    --accent-color: #2563eb;
+    --accent-color-dark: #1d4ed8;
+    --accent-gradient: linear-gradient(135deg, #1d4ed8 0%, #60a5fa 100%);
+    --section-title-bg: #2563eb;
+    --key-box-color: #2563eb;
+    --key-box-bg: #dbeafe;
+    --verse-bg: #eff6ff;
+    --intro-bg: #f0f9ff;
+}
+
+/* Central node with book theme */
+.central-node {
+    background: var(--accent-gradient);
+}
+
+/* Principle box for core concepts */
+.principle-box {
+    background: linear-gradient(135deg, #dbeafe 0%, #bfdbfe 100%);
+    border-left: 4px solid #2563eb;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+    border-radius: 0 12px 12px 0;
+}
+
+.principle-box h4 {
+    color: #1d4ed8;
+    margin-bottom: 0.75rem;
+    font-size: 1.1rem;
+}
+
+/* Insight box for key insights */
+.insight-box {
+    background: linear-gradient(135deg, #ede9fe 0%, #ddd6fe 100%);
+    border-left: 4px solid #7c3aed;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+    border-radius: 0 12px 12px 0;
+}
+
+.insight-box h4 {
+    color: #5b21b6;
+    margin-bottom: 0.75rem;
+    font-size: 1.1rem;
+}
+
+/* Contrarian box for counterintuitive ideas */
+.contrarian-box {
+    background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);
+    border-left: 4px solid #f59e0b;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+    border-radius: 0 12px 12px 0;
+}
+
+.contrarian-box h4 {
+    color: #b45309;
+    margin-bottom: 0.75rem;
+    font-size: 1.1rem;
+}
+
+/* Strategy box for startup strategies */
+.strategy-box {
+    background: linear-gradient(135deg, #dcfce7 0%, #bbf7d0 100%);
+    border-left: 4px solid #16a34a;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+    border-radius: 0 12px 12px 0;
+}
+
+.strategy-box h4 {
+    color: #166534;
+    margin-bottom: 0.75rem;
+    font-size: 1.1rem;
+}
+
+/* Warning/pitfall box */
+.warning-box {
+    background: linear-gradient(135deg, #fef2f2 0%, #fee2e2 100%);
+    border-left: 4px solid #dc2626;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+    border-radius: 0 12px 12px 0;
+}
+
+.warning-box h4 {
+    color: #dc2626;
+    margin-bottom: 0.75rem;
+    font-size: 1.1rem;
+}
+
+/* Case study box */
+.case-study {
+    background: #f0fdf4;
+    border: 2px solid #86efac;
+    border-radius: 12px;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+}
+
+.case-study h4 {
+    color: #166534;
+    margin-bottom: 0.75rem;
+}
+
+/* Reflection/question box */
+.reflection {
+    background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);
+    border: 2px dashed #38bdf8;
+    border-radius: 12px;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+}
+
+.reflection h4 {
+    color: #0369a1;
+    margin-bottom: 0.75rem;
+}
+
+/* Framework box for mental models */
+.framework-box {
+    background: #f8fafc;
+    border: 2px solid #e2e8f0;
+    border-radius: 12px;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+}
+
+.framework-box h4 {
+    color: #334155;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+/* Quote box styling */
+.quote-box {
+    background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
+    border-left: 4px solid #2563eb;
+    padding: 1.5rem 2rem;
+    margin: 1.5rem 0;
+    font-style: italic;
+    font-size: 1.1rem;
+    color: #334155;
+    border-radius: 0 12px 12px 0;
+}
+
+.quote-box .attribution {
+    font-style: normal;
+    font-size: 0.9rem;
+    color: #64748b;
+    margin-top: 0.75rem;
+    text-align: right;
+}
