@@ -2,7 +2,7 @@
 number: 9
 title: The Essential Habits of Digital Organizers
 meta: Project, Weekly, and Monthly Reviews
-part: The Shift — Making Things Happen
+part: "The Shift — Making Things Happen"
 layout: chapter
 book: building-a-second-brain
 permalink: building-a-second-brain/chapters/chapter-09.html

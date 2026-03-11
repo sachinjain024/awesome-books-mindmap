@@ -1,0 +1,146 @@
+/* Atomic Habits - Book-Specific Styles */
+
+:root {
+    --accent-color: #f97316;
+    --accent-color-dark: #ea580c;
+    --accent-gradient: linear-gradient(135deg, #f97316 0%, #ea580c 100%);
+    --section-title-bg: #f97316;
+    --key-box-color: #ea580c;
+    --key-box-bg: #fff7ed;
+    --verse-bg: #fff7ed;
+    --intro-bg: #fff7ed;
+}
+
+/* Law boxes for the Four Laws */
+.law-box {
+    background: linear-gradient(135deg, #fff7ed 0%, #ffedd5 100%);
+    border-left: 4px solid #f97316;
+    border-radius: 8px;
+    padding: 16px 20px;
+    margin: 16px 0;
+}
+
+.law-box h3 {
+    color: #ea580c;
+    margin-bottom: 8px;
+}
+
+/* Habit loop / system boxes */
+.habit-loop {
+    background: #fff7ed;
+    border: 2px solid #fed7aa;
+    border-radius: 10px;
+    padding: 18px 22px;
+    margin: 16px 0;
+}
+
+/* Identity-based habit emphasis */
+.identity-box {
+    background: linear-gradient(135deg, #fef3c7 0%, #fff7ed 100%);
+    border-left: 4px solid #d97706;
+    border-radius: 8px;
+    padding: 16px 20px;
+    margin: 16px 0;
+}
+
+.identity-box h3 {
+    color: #b45309;
+}
+
+/* Strategy/implementation intention boxes */
+.strategy-box {
+    background: #f0fdf4;
+    border-left: 4px solid #16a34a;
+    border-radius: 8px;
+    padding: 16px 20px;
+    margin: 16px 0;
+}
+
+.strategy-box h3 {
+    color: #15803d;
+}
+
+/* Insight callout boxes */
+.insight-box {
+    background: #eff6ff;
+    border-left: 4px solid #3b82f6;
+    border-radius: 8px;
+    padding: 16px 20px;
+    margin: 16px 0;
+}
+
+.insight-box h3 {
+    color: #1d4ed8;
+}
+
+/* Warning / common mistake boxes */
+.warning-box {
+    background: #fef2f2;
+    border-left: 4px solid #ef4444;
+    border-radius: 8px;
+    padding: 16px 20px;
+    margin: 16px 0;
+}
+
+.warning-box h3 {
+    color: #b91c1c;
+}
+
+/* Practice exercise boxes */
+.practice-box {
+    background: #f0fdf4;
+    border: 2px solid #bbf7d0;
+    border-radius: 10px;
+    padding: 18px 22px;
+    margin: 16px 0;
+}
+
+.practice-box h3 {
+    color: #15803d;
+}
+
+/* Reflection prompts */
+.reflection {
+    background: #faf5ff;
+    border-left: 4px solid #9333ea;
+    border-radius: 8px;
+    padding: 16px 20px;
+    margin: 16px 0;
+    font-style: italic;
+}
+
+/* Quote styling */
+.quote-box {
+    background: #fff7ed;
+    border-left: 4px solid #f97316;
+    border-radius: 8px;
+    padding: 18px 24px;
+    margin: 20px 0;
+    font-style: italic;
+    color: #4a5568;
+}
+
+/* Formula / equation display */
+.formula-box {
+    background: #1e293b;
+    color: #f1f5f9;
+    border-radius: 10px;
+    padding: 20px 24px;
+    margin: 16px 0;
+    font-family: monospace;
+    font-size: 1.05em;
+    text-align: center;
+}
+
+/* Example / case study boxes */
+.example-box {
+    background: #f8fafc;
+    border: 2px solid #e2e8f0;
+    border-radius: 10px;
+    padding: 18px 22px;
+    margin: 16px 0;
+}
+
+.example-box h3 {
+    color: #475569;
+}

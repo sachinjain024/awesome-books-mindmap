@@ -2,7 +2,7 @@
 number: 7
 title: Express — Show Your Work
 meta: The Intermediate Packets Approach
-part: The Method — The Four Steps of CODE
+part: "The Method — The Four Steps of CODE"
 layout: chapter
 book: building-a-second-brain
 permalink: building-a-second-brain/chapters/chapter-07.html

@@ -2,7 +2,7 @@
 number: 1
 title: Where It All Started
 meta: The Promise of a Second Brain
-part: The Foundation — Understanding What's Possible
+part: "The Foundation — Understanding What's Possible"
 layout: chapter
 book: building-a-second-brain
 permalink: building-a-second-brain/chapters/chapter-01.html

@@ -2,7 +2,7 @@
 number: 8
 title: The Art of Creative Execution
 meta: Divergence and Convergence in Practice
-part: The Shift — Making Things Happen
+part: "The Shift — Making Things Happen"
 layout: chapter
 book: building-a-second-brain
 permalink: building-a-second-brain/chapters/chapter-08.html

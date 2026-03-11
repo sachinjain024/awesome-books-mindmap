@@ -2,7 +2,7 @@
 number: 3
 title: How a Second Brain Works
 meta: Remembering, Connecting, Creating
-part: The Foundation — Understanding What's Possible
+part: "The Foundation — Understanding What's Possible"
 layout: chapter
 book: building-a-second-brain
 permalink: building-a-second-brain/chapters/chapter-03.html

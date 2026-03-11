@@ -2,7 +2,7 @@
 number: 4
 title: Capture — Keep What Resonates
 meta: Save the Best of What You Encounter
-part: The Method — The Four Steps of CODE
+part: "The Method — The Four Steps of CODE"
 layout: chapter
 book: building-a-second-brain
 permalink: building-a-second-brain/chapters/chapter-04.html

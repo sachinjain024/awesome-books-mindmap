@@ -1,0 +1,248 @@
+/* Mindset: The New Psychology of Success by Carol Dweck - Book-Specific Styles */
+/* Theme: Sky Blue/Cyan for psychology, growth, and learning */
+
+:root {
+    --accent-color: #0ea5e9;
+    --accent-color-dark: #0284c7;
+    --accent-gradient: linear-gradient(135deg, #0ea5e9 0%, #38bdf8 100%);
+    --section-title-bg: #0c4a6e;
+    --key-box-color: #0ea5e9;
+    --key-box-bg: #f0f9ff;
+    --verse-bg: #e0f2fe;
+    --intro-bg: #f0f9ff;
+}
+
+/* Central node with sky blue gradient */
+.central-node {
+    background: linear-gradient(135deg, #0ea5e9 0%, #38bdf8 100%);
+}
+
+/* Section title backgrounds */
+.section-title {
+    background: var(--section-title-bg);
+}
+
+/* Chapter card hover effect */
+.chapter-card:hover {
+    border-color: var(--accent-color);
+    box-shadow: 0 8px 25px rgba(14, 165, 233, 0.2);
+}
+
+/* Intro section styling */
+.intro {
+    background: var(--intro-bg);
+    border-left: 4px solid var(--accent-color);
+}
+
+/* Key insight box - for Dweck's main revelations */
+.insight-box {
+    background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);
+    border-left: 4px solid var(--accent-color);
+    padding: 20px 25px;
+    margin: 25px 0;
+    border-radius: 0 8px 8px 0;
+}
+
+.insight-box h3, .insight-box h4 {
+    color: var(--accent-color-dark);
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+/* Mindset comparison box - Fixed vs Growth */
+.mindset-compare {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin: 25px 0;
+}
+
+.mindset-fixed {
+    background: #fef2f2;
+    border: 2px solid #fca5a5;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.mindset-fixed h4 {
+    color: #dc2626;
+    margin-top: 0;
+    margin-bottom: 12px;
+}
+
+.mindset-growth {
+    background: #f0fdf4;
+    border: 2px solid #86efac;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.mindset-growth h4 {
+    color: #16a34a;
+    margin-top: 0;
+    margin-bottom: 12px;
+}
+
+/* Principle box - core teachings */
+.principle-box {
+    background: #0c4a6e;
+    color: #e0f2fe;
+    padding: 25px;
+    border-radius: 12px;
+    margin: 25px 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.principle-box::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background: linear-gradient(90deg, #0ea5e9, #38bdf8, #0ea5e9);
+}
+
+.principle-box h3, .principle-box h4 {
+    color: #38bdf8;
+    margin-top: 0;
+}
+
+/* Research box - for citing Dweck's studies */
+.research-box {
+    background: #fafafa;
+    border: 1px solid #e2e8f0;
+    border-left: 4px solid #7c3aed;
+    border-radius: 0 8px 8px 0;
+    padding: 20px 25px;
+    margin: 25px 0;
+}
+
+.research-box h4 {
+    color: #5b21b6;
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+/* Praise and feedback box */
+.praise-box {
+    background: #fffbeb;
+    border: 1px solid #fcd34d;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.praise-box h4 {
+    color: #b45309;
+    margin-top: 0;
+}
+
+/* Warning/trap box - fixed mindset traps */
+.warning-box {
+    background: #fef2f2;
+    border-left: 4px solid #ef4444;
+    padding: 20px 25px;
+    margin: 25px 0;
+    border-radius: 0 8px 8px 0;
+}
+
+.warning-box h4 {
+    color: #dc2626;
+    margin-top: 0;
+}
+
+/* Practice exercise box */
+.practice-box {
+    background: linear-gradient(135deg, #ecfdf5 0%, #d1fae5 100%);
+    border-radius: 12px;
+    padding: 25px;
+    margin: 25px 0;
+    border: 1px solid #6ee7b7;
+}
+
+.practice-box h3, .practice-box h4 {
+    color: #065f46;
+    margin-top: 0;
+}
+
+/* Story/example box */
+.example-box {
+    background: linear-gradient(135deg, #fefce8 0%, #fef9c3 100%);
+    border-left: 4px solid #eab308;
+    padding: 20px 25px;
+    margin: 25px 0;
+    border-radius: 0 8px 8px 0;
+}
+
+.example-box h4 {
+    color: #a16207;
+    margin-top: 0;
+}
+
+/* Quote from the book */
+.dweck-quote {
+    background: #f8fafc;
+    border-left: 4px solid #94a3b8;
+    padding: 20px 25px;
+    margin: 25px 0;
+    font-style: italic;
+    color: #475569;
+}
+
+.dweck-quote cite {
+    display: block;
+    margin-top: 10px;
+    font-style: normal;
+    color: #64748b;
+    font-size: 0.9em;
+}
+
+/* Reflection box */
+.reflection {
+    background: linear-gradient(135deg, #f5f3ff 0%, #ede9fe 100%);
+    border-left: 4px solid #8b5cf6;
+    padding: 20px 25px;
+    margin: 25px 0;
+    border-radius: 0 8px 8px 0;
+}
+
+.reflection h4 {
+    color: #6d28d9;
+    margin-top: 0;
+}
+
+/* Chapter theme badge */
+.chapter-theme {
+    display: inline-block;
+    background: linear-gradient(135deg, #0ea5e9 0%, #38bdf8 100%);
+    color: white;
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 0.85em;
+    margin-top: 8px;
+}
+
+/* Key teachings box */
+.key-teachings {
+    background: var(--key-box-bg);
+    border: 2px solid var(--key-box-color);
+    border-radius: 12px;
+    padding: 25px;
+    margin: 30px 0;
+}
+
+.key-teachings h3 {
+    color: var(--accent-color-dark);
+    margin-top: 0;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .mindset-compare {
+        grid-template-columns: 1fr;
+    }
+}

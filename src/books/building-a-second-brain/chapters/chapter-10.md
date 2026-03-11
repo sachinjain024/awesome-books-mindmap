@@ -2,7 +2,7 @@
 number: 10
 title: The Path of Self-Expression
 meta: Your Knowledge Wants to Be Shared
-part: The Shift — Making Things Happen
+part: "The Shift — Making Things Happen"
 layout: chapter
 book: building-a-second-brain
 permalink: building-a-second-brain/chapters/chapter-10.html

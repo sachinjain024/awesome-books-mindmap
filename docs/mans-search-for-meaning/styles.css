@@ -1,0 +1,127 @@
+/* Man's Search for Meaning - Book-Specific Styles */
+
+:root {
+    --accent-color: #4f46e5;
+    --accent-color-dark: #3730a3;
+    --accent-gradient: linear-gradient(135deg, #4f46e5 0%, #1e1b4b 100%);
+    --section-title-bg: #3730a3;
+    --key-box-color: #4f46e5;
+    --key-box-bg: #eef2ff;
+    --verse-bg: #f0f0ff;
+    --intro-bg: #eef2ff;
+}
+
+/* Meaning/suffering insight box */
+.meaning-box {
+    background: linear-gradient(135deg, #eef2ff 0%, #e0e7ff 100%);
+    border-left: 4px solid var(--accent-color);
+    border-radius: 8px;
+    padding: 1.2rem 1.5rem;
+    margin: 1.5rem 0;
+}
+
+.meaning-box h3 {
+    color: var(--accent-color-dark);
+    margin-top: 0;
+}
+
+/* Logotherapy concept box */
+.logotherapy-box {
+    background: #f5f3ff;
+    border: 2px solid var(--accent-color);
+    border-radius: 10px;
+    padding: 1.2rem 1.5rem;
+    margin: 1.5rem 0;
+}
+
+.logotherapy-box h3 {
+    color: var(--accent-color-dark);
+    margin-top: 0;
+}
+
+/* Camp experience / historical testimony box */
+.testimony-box {
+    background: #1e1b4b;
+    color: #e0e7ff;
+    border-radius: 10px;
+    padding: 1.4rem 1.8rem;
+    margin: 1.5rem 0;
+    font-style: italic;
+    line-height: 1.9;
+}
+
+.testimony-box p {
+    color: #c7d2fe !important;
+}
+
+/* Psychological insight box */
+.psych-box {
+    background: #fdf4ff;
+    border-left: 4px solid #9333ea;
+    border-radius: 8px;
+    padding: 1.2rem 1.5rem;
+    margin: 1.5rem 0;
+}
+
+.psych-box h3 {
+    color: #7e22ce;
+    margin-top: 0;
+}
+
+/* Clinical technique box */
+.technique-box {
+    background: #f0fdf4;
+    border-left: 4px solid #16a34a;
+    border-radius: 8px;
+    padding: 1.2rem 1.5rem;
+    margin: 1.5rem 0;
+}
+
+.technique-box h3 {
+    color: #14532d;
+    margin-top: 0;
+}
+
+/* Warning / common mistake box */
+.critique-box {
+    background: #fff7ed;
+    border-left: 4px solid #ea580c;
+    border-radius: 8px;
+    padding: 1.2rem 1.5rem;
+    margin: 1.5rem 0;
+}
+
+.critique-box h3 {
+    color: #9a3412;
+    margin-top: 0;
+}
+
+/* Principle highlight */
+.principle-box {
+    background: linear-gradient(135deg, #eef2ff 0%, #f5f3ff 100%);
+    border: 2px solid var(--accent-color);
+    border-radius: 10px;
+    padding: 1.2rem 1.5rem;
+    margin: 1.5rem 0;
+}
+
+.principle-box h3 {
+    color: var(--accent-color-dark);
+    margin-top: 0;
+}
+
+/* Reflection prompt */
+.reflection {
+    background: #faf5ff;
+    border-left: 4px solid #7c3aed;
+    border-radius: 8px;
+    padding: 1.2rem 1.5rem;
+    margin: 1.5rem 0;
+    font-style: italic;
+}
+
+.reflection h3 {
+    color: #6d28d9;
+    margin-top: 0;
+    font-style: normal;
+}

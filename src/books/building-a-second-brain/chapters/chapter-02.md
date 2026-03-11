@@ -2,7 +2,7 @@
 number: 2
 title: What Is a Second Brain?
 meta: A Digital Commonplace Book
-part: The Foundation — Understanding What's Possible
+part: "The Foundation — Understanding What's Possible"
 layout: chapter
 book: building-a-second-brain
 permalink: building-a-second-brain/chapters/chapter-02.html

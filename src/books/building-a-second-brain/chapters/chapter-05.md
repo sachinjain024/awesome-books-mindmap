@@ -2,7 +2,7 @@
 number: 5
 title: Organize — Save for Actionability
 meta: The PARA Method
-part: The Method — The Four Steps of CODE
+part: "The Method — The Four Steps of CODE"
 layout: chapter
 book: building-a-second-brain
 permalink: building-a-second-brain/chapters/chapter-05.html

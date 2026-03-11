@@ -2,7 +2,7 @@
 number: 6
 title: Distill — Find the Essence
 meta: Progressive Summarization
-part: The Method — The Four Steps of CODE
+part: "The Method — The Four Steps of CODE"
 layout: chapter
 book: building-a-second-brain
 permalink: building-a-second-brain/chapters/chapter-06.html
